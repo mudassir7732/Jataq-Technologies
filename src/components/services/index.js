@@ -33,8 +33,8 @@ const Services = () => {
 
             </div>
 
-            <div className="flex flex-col w-full lg:w-[47%] cursor-pointer" onClick={()=>setSelected('web-design')}>
-                <div className="flex flex-row items-center mt-[34px]">
+            <div className="flex flex-col w-full lg:w-[47%] cursor-pointer">
+                <div className="flex flex-row items-center mt-[34px]" onClick={()=>setSelected('web-design')}>
                     <div className={`flex items-center justify-center min-h-[88px] min-w-[88px] ${selected === 'web-design' ? 'bg-[#006fff]' : 'bg-[#272727]'} rounded-[10px]`}>
                         <img src="/assets/icons/web-design.svg" alt='' className="h-[55px] w-[55px]" />
                     </div>
@@ -47,7 +47,7 @@ const Services = () => {
                 </div>
 
                 <div className="flex flex-row items-center mt-[34px]"  onClick={()=>setSelected('digital-marketing')}>
-                    <div className={`flex items-center justify-center min-h-[88px] min-w-[88px]  ${selected === 'digital-marketing' ? 'bg-[#006fff]' : 'bg-[#272727]'} rounded-[10px]`}>
+                    <div className={`flex items-center justify-center min-h-[88px] min-w-[88px] ${selected === 'digital-marketing' ? 'bg-[#006fff]' : 'bg-[#272727]'} rounded-[10px]`}>
                         <img src="/assets/icons/first.svg" alt='' className="h-[55px] w-[55px]" />
                     </div>
                     <div className="flex flex-row items-center mx-[41px] justify-between h-[88px] w-[328px] border-b-[1px] border-[#4e4e4e] pb-[15px] ">
