@@ -17,9 +17,9 @@ const Home = () => {
                 </div>
             </div>
 
-            <p className="flex flex-row items-center justify-center flex-wrap w-fit text-[18px] text-[#252525] font-[300] font-[Montserrat]">
+            <p className="w-full justify-center flex-wrap text-[18px] text-center text-[#252525] mt-3 px-[25%] font-[300] font-[Montserrat]">
                 Step forward to become one of
-                <span className="pl-2 text-[#006fff] font-[700] font-[Montserrat] text-[18px]">
+                <span className="px-2 text-[#006fff] font-[700] font-[Montserrat] text-[18px]">
                     100+ successful
                 </span>
                 clients of Jataq and get in the front line for the most wonderful presentation.

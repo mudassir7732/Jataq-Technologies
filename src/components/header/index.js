@@ -13,7 +13,7 @@ const Header = () => {
                 </p>
             ))}
             </div>
-            <button className='bg-[#006fff] text-white w-[165px] outline-none h-[50px] rounded-[5px] text-[16px] font-[700]'>
+            <button className='bg-[#006fff] text-white w-[100px] sm:w-[120px] md:w-[135px] lg:w-[150px] xl:w-[165px] outline-none h-[32px] sm:h-[36px] md:h-[40px] lg:h-[45px] xl:h-[50px] rounded-[5px] text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] font-[700]'>
                 GET A QUOTE
             </button>
         </div>
