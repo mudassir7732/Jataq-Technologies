@@ -26,7 +26,7 @@ const Home = () => {
             </p>
 
 
-            <div>
+            <div className="flex flex-row items-center justify-center">
                 <div>
                     <button>
                         Schedule a Meeting
