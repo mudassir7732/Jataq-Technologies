@@ -1,9 +1,10 @@
 import React from 'react';
+import Logo from '../logo';
 
 const Header=()=>{
     return(
         <div>
-            Header
+            <Logo />
         </div>
     )
 }
