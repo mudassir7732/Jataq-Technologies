@@ -2,6 +2,7 @@ import React from 'react';
 import Logo from '../logo';
 import { TABS } from '../../constants/tabs';
 
+
 const Header = () => {
     return (
         <div className='w-full px-[20px] sm:px-[40px] md:px-[60px] lg:px-[90px] xl:pl-[100px] xl:pr-[116px] border-2 flex flex-row items-center justify-between py-[18px]'>

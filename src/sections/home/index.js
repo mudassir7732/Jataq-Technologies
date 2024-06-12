@@ -17,23 +17,27 @@ const Home = () => {
                 </div>
             </div>
 
-            <p className="w-full justify-center flex-wrap text-[18px] text-center text-[#252525] mt-3 px-[25%] font-[300] font-[Montserrat]">
+            <p className="w-full justify-center flex-wrap text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] xl:text-[18px] text-center text-[#252525] mt-3 px-[15%] sm:px-[17%] md:px-[20%] lg:px-[22%] xl:px-[25%] font-[300] font-[Montserrat]">
                 Step forward to become one of
-                <span className="pl-[6px] pr-[4px] text-[#006fff] font-[700] font-[Montserrat] text-[18px]">
+                <span className="pl-[6px] pr-[4px] text-[#006fff] font-[700] font-[Montserrat]  text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] xl:text-[18px]">
                     100+ successful
                 </span>
                 clients of Jataq and get in the front line for the most wonderful presentation.
             </p>
 
-
-            <div className="flex flex-row items-center justify-center">
-                <div>
-                    <button>
+            <div className="flex flex-row items-center gap-x-[12px] sm:gap-x-[16px] md:gap-x-[22px] lg:gap-x-[25px] xl:gap-x-[28px] mt-[25px]">
+                <div className="flex flex-row items-center w-[50%] text-right bg-[#006fff] h-[45px] sm:h-[60px] md:h-[80px] lg:h-[95px] xl:h-[104px] rounded-tr-full rounded-br-full justify-end pr-[10px] sm:pr-[12px] md:pr-[15px] lg:pr-[18px] xl:pr-[22px]">
+                   
+                    <button className="flex flex-row items-center justify-center gap-x-[6px] lg:gap-x-[11px] h-[32px] sm:h-[40px] md:h-[48px] lg:h-[51px] xl:h-[53px] w-fit px-2 xl:w-[257px] bg-[#1b7eff] rounded-full text-[13px] sm:text-[15px] md:text-[16px] lg:text-[17px] xl:text-[18px] text-white font-[500] font-[Montserrat]">
                         Schedule a Meeting
+                        <img src='/assets/icons/arrow.svg' alt='arrow_icon' className="h-[12px] sm:h-[13px] md:h-[14px] lg:h-[15px] xl:h-[16.25px]" />
                     </button>
                 </div>
-                Contact Expert
+                <button className="text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] xl:text-[18px] font-[300] text-[#252525] font-[Montserrat] cursor-pointer underline">
+                    Contact Expert
+                </button>
             </div>
+            <img src="/assets/icons/border.svg" alt="border" className="w-full mt-[135px]" />
         </div>
     )
 }
