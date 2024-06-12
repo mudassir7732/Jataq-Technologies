@@ -1,6 +1,6 @@
 const Home = () => {
     return (
-        <div className="flex flex-col py-[80px] sm:py-[95px] md:py-[105px] lg:py-[120px] xl:py-[135px]">
+        <div className="flex flex-col pt-[80px] sm:pt-[95px] md:pt-[105px] lg:pt-[120px] xl:pt-[135px]">
             <div className="flex flex-row">
                 <div className="min-w-fit ml-[12px] sm:ml-[5%] md:ml-[10%] lg:ml-[14%] xl:ml-[16%]">
                     <p className="text-[28px] sm:text-[40px] md:text-[52px] lg:text-[62px] xl:text-[70px] font-[700] font-[Montserrat] text-right">
