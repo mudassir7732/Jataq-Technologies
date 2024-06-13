@@ -13,7 +13,7 @@ const Services = () => {
                         Our Services
                     </p>
                 </div>
-                <p className="text-white text-[38px] font-[700] font-[Montserrat] mt-[60px]">
+                <p className="text-white text-[26px] sm:text-[28px] md:text-[30px] lg:text-[35px] xl:text-[38px] font-[700] font-[Montserrat] mt-[60px]">
                     Services That JATAQ Provides
                 </p>
 

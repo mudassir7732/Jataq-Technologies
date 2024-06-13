@@ -36,7 +36,7 @@ const AboutUs = () => {
                     </button>
                 </div>
 
-                <p className="text-[38px] font-[700] text-black font-[Montserrat] pt-[20px] md:pt-[30px] lg:pt-[60px]">
+                <p className=" text-[26px] sm:text-[28px] md:text-[30px] lg:text-[35px] xl:text-[38px] font-[700] text-black font-[Montserrat] pt-[20px] md:pt-[30px] lg:pt-[60px]">
                     Connecting your business with the world
                 </p>
                 <p className="text-[17px] xl:text-[18px] font-[400] font-[Montserrat] text-black mt-[15px]">

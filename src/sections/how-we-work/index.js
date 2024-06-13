@@ -6,7 +6,7 @@ const WorkMethod = () => {
                 How We Work
             </p>
 
-            <p className="text-[38px] font-[700] font-[Montserrat] mt-12 max-w-[700px] text-center">
+            <p className=" text-[26px] sm:text-[28px] md:text-[30px] lg:text-[35px] xl:text-[38px] font-[700] font-[Montserrat] mt-12 max-w-[700px] text-center">
                 We work for better growing result step by step
             </p>
             <p className="text-[18px] font-[400] text-black font-[Montserrat] max-w-[670px] text-center mt-[19px]">

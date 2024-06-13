@@ -43,10 +43,10 @@ const Footer = () => {
 
             <div className="flex flex-row border-b-[1px] border-t-[1px] border-[#353535]">
                 <div className="flex flex-col pt-[98px] w-[50%] border-r-[1px] border-[#353535] pb-[56px]">
-                    <p className="text-[38px] font-[700] text-white font-[Montserrat]">
+                    <p className=" text-[26px] sm:text-[28px] md:text-[30px] lg:text-[35px] xl:text-[38px] font-[700] text-white font-[Montserrat]">
                         Have an idea
                     </p>
-                    <p className="text-[38px] font-[700] text-white font-[Montserrat]">
+                    <p className=" text-[26px] sm:text-[28px] md:text-[30px] lg:text-[35px] xl:text-[38px] font-[700] text-white font-[Montserrat]">
                         Tell us about it
                     </p>
                     <div className="flex flex-col gap-y-[25px] lg:flex-row gap-x-[13px] mt-[47px]">
