@@ -1,9 +1,9 @@
 
 const Footer = () => {
     return (
-        <div className="bg-[#0a0b0f] pl-[80px] xl:pl-[100px] pt-[86px] pr-[100px] xl:pr-[132px] pb-[48px]">
+        <div className="bg-[#0a0b0f] pl-[80px] xl:pl-[100px] pr-[100px] xl:pr-[132px] pb-[48px]">
 
-            <div className="flex flex-col lg:flex-row items-center justify-between">
+            <div className="flex flex-col lg:flex-row items-center h-[178px] justify-evenly lg:justify-between">
 
                 <div className='flex flex-row items-center w-fit gap-x-[8px]'>
                     <img src="/assets/logo/Logo.svg" alt='logo' className='w-[28px] sm:w-[30px] md:w-[32px] lg:w-[34px] xl:w-[36px] h-[30px] sm:h-[32px] md:h-[34px] lg:h-[36px] xl:h-[38px]' />
@@ -41,7 +41,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="flex flex-row mt-[50px] border-b-[1px] border-t-[1px] border-[#353535]">
+            <div className="flex flex-row border-b-[1px] border-t-[1px] border-[#353535]">
                 <div className="flex flex-col pt-[98px] w-[50%] border-r-[1px] border-[#353535] pb-[56px]">
                     <p className="text-[38px] font-[700] text-white font-[Montserrat]">
                         Have an idea
@@ -49,7 +49,7 @@ const Footer = () => {
                     <p className="text-[38px] font-[700] text-white font-[Montserrat]">
                         Tell us about it
                     </p>
-                    <div className="flex flex-row gap-x-[13px] mt-[47px]">
+                    <div className="flex flex-col gap-y-[25px] lg:flex-row gap-x-[13px] mt-[47px]">
                         <div className="flex flex-row gap-x-[10px]">
                             <img src='/assets/icons/email.svg' alt='email_icon' className="h-[24px] w-[24px]" />
                             <p className="text-[18px] font-[400] text-white">
@@ -65,7 +65,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="pl-[111px] pt-[28px]">
+                <div className="pl-[111px] pt-[28px] pb-4">
                     <p className="text-white text-[18px] font-[700] font-[Montserrat]">
                         Quick Links
                     </p>
