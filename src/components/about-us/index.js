@@ -2,17 +2,17 @@
 
 const AboutUs = () => {
     return (
-        <div className="flex flex-col-reverse lg:flex-row justify-center items-center border-8 lg:px-[100px] pb-[101px] lg:gap-x-[135px]">
-            <div className=" flex flex-col pt-[148px] px-6 w-fit lg:w-[45%] border-2">
-                <img src="/assets/images/Rectangle 65.png" alt="image" className="w-[80%] md:w-[519px] md:h-[372px]" />
-                <img src="/assets/images/Rectangle 66.png" alt="image" className="w-[40%] h-fit md:w-[305px] md:h-[332px] absolute ml-[150px] md:ml-[294px] mt-[100px] md:mt-[206px]" />
+        <div className="flex flex-col-reverse xl:flex-row justify-center items-center border-8 lg:px-[100px] pb-[101px] lg:gap-x-[135px]">
+            <div className=" flex flex-col pt-[148px] px-3 md:px-6 w-fit xl:w-[45%] border-2">
+                <img src="/assets/images/Rectangle 65.png" alt="image" className="w-[300px] sm:w-[400px] md:w-[558px] md:h-[400px] xl:w-[519px] xl:h-[372px]" />
+                <img src="/assets/images/Rectangle 66.png" alt="image" className="w-[160px] sm:w-[200px] h-fit md:w-[305px] md:h-[332px] absolute ml-[165px] sm:ml-[224px] md:ml-[285px] lg:ml-[294px] mt-[156px] sm:mt-[200px] md:mt-[238px] xl:mt-[211px]" />
 
-                <div className="bg-[#006fff] rounded-[17px] w-fit md:w-[283px] md:h-[150px] mt-[10px] py-[15px] md:py-[23px] px-[18px] md:px-[30px]">
-                    <img src="/assets/icons/completed.svg" alt="image" className="w-[30px] h-[30px] md:w-[46px] md:h-[46px]" />
-                    <p className="text-[18px] md:text-[24px] font-[700] font-[Montserrat] text-white mt-[6px]">
+                <div className="bg-[#006fff] rounded-[17px] w-[160px] sm:w-[220px] md:w-[283px] md:h-[150px] mt-[10px] py-[15px] md:py-[23px] px-[15px] sm:px-[18px] md:px-[30px]">
+                    <img src="/assets/icons/completed.svg" alt="image" className="w-[25px] h-[25px] sm:w-[30px] sm:h-[30px] md:w-[46px] md:h-[46px]" />
+                    <p className="text-[15px] sm:text-[18px] md:text-[24px] font-[700] font-[Montserrat] text-white mt-[6px]">
                         100+ Projects
                     </p>
-                    <p className="text-[14px] md:text-[18px] font-[400] font-[Montserrat] text-white">
+                    <p className="text-[12px] sm:text-[14px] md:text-[18px] font-[400] font-[Montserrat] text-white">
                         We Have Completed
                     </p>
                 </div>
