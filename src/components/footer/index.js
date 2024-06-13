@@ -2,9 +2,7 @@
 const Footer = () => {
     return (
         <div className="bg-[#0a0b0f] px-[30px] sm:px-[60px] md:px-[82px] lg:px-[95px] xl:px-[115px] pb-[25px] md:pb-[35px] lg:pb-[48px]">
-
             <div className="flex flex-col lg:flex-row items-center h-[178px] justify-evenly lg:justify-between">
-
                 <div className='flex flex-row items-center w-fit gap-x-[8px]'>
                     <img src="/assets/logo/Logo.svg" alt='logo' className='w-[28px] sm:w-[30px] md:w-[32px] lg:w-[34px] xl:w-[36px] h-[30px] sm:h-[32px] md:h-[34px] lg:h-[36px] xl:h-[38px]' />
                     <div className='flex flex-col'>
@@ -41,7 +39,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col md:flex-row border-b-[1px] border-t-[1px] border-[#353535]">
+            <div className="flex flex-col sm:flex-row border-b-[1px] border-t-[1px] border-[#353535]">
                 <div className="flex flex-col pt-[25px] sm:pt-[35px] md:pt-[50px] lg:pt-[70px] xl:pt-[98px] w-full md:w-[50%] border-b-[1px] md:border-b-0 md:border-r-[1px] border-[#353535] pb-[25px] md:pb-[35px] lg:pb-[45px] xl:pb-[56px]">
                     <p className=" text-[26px] sm:text-[28px] md:text-[30px] lg:text-[35px] xl:text-[38px] font-[700] text-white font-[Montserrat]">
                         Have an idea
@@ -112,7 +110,6 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-
             <p className="text-[16px] md:text-[17px] lg:text-[18px] font-[400] font-[Montserrat] text-white text-center mt-[25px] lg:mt-[35px] xl:mt-[46px]">
                 Copyright © 2024, Jataq Technologies
             </p>

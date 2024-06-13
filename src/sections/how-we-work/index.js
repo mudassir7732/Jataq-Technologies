@@ -14,7 +14,7 @@ const WorkMethod = () => {
             </p>
 
             <div className="flex flex-row md:flex-col">
-                <div className="grid grid-cols-1 w-fit md:w-full md:grid-cols-3 border-r-[1px] pr-4 md:border-b-[1px] border-[#d7d7d7] ">
+                <div className="hidden md:grid grid-cols-1 w-fit md:w-full md:grid-cols-3 pr-4 md:border-b-[1px] border-[#d7d7d7] ">
                     <p className="text-[38px] font-[700] text-[#d2d2d2]">
                         01
                     </p>
@@ -25,21 +25,18 @@ const WorkMethod = () => {
                         03
                     </p>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-3 w-fit md:w-full h-[43px]">
-                    <div className="border-l-[1px] border-[#d7d7d7] ml-[20px]">
-                    </div>
-                    <div className="border-[1px] border-t-[1px] border-l-0 md:border-t-0 md:border-l-[1px] border-[#d7d7d7] ml-[20px] h-20 w-20">
-                    </div>
-                    <div className="border-l-[1px] border-[#d7d7d7] ml-[20px]">
-                    </div>
+                <div className="hidden md:grid grid-cols-1 md:grid-cols-3 w-fit md:w-full h-[43px]">
+                    <div className="border-l-[1px] border-[#d7d7d7] ml-[20px]"/>
+                    <div className="border-l-[1px] border-[#d7d7d7] ml-[20px]"/>
+                    <div className="border-l-[1px] border-[#d7d7d7] ml-[20px]"/>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-3 w-fit md:w-full">
+                <div className="hidden md:grid grid-cols-1 md:grid-cols-3 w-fit md:w-full">
                     <img src="/assets/icons/arrow-head.svg" alt="arrow_head" className="h-[16px] w-[16px] ml-[13px] -mt-[1px]" />
                     <img src="/assets/icons/arrow-head.svg" alt="arrow_head" className="h-[16px] w-[16px] ml-[13px] -mt-[1px]" />
                     <img src="/assets/icons/arrow-head.svg" alt="arrow_head" className="h-[16px] w-[16px] ml-[13px] -mt-[1px]" />
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 mt-[30px] gap-4 w-full mb-[152px]">
+                <div className="grid grid-cols-1 md:grid-cols-3 mt-[15px] lg:mt-[30px] gap-4 w-full mb-[52px] lg:mb-[152px]">
                     <div className="flex flex-col">
                         <p className="text-[21px] lg:text-[22px] xl:text-[24px] font-[700] font-[Montserrat] text-[#252525]">
                             Schedule an Initial Consultation
