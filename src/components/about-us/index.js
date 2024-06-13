@@ -2,11 +2,13 @@
 
 const AboutUs = () => {
     return (
-        // <div className="flex flex-col md:flexrow">
         <div className="flex flex-col lg:flex-row lg:justify-between xl:justify-evenly sm:py-[70px] md:py-[95px] px-[40px] sm:px-[70px] md:px-[100px] w-full border-2">
-
-
-
+            <div className="w-fit block lg:hidden">
+                <img src='/assets/icons/Rectangle58.svg' alt='button_background' className="absolute z-0" />
+                <button className="text-black border-[1px] text-[14px] font-[300] font-[Montserrat] border-black absolute z-50 w-[119px] h-[31px] mt-2 rounded-full bg-white">
+                    About Us
+                </button>
+            </div>
             <div className="flex flex-col mx-auto items-start  w-fit xl:max-w-[47%] pt-[85px]">
                 <div className="flex flex-col items-center absolute">
                     <img src="/assets/images/Rectangle 65.png" alt="image" className="z-0 w-[280px] sm:w-[340px] md:w-[380px] lg:w-[400px] xl:w-[480px]" />
@@ -23,20 +25,10 @@ const AboutUs = () => {
                             We Have Completed
                         </p>
                     </div>
-                    <img src="/assets/images/Rectangle 66.png" alt="image" className="w-[150px] sm:w-[230px] md:w-[220px] xl:w-[300px]"/>
+                    <img src="/assets/images/Rectangle 66.png" alt="image" className="w-[150px] sm:w-[230px] md:w-[220px] xl:w-[300px]" />
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-
-            <div className="flex flex-col w-full lg:w-[47%] ">
+            <div className="flex flex-col w-full lg:w-[47%]">
                 <div className="w-fit hidden lg:block">
                     <img src='/assets/icons/Rectangle58.svg' alt='button_background' className="absolute z-0" />
                     <button className="text-black border-[1px] text-[14px] font-[300] font-[Montserrat] border-black absolute z-50 w-[119px] h-[31px] mt-2 rounded-full bg-white">
@@ -44,7 +36,7 @@ const AboutUs = () => {
                     </button>
                 </div>
 
-                <p className="text-[38px] font-[700] text-black font-[Montserrat] pt-[60px]">
+                <p className="text-[38px] font-[700] text-black font-[Montserrat] pt-[20px] md:pt-[30px] lg:pt-[60px]">
                     Connecting your business with the world
                 </p>
                 <p className="text-[18px] font-[400] font-[Montserrat] text-black mt-[15px]">
@@ -87,7 +79,6 @@ const AboutUs = () => {
                     </p>
                 </div>
             </div>
-            {/* </div> */}
         </div>
     )
 }
