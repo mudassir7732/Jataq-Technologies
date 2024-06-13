@@ -37,7 +37,7 @@ const Services = () => {
                         <img src="/assets/icons/web-design.svg" alt='' className="h-[55px] w-[55px]" />
                     </div>
                     <div className="flex flex-row items-center mx-[41px] justify-between h-[88px] w-[328px] border-b-[1px] border-[#4e4e4e] pb-[15px] ">
-                        <p className="text-white text-[18px] font-[400] font-[Montserrat]">
+                        <p className="text-white text-[16px] md:text-[17px] xl:text-[18px] font-[400] font-[Montserrat]">
                             Web Development/<br /> Web Design
                         </p>
                         <img src='/assets/icons/arrow.svg' alt='arrow_icon' className="h-[12px] sm:h-[13px] md:h-[14px] lg:h-[15px] xl:h-[16.25px]" />
@@ -49,7 +49,7 @@ const Services = () => {
                         <img src="/assets/icons/first.svg" alt='' className="h-[55px] w-[55px]" />
                     </div>
                     <div className="flex flex-row items-center mx-[41px] justify-between h-[88px] w-[328px] border-b-[1px] border-[#4e4e4e] pb-[15px] ">
-                        <p className="text-white text-[18px] font-[400] font-[Montserrat]">
+                        <p className="text-white text-[16px] md:text-[17px] xl:text-[18px] font-[400] font-[Montserrat]">
                             Digital Marketing
                         </p>
                         <img src='/assets/icons/arrow.svg' alt='arrow_icon' className="h-[12px] sm:h-[13px] md:h-[14px] lg:h-[15px] xl:h-[16.25px]" />
@@ -61,7 +61,7 @@ const Services = () => {
                         <img src="/assets/icons/mobile.svg" alt='' className="h-[55px] w-[55px]" />
                     </div>
                     <div className="flex flex-row items-center mx-[41px] justify-between h-[88px] w-[328px] border-b-[1px] border-[#4e4e4e] pb-[15px] ">
-                        <p className="text-white text-[18px] font-[400] font-[Montserrat]">
+                        <p className="text-white text-[16px] md:text-[17px] xl:text-[18px] font-[400] font-[Montserrat]">
                             App Development
                         </p>
                         <img src='/assets/icons/arrow.svg' alt='arrow_icon' className="h-[12px] sm:h-[13px] md:h-[14px] lg:h-[15px] xl:h-[16.25px]" />
@@ -73,7 +73,7 @@ const Services = () => {
                         <img src="/assets/icons/first2.svg" alt='' className="h-[55px] w-[55px]" />
                     </div>
                     <div className="flex flex-row items-center mx-[41px] justify-between h-[88px] w-[328px] border-b-[1px] border-[#4e4e4e] pb-[15px] ">
-                        <p className="text-white text-[18px] font-[400] font-[Montserrat]">
+                        <p className="text-white text-[16px] md:text-[17px] xl:text-[18px] font-[400] font-[Montserrat]">
                             Graphic Design
                         </p>
                         <img src='/assets/icons/arrow.svg' alt='arrow_icon' className="h-[12px] sm:h-[13px] md:h-[14px] lg:h-[15px] xl:h-[16.25px]" />

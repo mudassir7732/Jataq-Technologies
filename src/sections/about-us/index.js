@@ -74,7 +74,7 @@ const AboutUs = () => {
                     <button className="bg-[#006fff] outline-none text-white rounded-[10px] w-[190px] sm:w-[220px] lg:w-[268px] h-[40px] sm:h-[45px] lg:h-[53px] text-[17px] lg:text-[18px] font-[400] lg:font-[500]">
                         Learn More About Us
                     </button>
-                    <p className="cursor-pointer underline text-[18px] font-[400] font-[Montserrat]">
+                    <p className="cursor-pointer underline text-[16px] md:text-[17px] xl:text-[18px] font-[400] font-[Montserrat]">
                         Contact Us
                     </p>
                 </div>

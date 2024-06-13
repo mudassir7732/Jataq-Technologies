@@ -1,9 +1,9 @@
 
 const Bottom = () => {
     return (
-        <div className="h-[482px] flex flex-col items-center px-[30px] sm:px-[60px] md:px-[82px] lg:px-[95px] xl:px-[115px]"
+        <div className="min-h-[482px] flex flex-col items-center px-[30px] sm:px-[60px] md:px-[82px] lg:px-[95px] xl:px-[115px] py-[100px]"
             style={{ backgroundImage: 'url(/assets/images/Rectangle64.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-            <p className="text-[26px] sm:text-[28px] md:text-[30px] lg:text-[35px] xl:text-[38px] font-[700] font-[Montserrat] mt-[134px] max-w-[824px] text-center">
+            <p className="text-[26px] sm:text-[28px] md:text-[30px] lg:text-[35px] xl:text-[38px] font-[700] font-[Montserrat] max-w-[824px] text-center">
                 We're Leading Digital Agency For Increasing Sales or Boosting Traffic
             </p>
             <p className="text-[18px] font-[400] font-[Montserrat] text-black mt-[18px] max-w-[705px] text-center">
