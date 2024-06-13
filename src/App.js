@@ -5,6 +5,9 @@ import Services from './sections/services';
 import AboutUs from './sections/about-us';
 import WorkMethod from './sections/how-we-work';
 import Testimonials from './sections/testimonials';
+import Bottom from './sections/bottom';
+import ServicesBar from './sections/services-bar';
+import Footer from './components/footer';
 
 const App=()=>{
   return(
@@ -15,6 +18,9 @@ const App=()=>{
       <AboutUs />
       <WorkMethod />
       <Testimonials />
+      <Bottom />
+      <ServicesBar />
+      <Footer />
     </div>
   )
 }
