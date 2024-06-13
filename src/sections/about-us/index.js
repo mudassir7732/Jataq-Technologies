@@ -3,7 +3,7 @@
 const AboutUs = () => {
     return (
         <div className="flex flex-col lg:flex-row lg:justify-between xl:justify-evenly sm:py-[70px] md:py-[95px] px-[40px] sm:px-[70px] md:px-[100px] w-full">
-            <div className="w-fit block lg:hidden mt-12">
+            <div className="w-fit block lg:hidden mt-20">
                 <img src='/assets/icons/Rectangle58.svg' alt='button_background' className="absolute z-0" />
                 <p className="flex items-center justify-center text-black border-[1px] text-[14px] font-[300] font-[Montserrat] border-black absolute z-50 w-[119px] h-[31px] mt-2 rounded-full bg-white">
                     About Us
