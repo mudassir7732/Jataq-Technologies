@@ -1,6 +1,6 @@
 const WorkMethod = () => {
     return (
-        <div className="flex flex-col items-center px-[30px] sm:px-[40px] md:px-[60px] lg:px-[80px] xl:px-[100px] pt-20">
+        <div className="flex flex-col items-center px-[40px] sm:px-[70px] md:px-[82px] lg:px-[95px] xl:px-[115px] pt-20">
             <img src='/assets/icons/Rectangle58.svg' alt='button_background' className="absolute z-0" />
             <p className="flex items-center justify-center text-black border-[1px] text-[14px] font-[300] font-[Montserrat] border-black absolute z-50 w-[119px] h-[31px] mt-2 rounded-full bg-white">
                 How We Work

@@ -1,12 +1,12 @@
 
 const Testimonials = () => {
     return (
-        <div className="h-[750px] lg:h-[640px] w-full"
+        <div className="h-[750px] lg:h-[640px] "
             style={{ backgroundImage: 'url(/assets/images/Rectangle59.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-            <img src='/assets/icons/Vector1.svg' alt="border_line" className=" w-full mt-[45px] lg:mt-[7px] h-[92px]" />
+            <img src='/assets/icons/Vector1.svg' alt="border_line" className=" w-full mt-[45px] sm:mt-[38px] md:mt-[32px] lg:mt-[7px] h-[92px]" />
             <img src='/assets/icons/Ellipse8.svg' alt="border_line" className="mt-24 lg:mt-0 w-full h-full absolute " />
 
-            <div className="flex flex-col lg:flex-row items-start lg:items-center gap-x-[35px] w-full lg:justify-between border-white h-full pl-[70px] pr-[80px]">
+            <div className="flex flex-col lg:flex-row items-start lg:items-center gap-x-[35px] lg:justify-between border-white h-full  px-[40px] sm:px-[70px] md:px-[82px] lg:px-[95px]">
                 <div className="flex flex-col min-w-[45%]">
                     <img src='/assets/icons/Rectangle58.svg' alt='button_background' className="absolute z-0" />
                     <p className="flex items-center justify-center text-black border-[1px] text-[14px] font-[300] font-[Montserrat] border-black absolute z-50 w-[119px] h-[31px] mt-2 rounded-full bg-white">
@@ -21,9 +21,12 @@ const Testimonials = () => {
                     </button>
                 </div>
 
-                <div className="flex flex-col mt-24 lg:mt-0 min-w-[45%]">
+                <div className="flex flex-col mt-20 lg:mt-0 min-w-[45%]">
                     <img src='/assets/icons/quotation.svg' alt='button_background' className="absolute -mt-[58px] ml-3 z-0" />
-                    <div className=" bg-white rounded-t-[10px] w-[70vw] lg:max-w-[600px] pt-[35px] sm:pt-[42px] md:pt-[45px] lg:pt[60px] xl:pt-[80px] px-[15px] sm:px-[22px] md:px-[28px] lg:px-[35px] xl:px-[45px]">
+                 
+                 
+                 
+                    <div className=" bg-white rounded-t-[10px] max-w-[600px] pt-[35px] sm:pt-[42px] md:pt-[45px] lg:pt[60px] xl:pt-[80px] px-[15px] sm:px-[22px] md:px-[28px] lg:px-[35px] xl:px-[45px]">
                         <p className="text-[16px] font-[400] font-[Montserrat]">
                             I was very impressed simply copy the digital services loremdigital ipsum is simply free text available used by copy typing refreshing. Neque porro noting qui dolorem ipsum quia.
                         </p>
@@ -31,6 +34,9 @@ const Testimonials = () => {
                             Client Name
                         </p>
                     </div>
+
+
+                    
                     <img src='/assets/icons/Rectangle63.svg' alt='button_background' className="z-0 lg:max-w-[600px]" />
 
                 </div>

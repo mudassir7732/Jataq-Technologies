@@ -1,7 +1,7 @@
 
 const Footer = () => {
     return (
-        <div className="bg-[#0a0b0f] pl-[80px] xl:pl-[100px] pr-[100px] xl:pr-[132px] pb-[25px] md:pb-[35px] lg:pb-[48px]">
+        <div className="bg-[#0a0b0f] lg:pl-[80px] xl:pl-[100px] pr-[100px] xl:pr-[132px] pb-[25px] md:pb-[35px] lg:pb-[48px]">
 
             <div className="flex flex-col lg:flex-row items-center h-[178px] justify-evenly lg:justify-between">
 
