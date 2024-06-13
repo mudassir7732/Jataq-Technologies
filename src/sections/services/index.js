@@ -4,7 +4,7 @@ const Services = () => {
     const [selected, setSelected] = useState('');
 
     return (
-        <div className="flex flex-col lg:flex-row items-start justify-between py-[30px] sm:py-[70px] md:py-[95px] px-[30px] sm:px-[100px] md:px-[130px] h-[980px] lg:h-[663px] w-full" style={{ backgroundImage: 'url(/assets/images/bg.svg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        <div className="flex flex-col lg:flex-row items-start justify-evenly lg:justify-between py-[30px] sm:py-[70px] md:py-[95px] px-[30px] sm:px-[100px] md:px-[130px] h-[980px] lg:h-[663px] w-full" style={{ backgroundImage: 'url(/assets/images/bg.svg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
 
             <div className="flex flex-col w-full lg:w-[47%]">
                 <div className="w-fit">
@@ -29,8 +29,6 @@ const Services = () => {
                     Services We Provide
                     <img src='/assets/icons/arrow.svg' alt='arrow_icon' className="h-[12px] sm:h-[13px] md:h-[14px] lg:h-[15px] xl:h-[16.25px]" />
                 </button>
-
-
             </div>
 
             <div className="flex flex-col w-full lg:w-[47%] cursor-pointer">
