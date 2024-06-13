@@ -32,6 +32,11 @@ const WorkMethod = () => {
                 <div className="border-l-[1px] border-[#d7d7d7] ml-[20px]">
                 </div>
             </div>
+            <div className="grid grid-cols-3 w-full">
+                <img src="/assets/icons/arrow-head.svg" alt="arrow_head" className="h-[16px] w-[16px] ml-[13px] -mt-[1px]" />
+                <img src="/assets/icons/arrow-head.svg" alt="arrow_head" className="h-[16px] w-[16px] ml-[13px] -mt-[1px]" />
+                <img src="/assets/icons/arrow-head.svg" alt="arrow_head" className="h-[16px] w-[16px] ml-[13px] -mt-[1px]" />
+            </div>
             js;dlkgjao
 
         </div>

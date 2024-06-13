@@ -29,42 +29,42 @@ const AboutUs = () => {
                 </div>
             </div>
             <div className="flex flex-col w-full lg:w-[47%]">
-                {/* <div className="w-fit hidden lg:block"> */}
+                <div className="w-fit hidden lg:block">
                     <img src='/assets/icons/Rectangle58.svg' alt='button_background' className="absolute z-0" />
                     <button className="text-black border-[1px] text-[14px] font-[300] font-[Montserrat] border-black absolute z-50 w-[119px] h-[31px] mt-2 rounded-full bg-white">
                         About Us
                     </button>
-                {/* </div> */}
+                </div>
 
                 <p className="text-[38px] font-[700] text-black font-[Montserrat] pt-[20px] md:pt-[30px] lg:pt-[60px]">
                     Connecting your business with the world
                 </p>
-                <p className="text-[18px] font-[400] font-[Montserrat] text-black mt-[15px]">
+                <p className="text-[17px] xl:text-[18px] font-[400] font-[Montserrat] text-black mt-[15px]">
                     Lorem ipsum dummy is simply dummy text of the printing and estting  industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500s when
                 </p>
 
                 <div className="flex flex-col lg:w-[500px]">
                     <div className="flex flex-row items-center mt-[13px] gap-x-[10px]">
-                        <img src="/assets/icons/trophy.svg" alt="icon" className="h-[50px] w-[59px]" />
-                        <p className="text-[18px] font-[400] font-[Montserrat]">
+                        <img src="/assets/icons/trophy.svg" alt="icon" className="h-[25px] w-[30px] sm:h-[33px] sm:w-[40px] xl:h-[50px] xl:w-[59px]" />
+                        <p className="text-[17px] xl:text-[18px] font-[400] font-[Montserrat]">
                             There are many variations of passages of Lorem Ipsum
                         </p>
                     </div>
                     <div className="flex flex-row items-center mt-[13px] gap-x-[10px]">
-                        <img src="/assets/icons/trophy.svg" alt="icon" className="h-[50px] w-[59px]" />
-                        <p className="text-[18px] font-[400] font-[Montserrat]">
+                        <img src="/assets/icons/trophy.svg" alt="icon" className="h-[25px] w-[30px] sm:h-[33px] sm:w-[40px] xl:h-[50px] xl:w-[59px]" />
+                        <p className="text-[17px] xl:text-[18px] font-[400] font-[Montserrat]">
                             There are many variations of passages of Lorem Ipsum
                         </p>
                     </div>
                     <div className="flex flex-row items-center mt-[13px] gap-x-[10px]">
-                        <img src="/assets/icons/trophy.svg" alt="icon" className="h-[50px] w-[59px]" />
-                        <p className="text-[18px] font-[400] font-[Montserrat]">
+                        <img src="/assets/icons/trophy.svg" alt="icon" className="h-[25px] w-[30px] sm:h-[33px] sm:w-[40px] xl:h-[50px] xl:w-[59px]" />
+                        <p className="text-[17px] xl:text-[18px] font-[400] font-[Montserrat]">
                             There are many variations of passages of Lorem Ipsum
                         </p>
                     </div>
                     <div className="flex flex-row items-center mt-[13px] gap-x-[10px]">
-                        <img src="/assets/icons/trophy.svg" alt="icon" className="h-[50px] w-[59px]" />
-                        <p className="text-[18px] font-[400] font-[Montserrat]">
+                        <img src="/assets/icons/trophy.svg" alt="icon" className="h-[25px] w-[30px] sm:h-[33px] sm:w-[40px] xl:h-[50px] xl:w-[59px]" />
+                        <p className="text-[17px] xl:text-[18px] font-[400] font-[Montserrat]">
                             There are many variations of passages of Lorem Ipsum
                         </p>
                     </div>
