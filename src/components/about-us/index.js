@@ -2,23 +2,23 @@
 
 const AboutUs = () => {
     return (
-        <div className="flex flex-row px-[100px] pb-[101px] gap-x-[135px]">
-            <div className=" flex flex-col pt-[148px] w-[45%]">
-                <img src="/assets/images/Rectangle 65.png" alt="image" className="w-[519px] h-[372px]" />
-                <img src="/assets/images/Rectangle 66.png" alt="image" className="w-[305px] h-[332px] absolute ml-[294px] mt-[206px]" />
+        <div className="flex flex-col-reverse lg:flex-row justify-center items-center border-8 lg:px-[100px] pb-[101px] lg:gap-x-[135px]">
+            <div className=" flex flex-col pt-[148px] px-6 w-fit lg:w-[45%] border-2">
+                <img src="/assets/images/Rectangle 65.png" alt="image" className="w-[80%] md:w-[519px] md:h-[372px]" />
+                <img src="/assets/images/Rectangle 66.png" alt="image" className="w-[40%] h-fit md:w-[305px] md:h-[332px] absolute ml-[150px] md:ml-[294px] mt-[100px] md:mt-[206px]" />
 
-                <div className="bg-[#006fff] rounded-[17px] w-[283px] h-[150px] mt-[10px] py-[23px] px-[30px]">
-                    <img src="/assets/icons/completed.svg" alt="image" className="w-[46px] h-[46px]" />
-                    <p className="text-[24px] font-[700] font-[Montserrat] text-white mt-[6px]">
+                <div className="bg-[#006fff] rounded-[17px] w-fit md:w-[283px] md:h-[150px] mt-[10px] py-[15px] md:py-[23px] px-[18px] md:px-[30px]">
+                    <img src="/assets/icons/completed.svg" alt="image" className="w-[30px] h-[30px] md:w-[46px] md:h-[46px]" />
+                    <p className="text-[18px] md:text-[24px] font-[700] font-[Montserrat] text-white mt-[6px]">
                         100+ Projects
                     </p>
-                    <p className="text-[18px] font-[400] font-[Montserrat] text-white">
+                    <p className="text-[14px] md:text-[18px] font-[400] font-[Montserrat] text-white">
                         We Have Completed
                     </p>
                 </div>
             </div>
 
-            <div className="flex flex-col pt-[78px] w-[45%]">
+            <div className="flex flex-col pt-[78px] w-full lg:w-[45%]">
                 <div className="w-fit">
                     <img src='/assets/icons/Rectangle58.svg' alt='button_background' className="absolute z-0" />
                     <button className="text-white border-[1px] text-[14px] font-[300] font-[Montserrat] border-white absolute z-50 w-[119px] h-[31px] mt-2 rounded-full bg-black">
