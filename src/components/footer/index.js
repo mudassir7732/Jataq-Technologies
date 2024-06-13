@@ -41,22 +41,34 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="flex flex-row mt-[50px] border-b-[1px] border-t-[1px] border-white">
-                <div className="flex flex-col pt-[98px]">
+            <div className="flex flex-row mt-[50px] border-b-[1px] border-t-[1px] border-[#353535]">
+                <div className="flex flex-col pt-[98px] w-[50%] border-r-[1px] border-[#353535] pb-[56px]">
                     <p className="text-[38px] font-[700] text-white font-[Montserrat]">
                         Have an idea
                     </p>
                     <p className="text-[38px] font-[700] text-white font-[Montserrat]">
                         Tell us about it
                     </p>
-                </div>
-                <div>
-                    <div>
-                        <img  />
-                        <p className="text-[18px] font-[400] text-white">
-                            Contact@jataq.co
-                        </p>
+                    <div className="flex flex-row gap-x-[13px] mt-[47px]">
+                        <div className="flex flex-row gap-x-[10px]">
+                            <img src='/assets/icons/email.svg' alt='email_icon' className="h-[24px] w-[24px]" />
+                            <p className="text-[18px] font-[400] text-white">
+                                Contact@jataq.co
+                            </p>
+                        </div>
+                        <div className="flex flex-row gap-x-[10px]">
+                            <img src='/assets/icons/phone-bold.svg' alt='email_icon' className="mt-[2px] h-[24px] w-[24px]" />
+                            <p className="text-[18px] font-[400] text-white">
+                                Contact@jataq.co
+                            </p>
+                        </div>
                     </div>
+                </div>
+
+                <div className="pl-[111px] pt-[28px]">
+                    <p className="text-white">
+                    abc
+                    </p>
                 </div>
             </div>
 
