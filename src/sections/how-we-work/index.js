@@ -1,6 +1,6 @@
 const WorkMethod = () => {
     return (
-        <div className="flex flex-col items-center mx-[100px] pt-20">
+        <div className="flex flex-col items-center px-[30px] sm:px-[40px] md:px-[60px] lg:px-[80px] xl:px-[100px] pt-20">
             <img src='/assets/icons/Rectangle58.svg' alt='button_background' className="absolute z-0" />
             <p className="flex items-center justify-center text-black border-[1px] text-[14px] font-[300] font-[Montserrat] border-black absolute z-50 w-[119px] h-[31px] mt-2 rounded-full bg-white">
                 How We Work
@@ -9,7 +9,7 @@ const WorkMethod = () => {
             <p className=" text-[26px] sm:text-[28px] md:text-[30px] lg:text-[35px] xl:text-[38px] font-[700] font-[Montserrat] mt-12 max-w-[700px] text-center">
                 We work for better growing result step by step
             </p>
-            <p className="text-[18px] font-[400] text-black font-[Montserrat] max-w-[670px] text-center mt-[19px]">
+            <p className="text-[18px] font-[400] text-black font-[Montserrat]  w-full lg:max-w-[670px] text-center mt-[19px]">
                 Crafting compelling digital experiences that captivate audiences and drive meaningful connections
             </p>
 
