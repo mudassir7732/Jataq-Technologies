@@ -3,18 +3,18 @@
 const AboutUs = () => {
     return (
         // <div className="flex flex-col md:flexrow">
-        <div className="flex flex-col lg:flex-row justify-between sm:py-[70px] md:py-[95px] px-[40px] sm:px-[70px] md:px-[100px] w-full border-2">
+        <div className="flex flex-col lg:flex-row lg:justify-between xl:justify-evenly sm:py-[70px] md:py-[95px] px-[40px] sm:px-[70px] md:px-[100px] w-full border-2">
 
 
 
-            <div className="flex flex-col items-start  w-full xl:w-[47%] pt-[85px]">
+            <div className="flex flex-col mx-auto items-start  w-fit xl:max-w-[47%] pt-[85px]">
                 <div className="flex flex-col items-center absolute">
-                    <img src="/assets/images/Rectangle 65.png" alt="image" className="z-0 w-[300px] sm:w-[400px] md:w-[450px] xl:w-[480px]" />
-                    <img src="/assets/logo/Logo.svg" alt="image" className=" mt-[19px] absolute z-10 w-[40px] sm:w-[50px] md:w-[60px] xl:w-[60px]" />
+                    <img src="/assets/images/Rectangle 65.png" alt="image" className="z-0 w-[280px] sm:w-[340px] md:w-[380px] lg:w-[400px] xl:w-[480px]" />
+                    <img src="/assets/logo/logo-light.svg" alt="image" className=" mt-[19px] absolute z-10 w-[35px] sm:w-[38px] md:w-[45px] lg:w-[53px] xl:w-[60px]" />
                 </div>
 
-                <div className="flex flex-row items-end w-full z-50 mt-[186px]">
-                    <div className="bg-[#006fff] rounded-[17px] md:h-[150px] max-w-[250px] mb-2 mt-[10px] py-[15px] md:py-[23px] px-[15px] sm:px-[18px] md:px-[20px]">
+                <div className="flex flex-row items-end w-full z-50 mt-[158px] sm:mt-[116px] md:mt-[205px] lg:mt-[225px] xl:mt-[197px]">
+                    <div className="flex flex-col justify-center bg-[#006fff] rounded-[17px] h-[110px] md:h-[160px] max-w-[250px] mb-[5px] lg:mb-[9px] mt-[10px] px-[15px] sm:px-[18px] md:px-[20px]">
                         <img src="/assets/icons/completed.svg" alt="image" className="w-[25px] h-[25px] sm:w-[30px] sm:h-[30px] md:w-[46px] md:h-[46px]" />
                         <p className="text-[15px] sm:text-[18px] md:text-[24px] w-full font-[700] font-[Montserrat] text-white mt-[6px]">
                             100+ Projects
@@ -23,7 +23,7 @@ const AboutUs = () => {
                             We Have Completed
                         </p>
                     </div>
-                    <img src="/assets/images/Rectangle 66.png" alt="image" className="w-[300px]"/>
+                    <img src="/assets/images/Rectangle 66.png" alt="image" className="w-[150px] sm:w-[230px] md:w-[220px] xl:w-[300px]"/>
                 </div>
             </div>
 
