@@ -1,9 +1,10 @@
 import React from 'react';
 import Header from "./components/header"
 import Home from './sections/home';
-import Services from './components/services';
-import AboutUs from './components/about-us';
-import WorkMethod from './components/how-we-work';
+import Services from './sections/services';
+import AboutUs from './sections/about-us';
+import WorkMethod from './sections/how-we-work';
+import Testimonials from './sections/testimonials';
 
 const App=()=>{
   return(
@@ -13,6 +14,7 @@ const App=()=>{
       <Services />
       <AboutUs />
       <WorkMethod />
+      <Testimonials />
     </div>
   )
 }

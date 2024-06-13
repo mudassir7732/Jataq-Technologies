@@ -2,9 +2,9 @@ const WorkMethod = () => {
     return (
         <div className="flex flex-col items-center mx-[100px]">
             <img src='/assets/icons/Rectangle58.svg' alt='button_background' className="absolute z-0" />
-            <button className="text-black border-[1px] text-[14px] font-[300] font-[Montserrat] border-black absolute z-50 w-[119px] h-[31px] mt-2 rounded-full bg-white">
+            <p className="flex items-center justify-center text-black border-[1px] text-[14px] font-[300] font-[Montserrat] border-black absolute z-50 w-[119px] h-[31px] mt-2 rounded-full bg-white">
                 How We Work
-            </button>
+            </p>
 
             <p className="text-[38px] font-[700] font-[Montserrat] mt-12 max-w-[700px] text-center">
                 We work for better growing result step by step
