@@ -9,7 +9,7 @@ const Services = () => {
             <div className="flex flex-col w-full lg:w-[47%]">
                 <div className="w-fit">
                     <img src='/assets/icons/Rectangle58.svg' alt='button_background' className="absolute z-0" />
-                    <p className="text-white border-[1px] text-[14px] font-[300] font-[Montserrat] border-white absolute z-50 w-[119px] h-[31px] mt-2 rounded-full bg-black">
+                    <p className="flex items-center justify-center text-black border-[1px] text-[14px] font-[300] font-[Montserrat] border-black absolute z-50 w-[119px] h-[31px] mt-2 rounded-full bg-white">
                         Our Services
                     </p>
                 </div>
@@ -34,7 +34,7 @@ const Services = () => {
             </div>
 
             <div className="flex flex-col w-full lg:w-[47%] cursor-pointer">
-                <div className="flex flex-row items-center mt-[34px]" onClick={()=>setSelected('web-design')}>
+                <div className="flex flex-row items-center mt-[34px]" onClick={() => setSelected('web-design')}>
                     <div className={`flex items-center justify-center min-h-[88px] min-w-[88px] ${selected === 'web-design' ? 'bg-[#006fff]' : 'bg-[#272727]'} rounded-[10px]`}>
                         <img src="/assets/icons/web-design.svg" alt='' className="h-[55px] w-[55px]" />
                     </div>
@@ -46,7 +46,7 @@ const Services = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-row items-center mt-[34px]"  onClick={()=>setSelected('digital-marketing')}>
+                <div className="flex flex-row items-center mt-[34px]" onClick={() => setSelected('digital-marketing')}>
                     <div className={`flex items-center justify-center min-h-[88px] min-w-[88px] ${selected === 'digital-marketing' ? 'bg-[#006fff]' : 'bg-[#272727]'} rounded-[10px]`}>
                         <img src="/assets/icons/first.svg" alt='' className="h-[55px] w-[55px]" />
                     </div>
@@ -58,7 +58,7 @@ const Services = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-row items-center mt-[34px]" onClick={()=>setSelected('app-development')}>
+                <div className="flex flex-row items-center mt-[34px]" onClick={() => setSelected('app-development')}>
                     <div className={`flex items-center justify-center min-h-[88px] min-w-[88px]  ${selected === 'app-development' ? 'bg-[#006fff]' : 'bg-[#272727]'}  rounded-[10px]`}>
                         <img src="/assets/icons/mobile.svg" alt='' className="h-[55px] w-[55px]" />
                     </div>
@@ -70,7 +70,7 @@ const Services = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-row items-center mt-[34px]" onClick={()=>setSelected('graphic-design')}>
+                <div className="flex flex-row items-center mt-[34px]" onClick={() => setSelected('graphic-design')}>
                     <div className={`flex items-center justify-center min-h-[88px] min-w-[88px]  ${selected === 'graphic-design' ? 'bg-[#006fff]' : 'bg-[#272727]'}  rounded-[10px]`}>
                         <img src="/assets/icons/first2.svg" alt='' className="h-[55px] w-[55px]" />
                     </div>
