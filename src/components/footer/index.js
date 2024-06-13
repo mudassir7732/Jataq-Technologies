@@ -1,7 +1,7 @@
 
 const Footer = () => {
     return (
-        <div className="bg-[#0a0b0f] pl-[80px] xl:pl-[100px] pr-[100px] xl:pr-[132px] pb-[48px]">
+        <div className="bg-[#0a0b0f] pl-[80px] xl:pl-[100px] pr-[100px] xl:pr-[132px] pb-[25px] md:pb-[35px] lg:pb-[48px]">
 
             <div className="flex flex-col lg:flex-row items-center h-[178px] justify-evenly lg:justify-between">
 
@@ -41,8 +41,8 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="flex flex-row border-b-[1px] border-t-[1px] border-[#353535]">
-                <div className="flex flex-col pt-[98px] w-[50%] border-r-[1px] border-[#353535] pb-[56px]">
+            <div className="flex flex-col md:flex-row border-b-[1px] border-t-[1px] border-[#353535]">
+                <div className="flex flex-col pt-[25px] sm:pt-[35px] md:pt-[50px] lg:pt-[70px] xl:pt-[98px] w-full md:w-[50%] border-b-[1px] md:border-b-0 md:border-r-[1px] border-[#353535] pb-[25px] md:pb-[35px] lg:pb-[45px] xl:pb-[56px]">
                     <p className=" text-[26px] sm:text-[28px] md:text-[30px] lg:text-[35px] xl:text-[38px] font-[700] text-white font-[Montserrat]">
                         Have an idea
                     </p>
@@ -65,7 +65,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="pl-[111px] pt-[28px] pb-4">
+                <div className="px-[20px] sm:px-[50px] md:pl-[70px] lg:pl-[90px] xl:pl-[111px] pt-[28px] pb-4 w-full md:w-[50%]">
                     <p className="text-white text-[18px] font-[700] font-[Montserrat]">
                         Quick Links
                     </p>
@@ -113,7 +113,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <p className="text-[18px] font-[400] font-[Montserrat] text-white text-center mt-[46px]">
+            <p className="text-[18px] font-[400] font-[Montserrat] text-white text-center mt-[25px] lg:mt-[35px] xl:mt-[46px]">
                 Copyright © 2024, Jataq Technologies
             </p>
 
