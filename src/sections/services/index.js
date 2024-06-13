@@ -4,7 +4,7 @@ const Services = () => {
     const [selected, setSelected] = useState('');
 
     return (
-        <div className="flex flex-col lg:flex-row items-start justify-evenly lg:justify-between py-[30px] sm:py-[70px] md:py-[95px] px-[30px] sm:px-[60px] md:px-[82px] lg:px-[95px] xl:px-[115px] h-[980px] lg:h-[663px] w-full" style={{ backgroundImage: 'url(/assets/images/bg.svg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        <div className="flex flex-col lg:flex-row items-start justify-evenly lg:justify-between xl:justify-evenly py-[30px] sm:py-[70px] md:py-[95px] px-[30px] sm:px-[60px] md:px-[82px] lg:px-[95px] xl:px-[115px] h-[980px] lg:h-[663px] w-full" style={{ backgroundImage: 'url(/assets/images/bg.svg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
 
             <div className="flex flex-col w-full lg:w-[47%]">
                 <div className="w-fit">
