@@ -66,11 +66,56 @@ const Footer = () => {
                 </div>
 
                 <div className="pl-[111px] pt-[28px]">
-                    <p className="text-white">
-                    abc
+                    <p className="text-white text-[18px] font-[700] font-[Montserrat]">
+                        Quick Links
                     </p>
+                    <div className="grid lg:grid-cols-2 lg:gap-x-[40px] xl:gap-x-[140px] mt-[29px] gap-y-[17px]">
+                        <p className="text-white text-[16px] font-[400] font-[Montserrat]">
+                            Home
+                        </p>
+
+                        <p className="text-white text-[16px] font-[400] font-[Montserrat] whitespace-nowrap">
+                            Web Development
+                        </p>
+
+                        <p className="text-white text-[16px] font-[400] font-[Montserrat]">
+                            Services
+                        </p>
+
+                        <p className="text-white text-[16px] font-[400] font-[Montserrat] whitespace-nowrap">
+                            App Development
+                        </p>
+
+                        <p className="text-white text-[16px] font-[400] font-[Montserrat] whitespace-nowrap">
+                            About Us
+                        </p>
+
+                        <p className="text-white text-[16px] font-[400] font-[Montserrat] whitespace-nowrap">
+                            Digital Marketing
+                        </p>
+
+                        <p className="text-white text-[16px] font-[400] font-[Montserrat] whitespace-nowrap">
+                            Case Studies
+                        </p>
+
+                        <p className="text-white text-[16px] font-[400] font-[Montserrat]">
+                            UI/UX
+                        </p>
+
+                        <p className="text-white text-[16px] font-[400] font-[Montserrat] whitespace-nowrap">
+                            Contact Us
+                        </p>
+
+                        <p className="text-white text-[16px] font-[400] font-[Montserrat] whitespace-nowrap">
+                            Graphic Design
+                        </p>
+                    </div>
                 </div>
             </div>
+
+            <p className="text-[18px] font-[400] font-[Montserrat] text-white text-center mt-[46px]">
+                Copyright © 2024, Jataq Technologies
+            </p>
 
         </div>
     )
