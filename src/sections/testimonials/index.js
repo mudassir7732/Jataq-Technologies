@@ -1,13 +1,13 @@
 
 const Testimonials = () => {
     return (
-        <div className="h-[850px] lg:h-[640px] w-full"
+        <div className="h-[750px] lg:h-[640px] w-full"
             style={{ backgroundImage: 'url(/assets/images/Rectangle59.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
             <img src='/assets/icons/Vector1.svg' alt="border_line" className=" w-full mt-[45px] lg:mt-[7px] h-[92px]" />
             <img src='/assets/icons/Ellipse8.svg' alt="border_line" className="mt-24 lg:mt-0 w-full h-full absolute " />
 
-            <div className="flex flex-col lg:flex-row w-full justify-evenly lg:justify-between border-white h-full pl-[70px] xl:pt-[150px] pr-[80px]">
-                <div className="flex flex-col min-w-[45%] -mt-24 lg:mt-0">
+            <div className="flex flex-col lg:flex-row items-start lg:items-center gap-x-[35px] w-full lg:justify-between border-white h-full pl-[70px] pr-[80px]">
+                <div className="flex flex-col min-w-[45%]">
                     <img src='/assets/icons/Rectangle58.svg' alt='button_background' className="absolute z-0" />
                     <p className="flex items-center justify-center text-black border-[1px] text-[14px] font-[300] font-[Montserrat] border-black absolute z-50 w-[119px] h-[31px] mt-2 rounded-full bg-white">
                         Testimonials
@@ -21,7 +21,7 @@ const Testimonials = () => {
                     </button>
                 </div>
 
-                <div className="flex flex-col -mt-16 lg:mt-0 min-w-[45%]">
+                <div className="flex flex-col mt-24 lg:mt-0 min-w-[45%]">
                     <img src='/assets/icons/quotation.svg' alt='button_background' className="absolute -mt-[58px] ml-3 z-0" />
                     <div className="w-full border-2 bg-white rounded-t-[10px] max-w-[600px] pt-[80px] pl-[35px] pr-[45px]">
                         <p className="text-[16px] font-[400] font-[Montserrat]">
