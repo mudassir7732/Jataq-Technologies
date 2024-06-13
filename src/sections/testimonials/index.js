@@ -6,7 +6,7 @@ const Testimonials = () => {
             <img src='/assets/icons/Vector1.svg' alt="border_line" className=" w-full mt-[45px] sm:mt-[38px] md:mt-[32px] lg:mt-[7px] h-[92px]" />
             <img src='/assets/icons/Ellipse8.svg' alt="border_line" className="mt-24 lg:mt-0 w-full h-full absolute " />
 
-            <div className="flex flex-col lg:flex-row items-start lg:items-center gap-x-[35px] lg:justify-between border-white h-full  px-[40px] sm:px-[70px] md:px-[82px] lg:px-[95px]">
+            <div className="flex flex-col lg:flex-row items-start lg:items-center gap-x-[35px] lg:justify-between border-white h-ful px-[30px] sm:px-[60px] md:px-[82px] lg:px-[95px] xl:px-[115px]">
                 <div className="flex flex-col min-w-[45%]">
                     <img src='/assets/icons/Rectangle58.svg' alt='button_background' className="absolute z-0" />
                     <p className="flex items-center justify-center text-black border-[1px] text-[14px] font-[300] font-[Montserrat] border-black absolute z-50 w-[119px] h-[31px] mt-2 rounded-full bg-white">

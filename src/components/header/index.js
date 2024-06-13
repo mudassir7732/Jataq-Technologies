@@ -4,7 +4,7 @@ import { TABS } from '../../constants/tabs';
 
 const Header = () => {
     return (
-        <div className='w-full px-[20px] sm:px-[40px] md:px-[60px] lg:px-[90px] xl:pl-[100px] xl:pr-[116px] border-2 flex flex-row items-center justify-between py-[18px]'>
+        <div className='w-full px-[30px] sm:px-[60px] md:px-[82px] lg:px-[95px] xl:px-[115px] flex flex-row items-center justify-between py-[18px]'>
             <div className='flex flex-row items-center w-fit gap-x-[8px]'>
                 <img src="/assets/logo/Logo.svg" alt='logo' className='w-[28px] sm:w-[30px] md:w-[32px] lg:w-[34px] xl:w-[36px] h-[30px] sm:h-[32px] md:h-[34px] lg:h-[36px] xl:h-[38px]' />
                 <div className='flex flex-col'>
