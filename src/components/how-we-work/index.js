@@ -37,8 +37,33 @@ const WorkMethod = () => {
                 <img src="/assets/icons/arrow-head.svg" alt="arrow_head" className="h-[16px] w-[16px] ml-[13px] -mt-[1px]" />
                 <img src="/assets/icons/arrow-head.svg" alt="arrow_head" className="h-[16px] w-[16px] ml-[13px] -mt-[1px]" />
             </div>
-            js;dlkgjao
 
+            <div className="grid grid-cols-3 mt-[30px] gap-4 w-full mb-[152px]">
+                <div className="flex flex-col">
+                    <p className="text-[21px] lg:text-[22px] xl:text-[24px] font-[700] font-[Montserrat] text-[#252525]">
+                        Schedule an Initial Consultation
+                    </p>
+                    <p className="text-[16px] xl:text-[18px] text-black mt-[15px] font-[400] font-[Montserrat]">
+                        Contact us to discuss your project. We'll cover team structure, objectives, budget, schedule, and the skills you need.
+                    </p>
+                </div>
+                <div className="flex flex-col">
+                    <p className="text-[21px] lg:text-[22px] xl:text-[24px] font-[700] font-[Montserrat] text-[#252525]">
+                        Discuss Solution and Team Structure
+                    </p>
+                    <p className="text-[16px] xl:text-[18px] text-black mt-[15px] font-[400] font-[Montserrat]">
+                        We'll collaborate with you to finalize project specifications, agree on the engagement model, and select the right team for your project.
+                    </p>
+                </div>
+                <div className="flex flex-col">
+                    <p className="text-[21px] lg:text-[22px] xl:text-[24px] font-[700] font-[Montserrat] text-[#252525]">
+                        Get Started and Track Performance
+                    </p>
+                    <p className="text-[16px] xl:text-[18px] text-black mt-[15px] font-[400] font-[Montserrat]">
+                        Once milestones are set, we'll begin work, monitoring progress, updating you regularly, and adapting to your needs.
+                    </p>
+                </div>
+            </div>
         </div>
     )
 }
