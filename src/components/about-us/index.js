@@ -29,12 +29,12 @@ const AboutUs = () => {
                 </div>
             </div>
             <div className="flex flex-col w-full lg:w-[47%]">
-                <div className="w-fit hidden lg:block">
+                {/* <div className="w-fit hidden lg:block"> */}
                     <img src='/assets/icons/Rectangle58.svg' alt='button_background' className="absolute z-0" />
                     <button className="text-black border-[1px] text-[14px] font-[300] font-[Montserrat] border-black absolute z-50 w-[119px] h-[31px] mt-2 rounded-full bg-white">
                         About Us
                     </button>
-                </div>
+                {/* </div> */}
 
                 <p className="text-[38px] font-[700] text-black font-[Montserrat] pt-[20px] md:pt-[30px] lg:pt-[60px]">
                     Connecting your business with the world
