@@ -5,9 +5,7 @@ const Services = () => {
 
     return (
         <div className="background-container flex flex-col lg:flex-row items-start justify-evenly lg:justify-between xl:justify-evenly py-[30px] sm:py-[70px] md:py-[95px] px-[30px] sm:px-[60px] md:px-[82px] lg:px-[95px] bg-[#0a0b0f] xl:px-[115px] h-[980px] lg:h-[663px] w-full"
-            style={{ backgroundImage: 'url(/assets/logo/bg-logo3.png)', backgroundSize: '70% auto', backgroundRepeat:'no-repeat', backgroundPosition: 'center' }}>
-        {/* <div className="background-container flex bg-[#0a0b0f] flex-col lg:flex-row items-start justify-evenly lg:justify-between xl:justify-evenly py-[30px] sm:py-[70px] md:py-[95px] px-[30px] sm:px-[60px] md:px-[82px] lg:px-[95px] xl:px-[115px] h-[980px] lg:h-[663px] w-full" style={{backgroundImage: 'url(/assets/logo/bg-logo.png)'}}> */}
-       
+            style={{ backgroundImage: 'url(/assets/logo/bg-logo3.png)', backgroundSize: '70% auto', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
             <div className="flex flex-col w-full lg:w-[45%] max-w-[507px]">
                 <div className="w-fit">
                     <img src='/assets/icons/Rectangle58.svg' alt='button_background' className="absolute z-0" />
