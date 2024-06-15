@@ -5,7 +5,7 @@ const Services = () => {
 
     return (
         <div className="flex flex-col lg:flex-row items-start justify-evenly lg:justify-between xl:justify-evenly py-[30px] sm:py-[70px] md:py-[95px] px-[30px] sm:px-[60px] md:px-[82px] lg:px-[95px] bg-[#0a0b0f] xl:px-[115px] h-[980px] lg:h-[663px] w-full"
-            style={{ backgroundImage: 'url(/assets/logo/bg-logo.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+            style={{ backgroundImage: 'url(/assets/logo/bg-logo.png)', backgroundSize: '50% auto', backgroundPosition: 'center' }}>
             <div className="flex flex-col w-full lg:w-[45%] max-w-[507px]">
                 <div className="w-fit">
                     <img src='/assets/icons/Rectangle58.svg' alt='button_background' className="absolute z-0" />
