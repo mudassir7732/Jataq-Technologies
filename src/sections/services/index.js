@@ -4,8 +4,8 @@ const Services = () => {
     const [selected, setSelected] = useState('');
 
     return (
-        <div className="flex flex-col lg:flex-row items-start justify-evenly lg:justify-between xl:justify-evenly py-[30px] sm:py-[70px] md:py-[95px] px-[30px] sm:px-[60px] md:px-[82px] lg:px-[95px] xl:px-[115px] h-[980px] lg:h-[663px] w-full" style={{ backgroundImage: 'url(/assets/images/bg.svg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-
+        <div className="flex flex-col lg:flex-row items-start justify-evenly lg:justify-between xl:justify-evenly py-[30px] sm:py-[70px] md:py-[95px] px-[30px] sm:px-[60px] md:px-[82px] lg:px-[95px] bg-[#0a0b0f] xl:px-[115px] h-[980px] lg:h-[663px] w-full"
+            style={{ backgroundImage: 'url(/assets/logo/bg-logo.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
             <div className="flex flex-col w-full lg:w-[45%] max-w-[507px]">
                 <div className="w-fit">
                     <img src='/assets/icons/Rectangle58.svg' alt='button_background' className="absolute z-0" />
@@ -33,52 +33,52 @@ const Services = () => {
 
             <div className="flex flex-col w-fit items-center gap-x-12 lg:w-[47%] cursor-pointer">
                 <div className="w-fit">
-                <div className="flex flex-row items-center mt-[34px]" onClick={() => setSelected('web-design')}>
-                    <div className={`flex items-center justify-center min-h-[88px] min-w-[88px] ${selected === 'web-design' ? 'bg-[#006fff]' : 'bg-[#272727]'} rounded-[10px]`}>
-                        <img src="/assets/icons/web-design.svg" alt='' className="h-[55px] w-[55px]" />
+                    <div className="flex flex-row items-center mt-[34px]" onClick={() => setSelected('web-design')}>
+                        <div className={`flex items-center justify-center min-h-[88px] min-w-[88px] ${selected === 'web-design' ? 'bg-[#006fff]' : 'bg-[#272727]'} rounded-[10px]`}>
+                            <img src="/assets/icons/web-design.svg" alt='' className="h-[55px] w-[55px]" />
+                        </div>
+                        <div className="flex flex-row items-center mx-[41px] justify-between h-[88px] w-[328px] border-b-[1px] border-[#4e4e4e] pb-[15px] ">
+                            <p className="text-white text-[16px] md:text-[17px] xl:text-[18px] font-[400] font-[Montserrat]">
+                                Web Development/<br /> Web Design
+                            </p>
+                            <img src='/assets/icons/arrow.svg' alt='arrow_icon' className="h-[12px] sm:h-[13px] md:h-[14px] lg:h-[15px] xl:h-[16.25px]" />
+                        </div>
                     </div>
-                    <div className="flex flex-row items-center mx-[41px] justify-between h-[88px] w-[328px] border-b-[1px] border-[#4e4e4e] pb-[15px] ">
-                        <p className="text-white text-[16px] md:text-[17px] xl:text-[18px] font-[400] font-[Montserrat]">
-                            Web Development/<br /> Web Design
-                        </p>
-                        <img src='/assets/icons/arrow.svg' alt='arrow_icon' className="h-[12px] sm:h-[13px] md:h-[14px] lg:h-[15px] xl:h-[16.25px]" />
-                    </div>
-                </div>
 
-                <div className="flex flex-row items-center mt-[34px]" onClick={() => setSelected('digital-marketing')}>
-                    <div className={`flex items-center justify-center min-h-[88px] min-w-[88px] ${selected === 'digital-marketing' ? 'bg-[#006fff]' : 'bg-[#272727]'} rounded-[10px]`}>
-                        <img src="/assets/icons/first.svg" alt='' className="h-[55px] w-[55px]" />
+                    <div className="flex flex-row items-center mt-[34px]" onClick={() => setSelected('digital-marketing')}>
+                        <div className={`flex items-center justify-center min-h-[88px] min-w-[88px] ${selected === 'digital-marketing' ? 'bg-[#006fff]' : 'bg-[#272727]'} rounded-[10px]`}>
+                            <img src="/assets/icons/first.svg" alt='' className="h-[55px] w-[55px]" />
+                        </div>
+                        <div className="flex flex-row items-center mx-[41px] justify-between h-[88px] w-[328px] border-b-[1px] border-[#4e4e4e] pb-[15px] ">
+                            <p className="text-white text-[16px] md:text-[17px] xl:text-[18px] font-[400] font-[Montserrat]">
+                                Digital Marketing
+                            </p>
+                            <img src='/assets/icons/arrow.svg' alt='arrow_icon' className="h-[12px] sm:h-[13px] md:h-[14px] lg:h-[15px] xl:h-[16.25px]" />
+                        </div>
                     </div>
-                    <div className="flex flex-row items-center mx-[41px] justify-between h-[88px] w-[328px] border-b-[1px] border-[#4e4e4e] pb-[15px] ">
-                        <p className="text-white text-[16px] md:text-[17px] xl:text-[18px] font-[400] font-[Montserrat]">
-                            Digital Marketing
-                        </p>
-                        <img src='/assets/icons/arrow.svg' alt='arrow_icon' className="h-[12px] sm:h-[13px] md:h-[14px] lg:h-[15px] xl:h-[16.25px]" />
-                    </div>
-                </div>
 
-                <div className="flex flex-row items-center mt-[34px]" onClick={() => setSelected('app-development')}>
-                    <div className={`flex items-center justify-center min-h-[88px] min-w-[88px]  ${selected === 'app-development' ? 'bg-[#006fff]' : 'bg-[#272727]'}  rounded-[10px]`}>
-                        <img src="/assets/icons/mobile.svg" alt='' className="h-[55px] w-[55px]" />
+                    <div className="flex flex-row items-center mt-[34px]" onClick={() => setSelected('app-development')}>
+                        <div className={`flex items-center justify-center min-h-[88px] min-w-[88px]  ${selected === 'app-development' ? 'bg-[#006fff]' : 'bg-[#272727]'}  rounded-[10px]`}>
+                            <img src="/assets/icons/mobile.svg" alt='' className="h-[55px] w-[55px]" />
+                        </div>
+                        <div className="flex flex-row items-center mx-[41px] justify-between h-[88px] w-[328px] border-b-[1px] border-[#4e4e4e] pb-[15px] ">
+                            <p className="text-white text-[16px] md:text-[17px] xl:text-[18px] font-[400] font-[Montserrat]">
+                                App Development
+                            </p>
+                            <img src='/assets/icons/arrow.svg' alt='arrow_icon' className="h-[12px] sm:h-[13px] md:h-[14px] lg:h-[15px] xl:h-[16.25px]" />
+                        </div>
                     </div>
-                    <div className="flex flex-row items-center mx-[41px] justify-between h-[88px] w-[328px] border-b-[1px] border-[#4e4e4e] pb-[15px] ">
-                        <p className="text-white text-[16px] md:text-[17px] xl:text-[18px] font-[400] font-[Montserrat]">
-                            App Development
-                        </p>
-                        <img src='/assets/icons/arrow.svg' alt='arrow_icon' className="h-[12px] sm:h-[13px] md:h-[14px] lg:h-[15px] xl:h-[16.25px]" />
-                    </div>
-                </div>
 
-                <div className="flex flex-row items-center mt-[34px]" onClick={() => setSelected('graphic-design')}>
-                    <div className={`flex items-center justify-center min-h-[88px] min-w-[88px]  ${selected === 'graphic-design' ? 'bg-[#006fff]' : 'bg-[#272727]'}  rounded-[10px]`}>
-                        <img src="/assets/icons/first2.svg" alt='' className="h-[55px] w-[55px]" />
-                    </div>
-                    <div className="flex flex-row items-center mx-[41px] justify-between h-[88px] w-[328px] border-b-[1px] border-[#4e4e4e] pb-[15px] ">
-                        <p className="text-white text-[16px] md:text-[17px] xl:text-[18px] font-[400] font-[Montserrat]">
-                            Graphic Design
-                        </p>
-                        <img src='/assets/icons/arrow.svg' alt='arrow_icon' className="h-[12px] sm:h-[13px] md:h-[14px] lg:h-[15px] xl:h-[16.25px]" />
-                    </div>
+                    <div className="flex flex-row items-center mt-[34px]" onClick={() => setSelected('graphic-design')}>
+                        <div className={`flex items-center justify-center min-h-[88px] min-w-[88px]  ${selected === 'graphic-design' ? 'bg-[#006fff]' : 'bg-[#272727]'}  rounded-[10px]`}>
+                            <img src="/assets/icons/first2.svg" alt='' className="h-[55px] w-[55px]" />
+                        </div>
+                        <div className="flex flex-row items-center mx-[41px] justify-between h-[88px] w-[328px] border-b-[1px] border-[#4e4e4e] pb-[15px] ">
+                            <p className="text-white text-[16px] md:text-[17px] xl:text-[18px] font-[400] font-[Montserrat]">
+                                Graphic Design
+                            </p>
+                            <img src='/assets/icons/arrow.svg' alt='arrow_icon' className="h-[12px] sm:h-[13px] md:h-[14px] lg:h-[15px] xl:h-[16.25px]" />
+                        </div>
                     </div>
                 </div>
 
