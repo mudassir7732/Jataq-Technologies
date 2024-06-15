@@ -14,15 +14,6 @@
   }
 }
 
-.background-container::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  pointer-events: none; /* Ensure it doesn't interfere with interactions */
-}
-
 .flex {
   position: relative; /* Ensure the flex container is on top of the background image */
   z-index: 1; /* Content inside the flex container will be above the background image */
