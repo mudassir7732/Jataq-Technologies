@@ -52,7 +52,6 @@ const Testimonials = () => {
                     </button>
                 </div>
                 <div className="flex flex-col min-w-[45%] mt-14 lg:mt-0">
-                    <img src='/assets/icons/quotation.svg' alt='button_background' className=" absolute z-50 mt-[2px] ml-3" />
                     {/* <div className=" bg-white rounded-t-[10px] max-w-[600px] pt-[35px] sm:pt-[42px] md:pt-[45px] lg:pt[60px] xl:pt-[80px] px-[15px] sm:px-[22px] md:px-[28px] lg:px-[35px] xl:px-[45px]">
                         <p className="text-[16px] font-[400] font-[Montserrat]">
                             I was very impressed simply copy the digital services loremdigital ipsum is simply free text available used by copy typing refreshing. Neque porro noting qui dolorem ipsum quia.
@@ -61,14 +60,18 @@ const Testimonials = () => {
                             Client Name
                         </p>
                     </div> */}
+
+
                     <Carousel
                         responsive={responsive}
                         showDots={true}
-                        dotListClass="react-multi-carousel-dot-list"
+                        dotListClass="custom-dot-list"
                         arrows={false}
+                        customDot={<div className='w-[12px] h-[12px] mx-[6px] rounded-full bg-[#282828]' />}
                     >
                         {textItems.map((item, index) => (
                             <div className='my-[60px]'>
+                                <img src='/assets/icons/quotation.svg' alt='button_background' className=" absolute z-50 -mt-[58px] ml-3"/>
                                 <div key={index} className="bg-white z-40 rounded-t-[10px] max-w-[600px] pt-[35px] sm:pt-[42px] md:pt-[45px] lg:pt-[60px] xl:pt-[70px] px-[15px] pb-8 sm:px-[22px] md:px-[28px] lg:px-[35px] xl:px-[40px] mx-auto">
                                     <p className="text-[16px] font-[400] font-[Montserrat]">
                                         {item.text}

@@ -17,7 +17,6 @@
 .custom-dot-list {
   display: flex;
   justify-content: center;
-  background-color: red !important;
   margin-top: 20px;
 }
 
@@ -25,14 +24,15 @@
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: gray;
+  background-color: red !important;
   margin: 0 5px;
   border: none;
 }
 
 .custom-dot-list .react-multi-carousel-dot--active button {
-  background: white;
+  background-color: red !important;
 }
+
 
 .App-header {
   background-color: #282c34;
