@@ -55,7 +55,6 @@ const Testimonials = () => {
                     <Carousel
                         responsive={responsive}
                         showDots={true}
-                        dotListClass="custom-dot-list"
                         arrows={false}
                         customDot={<div className='w-[12px] h-[12px] mx-[6px] rounded-full bg-[#282828]' />}
                     >
