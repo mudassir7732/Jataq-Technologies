@@ -14,11 +14,6 @@
   }
 }
 
-.flex {
-  position: relative; /* Ensure the flex container is on top of the background image */
-  z-index: 1; /* Content inside the flex container will be above the background image */
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
