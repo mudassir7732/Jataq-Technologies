@@ -9,7 +9,7 @@ const AboutUs = () => {
                     About Us
                 </p>
             </div>
-            <div className="flex flex-col mx-auto items-start  w-fit xl:max-w-[47%] pt-[85px]">
+            <div className="flex flex-col items-start w-fit xl:max-w-[47%] pt-[85px]">
                 <div className="flex flex-col items-center absolute">
                     <img src="/assets/images/Rectangle 65.png" alt="image" className="z-0 w-[280px] sm:w-[340px] md:w-[380px] lg:w-[400px] xl:w-[480px]" />
                     <img src="/assets/logo/logo-light.svg" alt="image" className=" mt-[19px] absolute z-10 w-[35px] sm:w-[38px] md:w-[45px] lg:w-[53px] xl:w-[60px]" />
@@ -28,7 +28,8 @@ const AboutUs = () => {
                     <img src="/assets/images/Rectangle 66.png" alt="image" className="w-[150px] sm:w-[230px] md:w-[220px] xl:w-[300px]" />
                 </div>
             </div>
-            <div className="flex flex-col w-full lg:w-[47%] pt-8">
+
+            <div className="flex flex-col w-full lg:w-[47%] max-w-[640px] pt-8">
                 <div className="w-fit hidden lg:block">
                     <img src='/assets/icons/Rectangle58.svg' alt='button_background' className="absolute z-0" />
                     <button className="text-black border-[1px] text-[14px] font-[300] font-[Montserrat] border-black absolute z-50 w-[119px] h-[31px] mt-2 rounded-full bg-white">
