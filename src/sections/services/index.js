@@ -69,7 +69,7 @@ const Services = () => {
                         </div>
                     </div>
 
-                    <div className="flex flex-row items-center mr-0 border-2 mt-[34px]" onClick={() => setSelected('graphic-design')}>
+                    <div className="flex flex-row items-center mr-0 mt-[34px]" onClick={() => setSelected('graphic-design')}>
                         <div className={`flex items-center justify-center min-h-[88px] min-w-[88px]  ${selected === 'graphic-design' ? 'bg-[#006fff]' : 'bg-[#272727]'}  rounded-[10px]`}>
                             <img src="/assets/icons/first2.svg" alt='' className="h-[55px] w-[55px]" />
                         </div>
