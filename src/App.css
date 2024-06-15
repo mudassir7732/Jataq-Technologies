@@ -20,13 +20,6 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  background-image: url('/assets/logo/bg-logo.png');
-  background-size: 70% auto;
-  background-repeat: no-repeat;
-  background-position: center;
-  opacity: 0.5 !important; /* Make the background image fully opaque */
-  z-index: 0; /* Ensure it is behind any content in the container */
   pointer-events: none; /* Ensure it doesn't interfere with interactions */
 }
 
