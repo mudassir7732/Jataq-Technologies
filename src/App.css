@@ -14,26 +14,6 @@
   }
 }
 
-.custom-dot-list {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.custom-dot-list .react-multi-carousel-dot button {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: red !important;
-  margin: 0 5px;
-  border: none;
-}
-
-.custom-dot-list .react-multi-carousel-dot--active button {
-  background-color: red !important;
-}
-
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
