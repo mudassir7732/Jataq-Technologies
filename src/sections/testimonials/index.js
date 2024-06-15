@@ -69,7 +69,7 @@ const Testimonials = () => {
                     >
                         {textItems.map((item, index) => (
                             <div className='my-[60px]'>
-                                <div key={index} className="bg-white z-40 rounded-t-[10px] max-w-[600px] pt-[35px] sm:pt-[42px] md:pt-[45px] lg:pt-[60px] xl:pt-[70px] px-[15px] pb-8 sm:px-[22px] md:px-[28px] lg:px-[35px] xl:px-[45px] mx-auto">
+                                <div key={index} className="bg-white z-40 rounded-t-[10px] max-w-[600px] pt-[35px] sm:pt-[42px] md:pt-[45px] lg:pt-[60px] xl:pt-[70px] px-[15px] pb-8 sm:px-[22px] md:px-[28px] lg:px-[35px] xl:px-[40px] mx-auto">
                                     <p className="text-[16px] font-[400] font-[Montserrat]">
                                         {item.text}
                                     </p>

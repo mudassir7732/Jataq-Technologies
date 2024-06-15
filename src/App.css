@@ -17,6 +17,7 @@
 .custom-dot-list {
   display: flex;
   justify-content: center;
+  background-color: red !important;
   margin-top: 20px;
 }
 
