@@ -6,7 +6,7 @@ const Services = () => {
     return (
         <div className="background-container flex flex-col lg:flex-row items-start justify-evenly lg:justify-between xl:justify-evenly py-[30px] sm:py-[70px] md:py-[95px] px-[30px] sm:px-[60px] md:px-[82px] lg:px-[95px] bg-[#0a0b0f] xl:px-[115px] h-[980px] lg:h-[663px] w-full"
             style={{ backgroundImage: 'url(/assets/logo/bg-logo3.png)', backgroundSize: '70% auto', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
-            <div className="flex flex-col w-full lg:w-[45%] max-w-[507px]">
+            <div className="flex flex-col w-full lg:w-[45%] max-w-[500px]">
                 <div className="w-fit">
                     <img src='/assets/icons/Rectangle58.svg' alt='button_background' className="absolute z-0" />
                     <p className="flex items-center justify-center text-black border-[1px] text-[14px] font-[300] font-[Montserrat] border-black absolute z-50 w-[119px] h-[31px] mt-2 rounded-full bg-white">
@@ -17,7 +17,7 @@ const Services = () => {
                     Services That JATAQ Provides
                 </p>
 
-                <p className="w-full justify-center flex-wrap text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] xl:text-[18px] text-white mt-[26px] font-[400] font-[Montserrat]">
+                <p className="w-full justify-center flex-wrap max-w-[440px] text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] xl:text-[18px] text-white mt-[26px] font-[400] font-[Montserrat]">
                     Step forward to become one of
                     <span className="pl-[6px] pr-[4px] text-[#ffe000] font-[400] font-[Montserrat]  text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] xl:text-[18px]">
                         49,494 successful
