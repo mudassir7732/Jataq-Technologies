@@ -14,13 +14,6 @@
   }
 }
 
-.background-container {
-  position: relative;
-  background-color: #0a0b0f; /* Set the background color */
-  width: 100%;
-  height: 100%;
-}
-
 .background-container::before {
   content: '';
   position: absolute;
