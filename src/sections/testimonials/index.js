@@ -31,9 +31,9 @@ const Testimonials = () => {
     return (
         <div className="relative pb-20 lg:h-fit"
             style={{
-                backgroundImage: 'url(/assets/icons/Vector1.sv), url(/assets/images/Rectangle59.png)',
+                backgroundImage: 'url(/assets/icons/Vector1.svg), url(/assets/images/Rectangle59.png)',
                 backgroundSize: 'auto, cover',
-                backgroundPosition: 'center 125px, center top',
+                backgroundPosition: 'center 48px, center top',
                 backgroundRepeat: 'no-repeat, no-repeat',
             }}>
             <img src='/assets/icons/Ellipse8.svg' alt="border_line" className="-mt-20 w-full h-full absolute" />
