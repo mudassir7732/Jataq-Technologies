@@ -35,7 +35,7 @@
 
 @media (min-width: 1025px) {
   .background-dynamic {
-      background-position: center -10px, center top;
+      background-position: center -5px, center top;
   }
 }
 @media (min-width: 1420px){
