@@ -7,7 +7,7 @@ const Home = () => {
                         Transforming Your
                     </p>
                     <p className="text-[28px] sm:text-[40px] md:text-[52px] lg:text-[62px] xl:text-[70px] font-[700] font-[Montserrat] text-right pr-6">
-                        Ideas Into Reality
+                        Into Reality
                     </p>
                 </div>
                 <div className="min-w-[70px] w-[25%] lg:w-[30%] bg-[#fdcc1d] h-[45px] sm:h-[60px] md:h-[80px] lg:h-[95px] xl:h-[104px] flex flex-row items-center pl-[12px] sm:pl-[16px] md:pl-[24px] lg:pl-[28px] rounded-tl-full rounded-bl-full overflow-hidden">
