@@ -70,7 +70,19 @@
 
 @media (min-width: 1950px){
   .background-dynamic{
-    background-position: center 10px, center top;
+    background-position: center 30px, center top;
+  }
+}
+
+@media (min-width: 2030px){
+  .background-dynamic{
+    background-position: center 40px, center top;
+  }
+}
+
+@media (min-width: 2170px){
+  .background-dynamic{
+    background-position: center 50px, center top;
   }
 }
 
