@@ -31,9 +31,9 @@ const Testimonials = () => {
     return (
         <div className="relative pb-20 lg:h-fit"
             style={{
-                backgroundImage: 'url(/assets/icons/Vector1.svg), url(/assets/images/Rectangle59.png)',
+                backgroundImage: 'url(/assets/icons/Vector1.sv), url(/assets/images/Rectangle59.png)',
                 backgroundSize: 'auto, cover',
-                backgroundPosition: 'center 5px, center top',
+                backgroundPosition: 'center 125px, center top',
                 backgroundRepeat: 'no-repeat, no-repeat',
             }}>
             <img src='/assets/icons/Ellipse8.svg' alt="border_line" className="-mt-20 w-full h-full absolute" />
@@ -51,8 +51,11 @@ const Testimonials = () => {
                         <img src='/assets/icons/arrow.svg' alt='arrow_icon' className="h-[12px] sm:h-[13px] md:h-[14px] lg:h-[15px] xl:h-[16.25px]" />
                     </button>
                 </div>
-                <div className="flex flex-col min-w-[45%] mt-14 lg:mt-0">
+
+                <div className="flex flex-col border-8 min-w-[45%] mt-14 lg:mt-0">
                     <Carousel
+                //  className="flex flex-col min-w-[45%] mt-14 lg:mt-0"
+
                         responsive={responsive}
                         showDots={true}
                         arrows={false}
@@ -75,7 +78,7 @@ const Testimonials = () => {
                     </Carousel>;
                 </div>
             </div>
-        </div >
+        // </div >
     )
 }
 export default Testimonials;
