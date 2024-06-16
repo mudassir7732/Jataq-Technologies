@@ -60,7 +60,7 @@ const Testimonials = () => {
                         customDot={<div className='w-[12px] h-[12px] mx-[6px] border-6 rounded-full bg-[#282828]' />}
                     >
                         {textItems.map((item, index) => (
-                            <div className='my-[6px] h-auto min-h-[300px] pt-8'>
+                            <div key={index} className='my-[6px] h-auto min-h-[300px] pt-8'>
                                 <img src='/assets/icons/quotation.svg' alt='button_background' className=" absolute z-50 -mt-[58px] ml-3" />
                                 <div key={index} className="bg-white z-40 max-h-[249px] rounded-t-[10px] w-full md:max-w-[614px] pt-[35px] sm:pt-[42px] md:pt-[45px] lg:pt-[60px] xl:pt-[70px] px-[15px] pb-8 sm:px-[22px] md:px-[28px] lg:px-[35px] xl:px-[40px] mx-auto">
                                     <p className="text-[16px] font-[400] font-[Montserrat]">
