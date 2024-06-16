@@ -29,6 +29,17 @@ const Testimonials = () => {
         { text: "I was very impressed simply copy the digital services loremdigital ipsum is simply free text available used by copy typing refreshing. Neque porro noting qui dolorem ipsum quia.", name: 'Client Name' },
     ];
 
+    const CustomDot = ({ onMove, index, onClick, active }) => {
+        return (
+            <li
+                className={`custom-dot ${active ? 'custom-dot--active' : ''}`}
+                onClick={() => onClick()}
+            >
+                <div className={`w-[12px] h-[12px] mx-[6px] border-6 rounded-full ${active ? 'bg-[#006fff]' : 'bg-[#282828]'}`}></div>
+            </li>
+        );
+    };
+
     return (
         <div className="relative pb-20 lg:h-fit background-dynamic">
             <img src='/assets/icons/Ellipse8.svg' alt="border_line" className="-mt-20 w-full h-full absolute" />
@@ -48,27 +59,27 @@ const Testimonials = () => {
                 </div>
 
                 <div className="flex flex-col max-w-full sm:max-w-[90%] md:max-w-[514px] mt-16 lg:mt-0 xl:max-w-[614px]">
-                    <Carousel
-                        responsive={responsive}
-                        showDots={true}
-                        arrows={false}
-                        customDot={<div className='w-[12px] h-[12px] mx-[6px] border-6 rounded-full bg-[#282828]' />}
-                    >
-                        {textItems.map((item, index) => (
-                            <div key={index} className='my-[6px] h-auto min-h-[300px] pt-8'>
-                                <img src='/assets/icons/quotation.svg' alt='button_background' className=" absolute z-50 -mt-[58px] ml-3" />
-                                <div key={index} className="bg-white z-40 max-h-[249px] rounded-t-[10px] w-full md:max-w-[614px] pt-[35px] sm:pt-[42px] md:pt-[45px] lg:pt-[60px] xl:pt-[70px] px-[15px] pb-8 sm:px-[22px] md:px-[28px] lg:px-[35px] xl:px-[40px]">
-                                    <p className="text-[16px] font-[400] font-[Montserrat]">
-                                        {item.text}
-                                    </p>
-                                    <p className="text-[16px] font-[600] font-[Montserrat] italic mt-[14px]">
-                                        {item.name}
-                                    </p>
-                                </div>
-                                <img src='/assets/icons/Rectangle63.svg' alt='button_background' className="z-0" />
+                <Carousel
+                    responsive={responsive}
+                    showDots={true}
+                    arrows={false}
+                    customDot={<CustomDot />}
+                >
+                    {textItems.map((item, index) => (
+                        <div key={index} className='my-[6px] h-auto min-h-[300px] pt-8 relative'>
+                            <img src='/assets/icons/quotation.svg' alt='button_background' className="absolute z-50 -mt-[58px] ml-3" />
+                            <div key={index} className="bg-white z-40 max-h-[249px] rounded-t-[10px] w-full md:max-w-[614px] pt-[35px] sm:pt-[42px] md:pt-[45px] lg:pt-[60px] xl:pt-[70px] px-[15px] pb-8 sm:px-[22px] md:px-[28px] lg:px-[35px] xl:px-[40px]">
+                                <p className="text-[16px] font-[400] font-[Montserrat]">
+                                    {item.text}
+                                </p>
+                                <p className="text-[16px] font-[600] font-[Montserrat] italic mt-[14px]">
+                                    {item.name}
+                                </p>
                             </div>
-                        ))}
-                    </Carousel>;
+                            <img src='/assets/icons/Rectangle63.svg' alt='button_background' className="z-0" />
+                        </div>
+                    ))}
+                </Carousel>
                 </div>
             </div>
         </div >
