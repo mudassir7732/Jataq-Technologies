@@ -38,6 +38,17 @@
       background-position: center -10px, center top;
   }
 }
+@media (min-width: 1420px){
+  .background-dynamic{
+    background-position: center 1px, center top;
+  }
+}
+
+@media (min-width: 1550px){
+  .background-dynamic{
+    background-position: center 5px, center top;
+  }
+}
 
 
 .App-header {
