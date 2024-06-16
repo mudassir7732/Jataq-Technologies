@@ -50,6 +50,29 @@
   }
 }
 
+@media (min-width: 1640px){
+  .background-dynamic{
+    background-position: center 10px, center top;
+  }
+}
+
+@media (min-width: 1710px){
+  .background-dynamic{
+    background-position: center 18px, center top;
+  }
+}
+
+@media (min-width: 1820px){
+  .background-dynamic{
+    background-position: center 25px, center top;
+  }
+}
+
+@media (min-width: 1950px){
+  .background-dynamic{
+    background-position: center 10px, center top;
+  }
+}
 
 .App-header {
   background-color: #282c34;
