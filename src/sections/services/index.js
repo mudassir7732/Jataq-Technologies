@@ -31,7 +31,7 @@ const Services = () => {
                 </button>
             </div>
 
-            <div className="flex flex-col items-center max-w-full gap-x-12 lg:w-[47%] cursor-pointer mt-16 lg:mt-0">
+            <div className="flex flex-col items-center max-w-full gap-x-12 lg:w-[47%] cursor-pointer mt-6 sm:mt-10 md:mt-16 lg:mt-0">
                 <div className="w-fit">
                     <div className="flex flex-row items-center mt-[34px]" onClick={() => setSelected('web-design')}>
                         <div className={`flex items-center justify-center min-h-[65px] md:min-h-[88px] min-w-[65px] md:min-w-[88px] ${selected === 'web-design' ? 'bg-[#006fff]' : 'bg-[#272727]'} rounded-[10px]`}>
