@@ -32,33 +32,63 @@
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1366px) {
+@media (min-width: 1025px) and (max-width: 1074px) {
+  .background-dynamic {
+      background-position: center -24px, center top;
+  }
+}
+
+@media (min-width: 1075px) and (max-width: 1139px) {
   .background-dynamic {
       background-position: center -22px, center top;
   }
 }
 
-@media (min-width: 1367px) and (max-width: 1419px) {
+@media (min-width: 1140px) and (max-width: 1179px) {
   .background-dynamic {
-      background-position: center 20px, center top;
+      background-position: center -20px, center top;
   }
 }
 
-@media (min-width: 1420px) and (max-width: 1549px) {
+@media (min-width: 1180px) and (max-width: 1279px) {
   .background-dynamic {
-      background-position: center 20px, center top;
+      background-position: center -16px, center top;
   }
 }
 
-@media (min-width: 1550px) and (max-width: 1639px) {
+@media (min-width: 1280px) and (max-width: 1319px) {
+  .background-dynamic {
+      background-position: center -10px, center top;
+  }
+}
+
+@media (min-width: 1320px) and (max-width: 1419px) {
+  .background-dynamic {
+      background-position: center -7px, center top;
+  }
+}
+
+@media (min-width: 1420px) and (max-width: 1519px) {
+  .background-dynamic {
+      background-position: center 0px, center top;
+  }
+}
+
+@media (min-width: 1520px) and (max-width: 1569px) {
   .background-dynamic {
       background-position: center 5px, center top;
   }
 }
 
-@media (min-width: 1640px) and (max-width: 1709px) {
+@media (min-width: 1570px) and (max-width: 1639px) {
   .background-dynamic {
       background-position: center 10px, center top;
+  }
+}
+
+@media (min-width: 1640px) and (max-width: 1709px) {
+  .background-dynamic {
+      background-position: center 12px, center top;
   }
 }
 
@@ -76,7 +106,7 @@
 
 @media (min-width: 1950px) and (max-width: 2029px) {
   .background-dynamic {
-      background-position: center 30px, center top;
+      background-position: center 35px, center top;
   }
 }
 
@@ -88,7 +118,7 @@
 
 @media (min-width: 2170px) {
   .background-dynamic {
-      background-position: center 50px, center top;
+      background-position: center 48px, center top;
   }
 }
 
