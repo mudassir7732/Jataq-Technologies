@@ -52,19 +52,17 @@ const Testimonials = () => {
                     </button>
                 </div>
 
-                <div className="flex flex-col border-8 min-w-[45%] mt-14 lg:mt-0">
+                <div className="flex flex-col max-w-full sm:max-w-[514px] lg:min-w-[45%] mt-16 lg:mt-0">
                     <Carousel
-                //  className="flex flex-col min-w-[45%] mt-14 lg:mt-0"
-
                         responsive={responsive}
                         showDots={true}
                         arrows={false}
-                        customDot={<div className='w-[12px] h-[12px] mx-[6px] rounded-full bg-[#282828]' />}
+                        customDot={<div className='w-[12px] h-[12px] mx-[6px] border-6 rounded-full bg-[#282828]' />}
                     >
                         {textItems.map((item, index) => (
-                            <div className='my-[60px]'>
+                            <div className='my-[6px] h-auto min-h-[300px] pt-8'>
                                 <img src='/assets/icons/quotation.svg' alt='button_background' className=" absolute z-50 -mt-[58px] ml-3" />
-                                <div key={index} className="bg-white z-40 rounded-t-[10px] max-w-[600px] pt-[35px] sm:pt-[42px] md:pt-[45px] lg:pt-[60px] xl:pt-[70px] px-[15px] pb-8 sm:px-[22px] md:px-[28px] lg:px-[35px] xl:px-[40px] mx-auto">
+                                <div key={index} className="bg-white z-40 max-h-[249px] rounded-t-[10px] w-full md:max-w-[614px] pt-[35px] sm:pt-[42px] md:pt-[45px] lg:pt-[60px] xl:pt-[70px] px-[15px] pb-8 sm:px-[22px] md:px-[28px] lg:px-[35px] xl:px-[40px] mx-auto">
                                     <p className="text-[16px] font-[400] font-[Montserrat]">
                                         {item.text}
                                     </p>
@@ -72,13 +70,13 @@ const Testimonials = () => {
                                         {item.name}
                                     </p>
                                 </div>
-                                <img src='/assets/icons/Rectangle63.svg' alt='button_background' className="z-0 lg:max-w-[600px]" />
+                                <img src='/assets/icons/Rectangle63.svg' alt='button_background' className="z-0" />
                             </div>
                         ))}
                     </Carousel>;
                 </div>
             </div>
-        // </div >
+        </div >
     )
 }
 export default Testimonials;
