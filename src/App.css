@@ -23,19 +23,19 @@
 
 @media (max-width: 600px) {
   .background-dynamic {
-      background-position: center 20px, center top; /* Smaller screens */
+      background-position: center 20px, center top;
   }
 }
 
 @media (min-width: 601px) and (max-width: 1024px) {
   .background-dynamic {
-      background-position: center 30px, center top; /* Medium screens */
+      background-position: center 30px, center top;
   }
 }
 
 @media (min-width: 1025px) {
   .background-dynamic {
-      background-position: center 50px, center top; /* Larger screens */
+      background-position: center -10px, center top;
   }
 }
 
