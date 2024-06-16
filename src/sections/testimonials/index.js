@@ -58,7 +58,7 @@ const Testimonials = () => {
                     </button>
                 </div>
 
-                <div className="flex flex-col max-w-full sm:max-w-[90%] md:max-w-[514px] mt-16 lg:mt-0 border-2">
+                <div className="flex flex-col max-w-full sm:max-w-[90%] md:max-w-[514px] mt-16 lg:mt-0">
                     <Carousel
                         responsive={responsive}
                         showDots={true}
