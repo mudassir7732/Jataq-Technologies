@@ -58,7 +58,7 @@ const Testimonials = () => {
                     </button>
                 </div>
 
-                <div className="flex flex-col max-w-full sm:max-w-[90%] md:max-w-[514px] mt-16 lg:mt-0 xl:max-w-[614px]">
+                <div className="flex flex-col max-w-full sm:max-w-[90%] md:max-w-[514px] mt-16 lg:mt-0 border-2">
                     <Carousel
                         responsive={responsive}
                         showDots={true}
@@ -66,8 +66,8 @@ const Testimonials = () => {
                         customDot={<CustomDot />}
                     >
                         {textItems.map((item, index) => (
-                            <div key={index} className='my-[6px] h-auto min-h-[300px] pt-8 relative'>
-                                <img src='/assets/icons/quotation.svg' alt='button_background' className="absolute z-50 -mt-[58px] ml-3" />
+                            <div key={index} className='my-[6px] h-auto min-h-[300px] pt-8'>
+                                <img src='/assets/icons/quotation.svg' alt='button_background' className=" absolute z-50 -mt-[58px] ml-3" />
                                 <div key={index} className="bg-white z-40 max-h-[249px] rounded-t-[10px] w-full md:max-w-[614px] pt-[35px] sm:pt-[42px] md:pt-[45px] lg:pt-[60px] xl:pt-[70px] px-[15px] pb-8 sm:px-[22px] md:px-[28px] lg:px-[35px] xl:px-[40px]">
                                     <p className="text-[16px] font-[400] font-[Montserrat]">
                                         {item.text}
@@ -79,7 +79,7 @@ const Testimonials = () => {
                                 <img src='/assets/icons/Rectangle63.svg' alt='button_background' className="z-0" />
                             </div>
                         ))}
-                    </Carousel>
+                    </Carousel>;
                 </div>
             </div>
         </div >
