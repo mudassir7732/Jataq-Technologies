@@ -30,14 +30,7 @@ const Testimonials = () => {
     ];
 
     return (
-        <div className="relative pb-20 lg:h-fit background-dynamic"
-            // style={{
-            //     backgroundImage: 'url(/assets/icons/Vector1.svg), url(/assets/images/Rectangle59.png)',
-            //     backgroundSize: 'auto, cover',
-            //     backgroundPosition: 'center 48px, center top',
-            //     backgroundRepeat: 'no-repeat, no-repeat',
-            // }}
-            >
+        <div className="relative pb-20 lg:h-fit background-dynamic">
             <img src='/assets/icons/Ellipse8.svg' alt="border_line" className="-mt-20 w-full h-full absolute" />
             <div className="flex flex-col lg:flex-row items-start mt-48 gap-x-[35px] lg:justify-evenly border-white h-ful px-[30px] sm:px-[60px] md:px-[82px] lg:px-[95px] xl:px-[115px]">
                 <div className="relative flex flex-col min-w-[45%]">
