@@ -37,7 +37,7 @@ const Services = () => {
                         <div className={`flex items-center justify-center min-h-[65px] md:min-h-[88px] min-w-[65px] md:min-w-[88px] ${selected === 'web-design' ? 'bg-[#006fff]' : 'bg-[#272727]'} rounded-[10px]`}>
                             <img src="/assets/icons/web-design.svg" alt='' className="h-[40px] md:h-[55px] w-[40px] md:w-[55px]" />
                         </div>
-                        <div className="flex flex-row items-center mx-[20px] md:mx-[41px] justify-between h-[88px] min-w-[85%] md:max-w-[200px] lg:w-[328px] border-b-[1px] border-[#4e4e4e] pb-[15px] ">
+                        <div className="flex flex-row items-center mx-[20px] md:mx-[41px] justify-between h-[88px] min-w-[70%] sm:min-w-[85%] md:max-w-[200px] lg:w-[328px] border-b-[1px] border-[#4e4e4e] pb-[15px] ">
                             <p className="text-white text-[16px] md:text-[17px] xl:text-[18px] font-[400] font-[Montserrat]">
                                 Web Development/<br /> Web Design
                             </p>
@@ -50,7 +50,7 @@ const Services = () => {
                         <div className={`flex items-center justify-center min-h-[65px] md:min-h-[88px] min-w-[65px] md:min-w-[88px] ${selected === 'digital-marketing' ? 'bg-[#006fff]' : 'bg-[#272727]'} rounded-[10px]`}>
                             <img src="/assets/icons/first.svg" alt='' className="h-[40px] md:h-[55px] w-[40px] md:w-[55px]" />
                         </div>
-                        <div className="flex flex-row items-center mx-[20px] md:mx-[41px] justify-between h-[88px] min-w-[85%] md:max-w-[200px] lg:w-[328px] border-b-[1px] border-[#4e4e4e] pb-[15px] ">
+                        <div className="flex flex-row items-center mx-[20px] md:mx-[41px] justify-between h-[88px] min-w-[70%] sm:min-w-[85%] md:max-w-[200px] lg:w-[328px] border-b-[1px] border-[#4e4e4e] md:pb-[15px] ">
                             <p className="text-white text-[16px] md:text-[17px] xl:text-[18px] font-[400] font-[Montserrat]">
                                 Digital Marketing
                             </p>
@@ -61,7 +61,7 @@ const Services = () => {
                         <div className={`flex items-center justify-center min-h-[65px] md:min-h-[88px] min-w-[65px] md:min-w-[88px] ${selected === 'app-development' ? 'bg-[#006fff]' : 'bg-[#272727]'} rounded-[10px]`}>
                             <img src="/assets/icons/mobile.svg" alt='' className="h-[40px] md:h-[55px] w-[40px] md:w-[55px]" />
                         </div>
-                        <div className="flex flex-row items-center mx-[20px] md:mx-[41px] justify-between h-[88px] min-w-[85%] md:max-w-[200px] lg:w-[328px] border-b-[1px] border-[#4e4e4e] pb-[15px] ">
+                        <div className="flex flex-row items-center mx-[20px] md:mx-[41px] justify-between h-[88px] min-w-[70%] sm:min-w-[85%] md:max-w-[200px] lg:w-[328px] border-b-[1px] border-[#4e4e4e] md:pb-[15px] ">
                             <p className="text-white text-[16px] md:text-[17px] xl:text-[18px] font-[400] font-[Montserrat]">
                                 App Development
                             </p>
@@ -72,7 +72,7 @@ const Services = () => {
                         <div className={`flex items-center justify-center min-h-[65px] md:min-h-[88px] min-w-[65px] md:min-w-[88px] ${selected === 'graphic-design' ? 'bg-[#006fff]' : 'bg-[#272727]'} rounded-[10px]`}>
                             <img src="/assets/icons/first2.svg" alt='' className="h-[40px] md:h-[55px] w-[40px] md:w-[55px]" />
                         </div>
-                        <div className="flex flex-row items-center mx-[20px] md:mx-[41px] justify-between h-[88px] min-w-[85%] md:max-w-[200px] lg:w-[328px] border-b-[1px] border-[#4e4e4e] pb-[15px] ">
+                        <div className="flex flex-row items-center mx-[20px] md:mx-[41px] justify-between h-[88px] min-w-[70%] sm:min-w-[85%] md:max-w-[200px] lg:w-[328px] border-b-[1px] border-[#4e4e4e] md:pb-[15px] ">
                             <p className="text-white text-[16px] md:text-[17px] xl:text-[18px] font-[400] font-[Montserrat]">
                                 Graphic Design
                             </p>
