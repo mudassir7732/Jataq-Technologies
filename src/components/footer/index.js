@@ -1,3 +1,4 @@
+import { QUICK_LINKS } from "../../constants/quickLinks";
 
 const Footer = () => {
     return (
@@ -68,9 +69,11 @@ const Footer = () => {
                         Quick Links
                     </p>
                     <div className="grid lg:grid-cols-2 lg:gap-x-[40px] xl:gap-x-[140px] mt-[29px] gap-y-[17px]">
-                        <p className="text-white text-[14px] md:text-[15px] lg:text-[16px] font-[400] font-[Montserrat] whitespace-nowrap">
-                            Home
-                        </p>
+                        {QUICK_LINKS?.map((link, index) => (
+                            <p className="text-white text-[14px] md:text-[15px] lg:text-[16px] font-[400] font-[Montserrat] whitespace-nowrap">
+                                {link}
+                            </p>
+                        ))}
 
                         <p className="text-white text-[14px] md:text-[15px] lg:text-[16px] font-[400] font-[Montserrat] whitespace-nowrap">
                             Web Development
