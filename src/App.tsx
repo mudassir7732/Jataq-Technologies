@@ -1,24 +1,24 @@
-import React from 'react';
+import { FC } from "react";
 import Header from "./components/header"
-import Home from './sections/home';
 import Services from './sections/services';
 import AboutUs from './sections/about-us';
 import WorkMethod from './sections/how-we-work';
 import Testimonials from './sections/testimonials';
-import Bottom from './sections/bottom';
 import ServicesBar from './sections/services-bar';
 import Footer from './components/footer';
+import TopSection from './sections/top-section';
+import BottomSection from "./sections/bottom-section";
 
-const App=()=>{
-  return(
+const App: FC = () => {
+  return (
     <div className='flex flex-col'>
       <Header />
-      <Home />
+      <TopSection />
       <Services />
       <AboutUs />
       <WorkMethod />
       <Testimonials />
-      <Bottom />
+      <BottomSection />
       <ServicesBar />
       <Footer />
     </div>

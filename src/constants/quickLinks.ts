@@ -1,4 +1,4 @@
-export const QUICK_LINKS = [
+export const QUICK_LINKS: string[] = [
     'Home',
     'Web Development',
     'Services',

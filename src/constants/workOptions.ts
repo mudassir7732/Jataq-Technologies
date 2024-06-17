@@ -1,4 +1,6 @@
-export const WORK_OPTIONS = [
+import { WorkProps } from "../types/workOptions";
+
+export const WORK_OPTIONS: WorkProps[] = [
     {
         title: 'Schedule an Initial Consultation',
         paragraph: "Contact us to discuss your project. We'll cover team structure, objectives, budget, schedule, and the skills you need."
