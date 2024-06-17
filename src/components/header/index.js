@@ -17,7 +17,7 @@ const Header = () => {
                 </div>
             </div>
             <div className='w-fit hidden lg:flex flex-row lg:gap-x-[40px] xl:gap-x-[64px]'>
-                {TABS.map((tab, index) => (
+                {HEADER_TABS.map((tab, index) => (
                     <p key={index} className='cursor-pointer md:text-[14px] lg:text-[16px] xl:text-[18px] font-[Montserrat] font-[400]'>
                         {tab.label}
                     </p>
