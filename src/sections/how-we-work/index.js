@@ -40,7 +40,7 @@ const WorkMethod = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-3 mt-[15px] lg:mt-[30px] gap-4 w-full mb-[52px] lg:mb-[152px]">
                     {WORK_OPTIONS?.map((item, index) => (
-                        <div className="flex flex-col">
+                        <div key={index} className="flex flex-col">
                             <p className="text-[21px] lg:text-[22px] xl:text-[24px] font-[700] font-[Montserrat] text-[#252525]">
                                 {item?.title}
                             </p>
