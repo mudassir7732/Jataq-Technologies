@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Services } from "../../constants/services";
+import { ServiceOptions } from "../../constants/serviceOptions";
 
 const Services = () => {
     const [selected, setSelected] = useState('');
@@ -34,21 +34,20 @@ const Services = () => {
 
             <div className="flex flex-col items-center max-w-full gap-x-12 lg:w-[47%] cursor-pointer mt-6 sm:mt-10 md:mt-16 lg:mt-0">
                 <div className="w-fit">
-                    {Services?.map((service, index)=>(
-                   
-                    <div className="flex flex-row items-center mt-[34px]" onClick={() => setSelected('web-design')}>
-                        <div className={`flex items-center justify-center min-h-[65px] md:min-h-[88px] min-w-[65px] md:min-w-[88px] ${selected === 'web-design' ? 'bg-[#006fff]' : 'bg-[#272727]'} rounded-[10px]`}>
-                            <img src="/assets/icons/web-design.svg" alt='' className="h-[40px] md:h-[55px] w-[40px] md:w-[55px]" />
+                    {ServiceOptions?.map((service, index) => (
+                        <div className="flex flex-row items-center mt-[34px]" onClick={() => setSelected('web-design')}>
+                            <div className={`flex items-center justify-center min-h-[65px] md:min-h-[88px] min-w-[65px] md:min-w-[88px] ${selected === 'web-design' ? 'bg-[#006fff]' : 'bg-[#272727]'} rounded-[10px]`}>
+                                <img src={service?.icon} alt='' className="h-[40px] md:h-[55px] w-[40px] md:w-[55px]" />
+                            </div>
+                            <div className="flex flex-row items-center mx-[20px] md:mx-[41px] justify-between h-[88px] min-w-[70%] sm:min-w-[85%] md:max-w-[200px] lg:w-[328px] border-b-[1px] border-[#4e4e4e] pb-[15px] ">
+                                <p className="text-white text-[16px] md:text-[17px] xl:text-[18px] font-[400] font-[Montserrat]">
+                                    {service?.label}
+                                </p>
+                                <img src='/assets/icons/arrow.svg' alt='arrow_icon' className="h-[12px] sm:h-[13px] md:h-[14px] lg:h-[15px] xl:h-[16.25px]" />
+                            </div>
                         </div>
-                        <div className="flex flex-row items-center mx-[20px] md:mx-[41px] justify-between h-[88px] min-w-[70%] sm:min-w-[85%] md:max-w-[200px] lg:w-[328px] border-b-[1px] border-[#4e4e4e] pb-[15px] ">
-                            <p className="text-white text-[16px] md:text-[17px] xl:text-[18px] font-[400] font-[Montserrat]">
-                                Web Development/<br /> Web Design
-                            </p>
-                            <img src='/assets/icons/arrow.svg' alt='arrow_icon' className="h-[12px] sm:h-[13px] md:h-[14px] lg:h-[15px] xl:h-[16.25px]" />
-                        </div>
-                    </div>
                     ))}
-
+                    {/* 
                     <div className="flex flex-row items-center mt-[34px]" onClick={() => setSelected('digital-marketing')}>
                         <div className={`flex items-center justify-center min-h-[65px] md:min-h-[88px] min-w-[65px] md:min-w-[88px] ${selected === 'digital-marketing' ? 'bg-[#006fff]' : 'bg-[#272727]'} rounded-[10px]`}>
                             <img src="/assets/icons/first.svg" alt='' className="h-[40px] md:h-[55px] w-[40px] md:w-[55px]" />
@@ -81,7 +80,7 @@ const Services = () => {
                             </p>
                             <img src='/assets/icons/arrow.svg' alt='arrow_icon' className="h-[12px] sm:h-[13px] md:h-[14px] lg:h-[15px] xl:h-[16.25px]" />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
             </div>
