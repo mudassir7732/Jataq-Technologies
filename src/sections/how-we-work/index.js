@@ -49,22 +49,6 @@ const WorkMethod = () => {
                             </p>
                         </div>
                     ))}
-                    <div className="flex flex-col">
-                        <p className="text-[21px] lg:text-[22px] xl:text-[24px] font-[700] font-[Montserrat] text-[#252525]">
-                            Discuss Solution and Team Structure
-                        </p>
-                        <p className="text-[16px] md:text-[17px] xl:text-[18px] text-black mt-[15px] font-[400] font-[Montserrat]">
-                            We'll collaborate with you to finalize project specifications, agree on the engagement model, and select the right team for your project.
-                        </p>
-                    </div>
-                    <div className="flex flex-col">
-                        <p className="text-[21px] lg:text-[22px] xl:text-[24px] font-[700] font-[Montserrat] text-[#252525]">
-                            Get Started and Track Performance
-                        </p>
-                        <p className="text-[16px] md:text-[17px] xl:text-[18px] text-black mt-[15px] font-[400] font-[Montserrat]">
-                            Once milestones are set, we'll begin work, monitoring progress, updating you regularly, and adapting to your needs.
-                        </p>
-                    </div>
                 </div>
             </div>
 
