@@ -1,6 +1,7 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import '../../App.css';
+import { TESTIMONIAL_OPTIONS } from '../../constants/testimonialOptions';
 
 const Testimonials = () => {
     const responsive = {
@@ -21,13 +22,6 @@ const Testimonials = () => {
             items: 1
         }
     };
-
-    const textItems = [
-        { text: "I was very impressed simply copy the digital services loremdigital ipsum is simply free text available used by copy typing refreshing. Neque porro noting qui dolorem ipsum quia.", name: 'Client Name' },
-        { text: "I was very impressed simply copy the digital services loremdigital ipsum is simply free text available used by copy typing refreshing. Neque porro noting qui dolorem ipsum quia.", name: 'Client Name' },
-        { text: "I was very impressed simply copy the digital services loremdigital ipsum is simply free text available used by copy typing refreshing. Neque porro noting qui dolorem ipsum quia.", name: 'Client Name' },
-        { text: "I was very impressed simply copy the digital services loremdigital ipsum is simply free text available used by copy typing refreshing. Neque porro noting qui dolorem ipsum quia.", name: 'Client Name' },
-    ];
 
     const CustomDot = ({ onMove, index, onClick, active }) => {
         return (
@@ -65,7 +59,7 @@ const Testimonials = () => {
                         arrows={false}
                         customDot={<CustomDot />}
                     >
-                        {textItems.map((item, index) => (
+                        {TESTIMONIAL_OPTIONS.map((item, index) => (
                             <div key={index} className='my-[6px] h-auto min-h-[300px] pt-8'>
                                 <img src='/assets/icons/quotation.svg' alt='button_background' className=" absolute z-50 -mt-[58px] ml-3" />
                                 <div key={index} className="bg-white z-40 max-h-[249px] rounded-t-[10px] w-full md:max-w-[614px] pt-[35px] sm:pt-[42px] md:pt-[45px] lg:pt-[60px] xl:pt-[70px] px-[15px] pb-8 sm:px-[22px] md:px-[28px] lg:px-[35px] xl:px-[40px]">
