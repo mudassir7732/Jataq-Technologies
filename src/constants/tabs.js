@@ -1,4 +1,4 @@
-export const TABS = [
+export const HEADER_TABS = [
     { label: 'Home', route: '/' },
     { label: 'Services', route: '/services' },
     { label: 'Blog', route: 'blog' },
