@@ -31,7 +31,7 @@ const Footer = () => {
             <div className="flex flex-col sm:flex-row border-b-[1px] border-t-[1px] border-[#353535]">
                 <div className="flex flex-col pt-[25px] sm:pt-[35px] md:pt-[50px] lg:pt-[70px] xl:pt-[98px] w-full md:w-[50%] border-b-[1px] md:border-b-0 md:border-r-[1px] border-[#353535] pb-[25px] md:pb-[35px] lg:pb-[45px] xl:pb-[56px]">
                     <p className=" text-[26px] sm:text-[28px] md:text-[30px] lg:text-[35px] xl:text-[38px] font-[700] text-white font-[Montserrat]">
-                        Have an idea
+                        Have an idea?
                     </p>
                     <p className=" text-[26px] sm:text-[28px] md:text-[30px] lg:text-[35px] xl:text-[38px] font-[700] text-white font-[Montserrat]">
                         Tell us about it
@@ -58,7 +58,7 @@ const Footer = () => {
                     </p>
                     <div className="grid lg:grid-cols-2 lg:gap-x-[40px] xl:gap-x-[140px] mt-[29px] gap-y-[17px]">
                         {QUICK_LINKS?.map((link, index) => (
-                            <p className="text-white text-[14px] md:text-[15px] lg:text-[16px] font-[400] font-[Montserrat] whitespace-nowrap">
+                            <p key={index} className="text-white text-[14px] md:text-[15px] lg:text-[16px] font-[400] font-[Montserrat] whitespace-nowrap">
                                 {link}
                             </p>
                         ))}
