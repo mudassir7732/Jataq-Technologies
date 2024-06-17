@@ -1,4 +1,5 @@
 import { QUICK_LINKS } from "../../constants/quickLinks";
+import { SOCIAL_LINKS } from "../../constants/socialLinks";
 
 const Footer = () => {
     return (
@@ -15,28 +16,15 @@ const Footer = () => {
                         </p>
                     </div>
                 </div>
-
                 <div className="flex flex-row items-center w-fit gap-x-[35px]">
-                    <div className="flex flex-row items-center gap-x-1">
-                        <img src="/assets/icons/facebook-fill.svg" alt='facebook_icon' className="h-[20px] md:h-[22px] lg:h-[24px] w-[20px] md:w-[22px] lg:w-[24px]" />
-                        <p className="text-white text-[16px] md:text-[17px] lg:text-[18px] font-[400] font-[Montserrat]">
-                            Facebook
-                        </p>
-                    </div>
-
-                    <div className="flex flex-row items-center gap-x-1">
-                        <img src="/assets/icons/linkedin-fill.svg" alt='facebook_icon' className="-mt-1 h-[20px] md:h-[22px] lg:h-[24px] w-[20px] md:w-[22px] lg:w-[24px]" />
-                        <p className="text-white text-[16px] md:text-[17px] lg:text-[18px] font-[400] font-[Montserrat]">
-                            LinkedIn
-                        </p>
-                    </div>
-
-                    <div className="flex flex-row items-center gap-x-1">
-                        <img src="/assets/icons/instagram.svg" alt='facebook_icon' className="h-[20px] md:h-[22px] lg:h-[24px] w-[20px] md:w-[22px] lg:w-[24px]" />
-                        <p className="text-white text-[16px] md:text-[17px] lg:text-[18px] font-[400] font-[Montserrat]">
-                            Instagram
-                        </p>
-                    </div>
+                    {SOCIAL_LINKS?.map((link, index) => (
+                        <div key={index} className="flex flex-row items-center gap-x-1">
+                            <img src={link?.icon} alt='facebook_icon' className="h-[20px] md:h-[22px] lg:h-[24px] w-[20px] md:w-[22px] lg:w-[24px]" />
+                            <p className="text-white text-[16px] md:text-[17px] lg:text-[18px] font-[400] font-[Montserrat]">
+                                {link?.label}
+                            </p>
+                        </div>
+                    ))}
                 </div>
             </div>
 
@@ -74,42 +62,6 @@ const Footer = () => {
                                 {link}
                             </p>
                         ))}
-
-                        <p className="text-white text-[14px] md:text-[15px] lg:text-[16px] font-[400] font-[Montserrat] whitespace-nowrap">
-                            Web Development
-                        </p>
-
-                        <p className="text-white text-[14px] md:text-[15px] lg:text-[16px] font-[400] font-[Montserrat] whitespace-nowrap">
-                            Services
-                        </p>
-
-                        <p className="text-white text-[14px] md:text-[15px] lg:text-[16px] font-[400] font-[Montserrat] whitespace-nowrap">
-                            App Development
-                        </p>
-
-                        <p className="text-white text-[14px] md:text-[15px] lg:text-[16px] font-[400] font-[Montserrat] whitespace-nowrap">
-                            About Us
-                        </p>
-
-                        <p className="text-white text-[14px] md:text-[15px] lg:text-[16px] font-[400] font-[Montserrat] whitespace-nowrap">
-                            Digital Marketing
-                        </p>
-
-                        <p className="text-white text-[14px] md:text-[15px] lg:text-[16px] font-[400] font-[Montserrat] whitespace-nowrap">
-                            Case Studies
-                        </p>
-
-                        <p className="text-white text-[14px] md:text-[15px] lg:text-[16px] font-[400] font-[Montserrat] whitespace-nowrap">
-                            UI/UX
-                        </p>
-
-                        <p className="text-white text-[14px] md:text-[15px] lg:text-[16px] font-[400] font-[Montserrat] whitespace-nowrap">
-                            Contact Us
-                        </p>
-
-                        <p className="text-white text-[14px] md:text-[15px] lg:text-[16px] font-[400] font-[Montserrat] whitespace-nowrap">
-                            Graphic Design
-                        </p>
                     </div>
                 </div>
             </div>
