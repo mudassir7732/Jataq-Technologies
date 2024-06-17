@@ -1,5 +1,5 @@
 import React from 'react';
-import { TABS } from '../../constants/tabs';
+import { HEADER_TABS } from '../../constants/headerTabs';
 
 
 const Header = () => {
