@@ -68,7 +68,7 @@ const Footer = () => {
                         Quick Links
                     </p>
                     <div className="grid lg:grid-cols-2 lg:gap-x-[40px] xl:gap-x-[140px] mt-[29px] gap-y-[17px]">
-                        <p className="text-white text-[14px] md:text-[15px] lg:text-[16px] font-[400] font-[Montserrat]">
+                        <p className="text-white text-[14px] md:text-[15px] lg:text-[16px] font-[400] font-[Montserrat] whitespace-nowrap">
                             Home
                         </p>
 
@@ -76,7 +76,7 @@ const Footer = () => {
                             Web Development
                         </p>
 
-                        <p className="text-white text-[14px] md:text-[15px] lg:text-[16px] font-[400] font-[Montserrat]">
+                        <p className="text-white text-[14px] md:text-[15px] lg:text-[16px] font-[400] font-[Montserrat] whitespace-nowrap">
                             Services
                         </p>
 
@@ -96,7 +96,7 @@ const Footer = () => {
                             Case Studies
                         </p>
 
-                        <p className="text-white text-[14px] md:text-[15px] lg:text-[16px] font-[400] font-[Montserrat]">
+                        <p className="text-white text-[14px] md:text-[15px] lg:text-[16px] font-[400] font-[Montserrat] whitespace-nowrap">
                             UI/UX
                         </p>
 
