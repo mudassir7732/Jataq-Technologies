@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ServiceOptions } from "../../constants/serviceOptions";
+import { SERVICE_OPTIONS } from "../../constants/serviceOptions";
 
 const Services = () => {
     const [selected, setSelected] = useState('');
@@ -34,7 +34,7 @@ const Services = () => {
 
             <div className="flex flex-col items-center max-w-full gap-x-12 lg:w-[47%] cursor-pointer mt-6 sm:mt-10 md:mt-16 lg:mt-0">
                 <div className="w-fit">
-                    {ServiceOptions?.map((service, index) => (
+                    {SERVICE_OPTIONS?.map((service, index) => (
                         <div className="flex flex-row items-center mt-[34px]" onClick={() => setSelected(service?.route)}>
                             <div className={`flex items-center justify-center min-h-[65px] md:min-h-[88px] min-w-[65px] md:min-w-[88px] 
                               rounded-[10px] ${selected === service?.route ? 'bg-[#006fff]' : 'bg-[#272727]'}`}>
