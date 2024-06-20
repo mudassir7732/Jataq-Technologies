@@ -22,11 +22,11 @@ const TopSection: FC = () => {
                         <Typical
                             steps={[
                                 "Idea",
-                                1500,
+                                1000,
                                 "Vision",
-                                1500,
+                                1000,
                                 "Product",
-                                1500,
+                                1000,
                             ]}
                             loop={Infinity}
                         />
