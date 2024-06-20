@@ -13,12 +13,12 @@ const AboutUs: FC = () => {
             </div>
             <div className={styles.first_section}>
                 <div className={styles.image_wrapper}>
-                    <img src="/assets/images/Rectangle 65.png" alt="image" className={styles.first_image} />
-                    <img src="/assets/logo/logo-light.svg" alt="image" className={styles.second_image} />
+                    <img src="/assets/images/Rectangle 65.png" alt="rectangle" className={styles.first_image} />
+                    <img src="/assets/logo/logo-light.svg" alt="logo_light" className={styles.second_image} />
                 </div>
                 <div className={styles.text_section}>
                     <div className={styles.text_wrapper}>
-                        <img src="/assets/icons/completed.svg" alt="image" className={styles.complete_icon} />
+                        <img src="/assets/icons/completed.svg" alt="tick_icon" className={styles.complete_icon} />
                         <p className={styles.first_text}>
                             100+ Projects
                         </p>
@@ -26,7 +26,7 @@ const AboutUs: FC = () => {
                             We Have Completed
                         </p>
                     </div>
-                    <img src="/assets/images/Rectangle 66.png" alt="image" className={styles.last_image} />
+                    <img src="/assets/images/Rectangle 66.png" alt="rectangle" className={styles.last_image} />
                 </div>
             </div>
 

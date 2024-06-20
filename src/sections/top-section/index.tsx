@@ -17,8 +17,7 @@ const TopSection: FC = () => {
                 </div>
 
                 <div className={styles.yellow_wrapper}>
-                    <p className={styles.idea}>
-                        {/* Idea */}
+                    <div className={styles.idea}>
                         <Typical
                             steps={[
                                 "Idea",
@@ -30,7 +29,7 @@ const TopSection: FC = () => {
                             ]}
                             loop={Infinity}
                         />
-                    </p>
+                    </div>
                 </div>
             </div>
             <p className={styles.paragraph}>
