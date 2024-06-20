@@ -1,5 +1,6 @@
 import { FC } from "react";
 import styles from "./styles";
+import Typical from 'react-typical';
 
 
 const TopSection: FC = () => {
@@ -14,9 +15,21 @@ const TopSection: FC = () => {
                         Into Reality
                     </p>
                 </div>
+
                 <div className={styles.yellow_wrapper}>
                     <p className={styles.idea}>
-                        Idea
+                        {/* Idea */}
+                        <Typical
+                            steps={[
+                                "Idea",
+                                1500,
+                                "Vision",
+                                1500,
+                                "Product",
+                                1500,
+                            ]}
+                            loop={Infinity}
+                        />
                     </p>
                 </div>
             </div>
