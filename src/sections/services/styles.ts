@@ -1,5 +1,5 @@
 const styles = {
-    container: "background-container flex flex-col lg:flex-row bg-no-repeat bg-center bg-[length:70%_auto] items-start justify-evenly lg:justify-between xl:justify-evenly py-[30px] sm:py-[70px] md:py-[95px] px-[30px] sm:px-[60px] md:px-[82px] lg:px-[95px] bg-[#0a0b0f] xl:px-[115px] w-full",
+    container: "background-container flex flex-col lg:flex-row bg-no-repeat bg-cover bg-[length:70%_auto] items-start justify-evenly lg:justify-between xl:justify-evenly py-[30px] sm:py-[70px] md:py-[95px] px-[30px] sm:px-[60px] md:px-[82px] lg:px-[95px] bg-[#0a0b0f] xl:px-[115px] w-full",
     first_section: "flex flex-col w-full lg:w-[45%] max-w-[440px]",
     heading: "text-white text-[26px] sm:text-[28px] md:text-[30px] lg:text-[35px] xl:text-[38px] font-[700] font-[Montserrat] mt-[60px]",
     text: "w-full justify-center flex-wrap text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] xl:text-[18px] text-white mt-[26px] font-[400] font-[Montserrat]",
