@@ -18,6 +18,4 @@ import './index.css';
 import App from './App';
 
   const root = ReactDOM.createRoot(rootElement);
-  root.render(
-  );
 
