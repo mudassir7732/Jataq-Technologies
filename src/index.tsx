@@ -11,7 +11,7 @@
 //   </StrictMode>
 // );
 
-// reportWebVitals();
+reportWebVitals();
 
 
 
