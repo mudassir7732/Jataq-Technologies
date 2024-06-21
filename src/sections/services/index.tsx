@@ -34,7 +34,7 @@ const Services: FC = () => {
                     {SERVICE_OPTIONS?.map((service, index) => (
                         <div key={index} className={styles.service_wrapper} onClick={() => setSelected(service?.route)}>
                             <div className={`${styles.icon_wrapper} ${selected === service?.route ? 'bg-[#006fff]' : 'bg-[#272727]'}`}>
-                                <img src={service?.icon} alt={service?.icon} className="" />
+                                <img src={service?.icon} alt={service?.icon} className={styles.icon} />
                             </div>
                             <div className={styles.text_wrapper}>
                                 <p className={styles.service_text}>
