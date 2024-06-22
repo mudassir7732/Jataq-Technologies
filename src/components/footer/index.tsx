@@ -49,7 +49,7 @@ const Footer: FC = () => {
                         <div className={styles.contact_wrapper}>
                             <img src='/assets/icons/phone-bold.svg' alt='email_icon' className={styles.contact_icon} />
                             <p className={styles.contact_text}>
-                                +92 3229228
+                                +92 229228
                             </p>
                         </div>
                     </div>
