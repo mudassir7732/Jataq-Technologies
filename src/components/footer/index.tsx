@@ -34,7 +34,7 @@ const Footer: FC = () => {
             <div className={styles.content_wrapper}>
                 <div className={styles.first_section}>
                     <p className={styles.idea_text}>
-                        Have an idea?
+                        Have an idea
                     </p>
                     <p className={styles.tell_us_text}>
                         Tell us about it
