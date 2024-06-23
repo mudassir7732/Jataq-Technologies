@@ -56,7 +56,7 @@ const Footer: FC = () => {
                 </div>
                 <div className={styles.second_section}>
                     <p className={styles.quick_links}>
-                        Quick Links
+                        Quick Links are here
                     </p>
                     <div className={styles.links_wrapper}>
                         {QUICK_LINKS?.map((link: string, index: number) => (
