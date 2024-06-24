@@ -43,7 +43,7 @@ const Footer: FC = () => {
                         <div className={styles.contact_wrapper}>
                             <img src='/assets/icons/email.svg' alt='email_icon' className={styles.contact_icon} />
                             <p className={styles.contact_text}>
-                                Contact@jataq.com
+                                Contact@jataq.co
                             </p>
                         </div>
                         <div className={styles.contact_wrapper}>
