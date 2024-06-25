@@ -2,8 +2,10 @@ import React, { FC } from 'react';
 import { HEADER_TABS } from '../../constants/headerTabs';
 import { HeaderProps } from '../../types/headerTabs';
 import styles from './styles';
+import { useNavigate } from 'react-router-dom';
 
 const Header: FC = () => {
+    const navigate = useNavigate();
     return (
         <div className={styles.container}>
             <div className={styles.logo_wrapper}>
@@ -19,9 +21,9 @@ const Header: FC = () => {
             </div>
             <div className={styles.tabs_wrapper}>
                 {HEADER_TABS.map((tab: HeaderProps, index: number) => (
-                    <p key={index} className={styles.tab}>
+                    <button key={index} className={styles.tab} onClick={() => navigate(tab.route)}>
                         {tab.label}
-                    </p>
+                    </button>
                 ))}
             </div>
             <button className={styles.button}>
