@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import TopSection from "../../sections/top-section";
 import Services from "../../sections/services";
 import AboutUs from "../../sections/about-us";
