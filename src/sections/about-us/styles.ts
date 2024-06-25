@@ -7,7 +7,7 @@ const styles={
     first_image:"z-0 w-[280px] sm:w-[340px] md:w-[380px] lg:w-[400px] xl:w-[480px]",
     second_image:"mt-[19px] absolute z-10 w-[35px] sm:w-[38px] md:w-[45px] lg:w-[53px] xl:w-[60px]",
     text_section:"flex flex-row items-end w-full z-50 mt-[158px] sm:mt-[116px] md:mt-[205px] lg:mt-[225px] xl:mt-[197px]",
-    text_wrapper:"flex flex-col justify-center bg-[#006fff] rounded-[17px] h-[110px] md:h-[160px] max-w-[250px] mb-[5px] lg:mb-[9px] mt-[10px] px-[15px] sm:px-[18px] md:px-[20px]",
+    text_wrapper:"flex flex-col justify-center bg-[#006fff] rounded-[17px] h-[110px] md:h-[160px] md:min-w-[230px] mb-[5px] lg:mb-[9px] mt-[10px] px-[15px] sm:px-[18px] md:px-[20px]",
     complete_icon:"w-[25px] h-[25px] sm:w-[30px] sm:h-[30px] md:w-[46px] md:h-[46px]",
     first_text:"text-[15px] sm:text-[18px] md:text-[24px] w-full font-[700] font-[Montserrat] text-white mt-[6px]",
     second_text:"text-[12px] sm:text-[14px] md:text-[18px] font-[400] font-[Montserrat] text-white",
