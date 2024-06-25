@@ -15,7 +15,7 @@ const App: FC = () => {
       <Header />
       <TopSection />
       <Services />
-      <AboutUs />
+      {/* <AboutUs /> */}
       <WorkMethod />
       <Testimonials />
       <BottomSection />
