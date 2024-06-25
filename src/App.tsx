@@ -8,20 +8,22 @@ import ServicesBar from './sections/services-bar';
 import Footer from './components/footer';
 import TopSection from './sections/top-section';
 import BottomSection from "./sections/bottom-section";
+import AppRoutes from "./routes";
 
 const App: FC = () => {
   return (
-    <div className='flex flex-col'>
-      <Header />
-      <TopSection />
-      <Services />
-      <AboutUs />
-      <WorkMethod />
-      <Testimonials />
-      <BottomSection />
-      <ServicesBar />
-      <Footer />
-    </div>
+    // <div className='flex flex-col'>
+    //   <Header />
+    //   <TopSection />
+    //   <Services />
+    //   <AboutUs />
+    //   <WorkMethod />
+    //   <Testimonials />
+    //   <BottomSection />
+    //   <ServicesBar />
+    //   <Footer />
+    // </div>
+    <AppRoutes />
   )
 }
 export default App; 
