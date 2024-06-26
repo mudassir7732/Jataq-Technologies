@@ -4,6 +4,7 @@ import ServicesBar from "../../sections/services-bar";
 import WorkMethod from "../../sections/how-we-work";
 import { JOURNEY_SERVICES } from "../../constants/journey";
 import { journeyProps } from "../../types/journeyServices";
+import FiguresBar from "../../components/figures-bar.tsx";
 
 const About: FC = () => {
     return (
@@ -60,7 +61,7 @@ const About: FC = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mb-[50px] sm:mb-[65px] md:mb-[75px] lg:mb-[85px] xl:mb-[100px]">
                     {JOURNEY_SERVICES?.map((item: journeyProps, index: number) => (
-                        <div key={index} className="border-[1px] border-[#f5f5f5] bg-white rounded-[20px] px-[25px] py-[31px] shadow-sm">
+                        <div key={index} className="border-[1px] border-[#f5f5f5] bg-white rounded-[20px] px-[25px] py-[31px]">
                             <img src={item?.icon} className="h-[45px] lg:h-[54px] w-[45px] lg:w-[54px]" />
                             <p className="text-[22px] font-[700] text-black font-[Montserrat] mt-[20px] lg:mt-[26px]">
                                 {item?.label}
@@ -71,50 +72,8 @@ const About: FC = () => {
                         </div>
                     ))}
                 </div>
-
-                <div style={{ backgroundImage: 'url(/assets/images/figures_bg.png)' }} className="px-[40px] sm:px-[70px] md:px-[80px] lg:px-[95px] xl:px-[113px] bg-no-repeat bg-cover bg-center items-center grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 h-fit gap-x-[106px] gap-y-[40px] py-[46px] min-h-[156px] rounded-[10px]">
-                    <div className="flex flex-col min-w-[185px]">
-                        <p className="text-[38px] font-[700] font-[Montserrat] text-black">
-                            10+
-                        </p>
-                        <p className="text-[15px] font-[400] text-black font-[Montserrat]">
-                            Years of Experiences
-                        </p>
-                    </div>
-
-                    <div className="flex flex-col min-w-[185px]">
-                        <p className="text-[38px] font-[700] font-[Montserrat] text-black">
-                            108+
-                        </p>
-                        <p className="text-[15px] font-[400] text-black font-[Montserrat]">
-                            Satisfied Customers
-                        </p>
-                    </div>
-                    <div className="flex flex-col min-w-[185px]">
-                        <p className="text-[38px] font-[700] font-[Montserrat] text-black">
-                            306
-                        </p>
-                        <p className="text-[15px] font-[400] text-black font-[Montserrat]">
-                            Projects Completed
-                        </p>
-                    </div>
-                    <div className="flex flex-col min-w-[185px]">
-                        <div className="flex flex-row items-center">
-                            <img src="/assets/icons/full-star.svg" className="h-[37px] w-[37px]" />
-                            <img src="/assets/icons/full-star.svg" className="h-[37px] w-[37px]" />
-                            <img src="/assets/icons/full-star.svg" className="h-[37px] w-[37px]" />
-                            <img src="/assets/icons/full-star.svg" className="h-[37px] w-[37px]" />
-                            <img src="/assets/icons/half-star.svg" className="h-[37px] w-[37px]" />
-                        </div>
-                        <p className="mt-[10px] text-[15px] font-[400] text-black font-[Montserrat]">
-                            4.8 Rating Overall
-                        </p>
-                    </div>
-                </div>
-
+                <FiguresBar />
             </div>
-
-
             <WorkMethod />
             <Testimonials />
             <ServicesBar />

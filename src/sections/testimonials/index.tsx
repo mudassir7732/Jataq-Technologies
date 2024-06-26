@@ -69,11 +69,11 @@ const Testimonials: FC = () => {
                                 <img src='/assets/icons/quotation.svg' alt='button_background' className={styles.quotation} />
                                 <div key={index} className={styles.card}>
                                     <div className="flex flex-row items-center mb-[10px]">
-                                        <img src="/assets/icons/full-star.svg" className="h-[22px] w-[22px]" />
-                                        <img src="/assets/icons/full-star.svg" className="h-[22px] w-[22px]" />
-                                        <img src="/assets/icons/full-star.svg" className="h-[22px] w-[22px]" />
-                                        <img src="/assets/icons/full-star.svg" className="h-[22px] w-[22px]" />
-                                        <img src="/assets/icons/half-star.svg" className="h-[22px] w-[22px]" />
+                                        <img src="/assets/icons/full-star.svg" className="h-[19px] lg:h-[22px] w-[19px] lg:w-[22px]" />
+                                        <img src="/assets/icons/full-star.svg" className="h-[19px] lg:h-[22px] w-[19px] lg:w-[22px]" />
+                                        <img src="/assets/icons/full-star.svg" className="h-[19px] lg:h-[22px] w-[19px] lg:w-[22px]" />
+                                        <img src="/assets/icons/full-star.svg" className="h-[19px] lg:h-[22px] w-[19px] lg:w-[22px]" />
+                                        <img src="/assets/icons/half-star.svg" className="h-[19px] lg:h-[22px] w-[19px] lg:w-[22px]" />
                                     </div>
                                     <p className={styles.text}>
                                         {item.text}

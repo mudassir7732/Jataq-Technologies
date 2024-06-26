@@ -7,7 +7,7 @@ import styles3 from '../bottom-section/styles';
 const Services: FC = () => {
     const [selected, setSelected] = useState<string>('');
     return (
-        <div style={{ backgroundImage: 'url(/assets/logo/bg-image.svg)' }} className={styles.container}>
+        <div id="#services" style={{ backgroundImage: 'url(/assets/logo/bg-image.svg)' }} className={styles.container}>
             <div className={styles.first_section}>
                 <img src='/assets/icons/Rectangle58.svg' alt='button_background' className="absolute z-0" />
                 <p className={styles2.section_title}>
