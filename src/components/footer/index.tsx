@@ -25,7 +25,7 @@ const Footer: FC = () => {
                 <div className={styles.socials_wrapper}>
                     {SOCIAL_LINKS?.map((link: SocialProps, index: number) => (
                         <div key={index} className={styles.social_link}>
-                            <img src={link?.icon} alt='facebook_icon' className={styles.social_icon} />
+                            <img src={link?.icon} alt='icon' className={styles.social_icon} />
                             <p className={styles.social_label}>
                                 {link?.label}
                             </p>
