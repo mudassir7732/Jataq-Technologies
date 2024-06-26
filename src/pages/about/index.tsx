@@ -51,7 +51,7 @@ const About: FC = () => {
                 </div>
             </div>
 
-            <div style={{ backgroundImage: 'url(/assets/images/Rectangle69.png)' }} className="bg-no-repeat w-full mb-[50px] px-[40px] sm:px-[50px] md:px-[65px] lg:px-[80px] xl:px-[100px] pt-[36px] sm:pt-[42px] md:pt-[48px] lg:pt-[55px] xl:pt-[66px]">
+            <div style={{ backgroundImage: 'url(/assets/images/Rectangle69.png)' }} className="bg-no-repeat bg-cover w-full mb-[50px] px-[40px] sm:px-[50px] md:px-[65px] lg:px-[80px] xl:px-[100px] pt-[36px] sm:pt-[42px] md:pt-[48px] lg:pt-[55px] xl:pt-[66px]">
                 <p className="text-[27px] sm:text-[30px] md:text-[34px] lg:text-[38px] font-[700] font-[Montserrat] text-black mt-[4px] md:mt-[8px] lg:mt-[11px] text-center w-full">
                     Our Journey Through Time
                 </p>
