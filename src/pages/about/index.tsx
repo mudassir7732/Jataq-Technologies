@@ -14,15 +14,37 @@ const About: FC = () => {
                     Discover our story, our mission, and our passion for creativity and innovation.
                 </p>
 
-                <div className="bg-[#006fff] min-h-[398px] rounded-[20px]">
-                    <div className="w-1/2 flex px-[50px] py-[85px]">
-                        <p className="text-[36px] font-[700]">
+                <div className="flex flex-col h-fits lg:flex-row items-center justify-between gap-x-[22px] bg-[#006fff] rounded-[20px]">
+                    <div className="w-1/2 xl:px-[49px]">
+                        <p className="text-[30px] max-w-[519px] font-[700] text-white font-[Montserrat]">
                             We help our client succeed by creating identities, digital experiences and connecting their business with the world
                         </p>
                     </div>
-                    <div className="w-1/2">
-
+                    <div className="w-fit border-6">
+                        <img src='/assets/images/image1.png' className="h-[398px]" />
                     </div>
+                </div>
+
+                <div className="flex flex-col md:flex-row items-start justify-between gap-x-[87px]">
+                    <div className="flex flex-col w-full md:w-1/2 mt-[47px]">
+                        <img src="/assets/icons/mission_icon.svg" className="w-[63px] h-[84px]" />
+                        <p className="text-[38px] font-[700] font-[Montserrat] text-black mt-[11px]">
+                            Our Mission
+                        </p>
+                        <p className="text-[18px] font-[400] text-black mt-[27px]">
+                            We go deep to unlock insight and have the courage to act. We bring the right people together to challenge established thinking and drive transformation. We work with our clients to build the capabilities that enable organizations to achieve sustainable advantage.
+                        </p>
+                    </div>
+                    <div className="flex flex-col w-full md:w-1/2 mt-[63px]">
+                        <img src="/assets/icons/vision_icon.svg" className="w-[68px] h-[68px]" />
+                        <p className="text-[38px] font-[700] font-[Montserrat] text-black mt-[11px]">
+                            Our Vision
+                        </p>
+                        <p className="text-[18px] font-[400] text-black mt-[27px]">
+                            We go deep to unlock insight and have the courage to act. We bring the right people together to challenge established thinking and drive transformation. We work with our clients to build the capabilities that enable organizations to achieve sustainable advantage.
+                        </p>
+                    </div>
+
                 </div>
 
             </div>
