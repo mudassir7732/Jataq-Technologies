@@ -3,8 +3,11 @@ import { QUICK_LINKS } from "../../constants/quickLinks";
 import { SOCIAL_LINKS } from "../../constants/socialLinks";
 import { SocialProps } from "../../types/socialLinks";
 import styles from "./styles";
+import { QuickLinkProps } from "../../types/quickLinks";
+import { useNavigate } from "react-router-dom";
 
 const Footer: FC = () => {
+    const navigate = useNavigate();
     return (
         <div className={styles.container}>
             <div className={styles.top_section}>
@@ -59,9 +62,9 @@ const Footer: FC = () => {
                         Quick Links
                     </p>
                     <div className={styles.links_wrapper}>
-                        {QUICK_LINKS?.map((link: string, index: number) => (
-                            <p key={index} className={styles.link}>
-                                {link}
+                        {QUICK_LINKS?.map((link: QuickLinkProps, index: number) => (
+                            <p key={index} className={styles.link} onClick={() => navigate(link?.url)}>
+                                {link?.label}
                             </p>
                         ))}
                     </div>

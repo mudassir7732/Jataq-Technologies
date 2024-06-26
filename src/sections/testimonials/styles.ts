@@ -8,7 +8,7 @@ const styles = {
     second_section: "flex flex-col max-w-full sm:max-w-[90%] md:max-w-[514px] mt-16 lg:mt-0",
     carousel_wrapper: "my-[6px] h-auto min-h-[300px] pt-8",
     quotation: "absolute z-50 -mt-[58px] ml-3",
-    card: "bg-white z-40 max-h-[249px] rounded-t-[10px] w-full md:max-w-[614px] pt-[35px] sm:pt-[42px] md:pt-[45px] lg:pt-[60px] xl:pt-[70px] px-[15px] pb-8 sm:px-[22px] md:px-[28px] lg:px-[35px] xl:px-[40px]",
+    card: "bg-white z-40 max-h-[249px] rounded-t-[10px] w-full md:max-w-[614px] pt-[25px] sm:pt-[30px] md:pt-[35px] lg:pt-[42px] xl:pt-[47px] px-[15px] pb-8 sm:px-[22px] md:px-[28px] lg:px-[35px] xl:px-[40px]",
     text: "text-[16px] font-[400] font-[Montserrat]",
     name: "text-[16px] font-[600] font-[Montserrat] italic mt-[14px]"
 }

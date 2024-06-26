@@ -6,7 +6,7 @@ const styles = {
     jataq: "font-[Montserrat] font-[700] text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] text-[#fff]",
     technologies: "font-[Montserrat] text-[8px] sm:text-[8.5px] md:text-[9px] lg:text-[9.5px] xl:text-[10px] -mt-1 font-[300] text-[#fff]",
     socials_wrapper: "flex flex-row items-center w-fit gap-x-[35px]",
-    social_link: "flex flex-row items-center gap-x-1",
+    social_link: "flex flex-row items-center gap-x-1 cursor-pointer",
     social_icon: "h-[20px] md:h-[22px] lg:h-[24px] w-[20px] md:w-[22px] lg:w-[24px]",
     social_label: "text-white text-[16px] md:text-[17px] lg:text-[18px] font-[400] font-[Montserrat]",
     content_wrapper: "flex flex-col sm:flex-row border-b-[1px] border-t-[1px] border-[#353535]",
@@ -20,7 +20,7 @@ const styles = {
     contact_text: "text-[16px] md:text-[17px] lg:text-[18px] font-[400] text-white",
     quick_links: "text-white text-[17px] lg:text-[18px] font-[700] font-[Montserrat]",
     links_wrapper: "grid lg:grid-cols-2 lg:gap-x-[40px] xl:gap-x-[140px] mt-[29px] gap-y-[17px]",
-    link: "text-white text-[14px] md:text-[15px] lg:text-[16px] font-[400] font-[Montserrat] whitespace-nowrap",
+    link: "text-white cursor-pointer text-[14px] md:text-[15px] lg:text-[16px] font-[400] font-[Montserrat] whitespace-nowrap",
     copyright: "text-[16px] md:text-[17px] lg:text-[18px] font-[400] font-[Montserrat] text-white text-center mt-[25px] lg:mt-[35px] xl:mt-[46px]"
 }
 export default styles;
