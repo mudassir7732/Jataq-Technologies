@@ -2,15 +2,10 @@ import { FC } from "react";
 import { WORK_OPTIONS } from "../../constants/workOptions";
 import { WorkProps } from "../../types/workOptions";
 import styles from "./styles";
-import styles2 from '../about-us/styles';
 
 const WorkMethod: FC = () => {
     return (
         <div className={styles.container}>
-            <img src='/assets/icons/Rectangle58.svg' alt='button_background' className="absolute z-0" />
-            <p className={styles2.section_title}>
-                How We Work
-            </p>
             <p className={styles.heading}>
                 We work for better growing result step by step
             </p>

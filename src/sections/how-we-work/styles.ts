@@ -1,7 +1,8 @@
 const styles = {
-    container: "flex flex-col items-center px-[30px] sm:px-[60px] md:px-[82px] lg:px-[95px] xl:px-[115px] pt-20 lg:pt-12",
-    heading: "text-[26px] sm:text-[28px] md:text-[30px] lg:text-[35px] xl:text-[38px] font-[700] font-[Montserrat] mt-12 max-w-[700px] text-center",
+    container: "flex flex-col items-center px-[30px] sm:px-[60px] md:px-[82px] lg:px-[95px] xl:px-[115px]",
+    heading: "text-[26px] sm:text-[28px] md:text-[30px] lg:text-[35px] xl:text-[38px] font-[700] font-[Montserrat] mt-6 max-w-[700px] text-center",
     text: "text-[18px] font-[400] text-black font-[Montserrat] w-full lg:max-w-[670px] text-center mt-[5px] sm:mt-[8px] md:mt-[12px] lg:mt-[16px] xl:mt-[19px]",
+    label_wrapper: "w-full flex flex-row items-center justify-center mt-20 xl:mt-12",
     content_wrapper: "flex flex-row md:flex-col mt-2",
     count_wrapper: "hidden md:grid grid-cols-1 w-fit md:w-full md:grid-cols-3 pr-4 md:border-b-[1px] border-[#d7d7d7]",
     count: "text-[38px] font-[700] text-[#d2d2d2]",
