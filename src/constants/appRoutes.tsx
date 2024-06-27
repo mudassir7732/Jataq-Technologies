@@ -8,7 +8,7 @@ import DigitalMarketing from '../pages/digital-marketing';
 export const RoutesArray: RouteProps[] = [
     { path: '/', element: <Home /> },
     { path: '/about', element: <About /> },
-    { path: '/web-dev', element: <WebDev /> },
+    { path: '/web-development', element: <WebDev /> },
     { path: '/ui-ux', element: <UIUX /> },
     { path: '/digital-marketing', element: <DigitalMarketing /> },
 ];

@@ -59,9 +59,9 @@ const About: FC = () => {
                     Discover exceptional experiences through testimonials from our satisfied customers.
                 </p>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mb-[50px] sm:mb-[65px] md:mb-[75px] lg:mb-[85px] xl:mb-[100px]">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-[23px] mb-[50px] sm:mb-[65px] md:mb-[75px] lg:mb-[85px] xl:mb-[100px]">
                     {JOURNEY_SERVICES?.map((item: journeyProps, index: number) => (
-                        <div key={index} className="border-[1px] border-[#f5f5f5] bg-white rounded-[20px] px-[25px] py-[31px]">
+                        <div key={index} className="border-[1px] border-[#f5f5f5] bg-white rounded-[20px] px-[19px] py-[31px]">
                             <img src={item?.icon} className="h-[45px] lg:h-[54px] w-[45px] lg:w-[54px]" />
                             <p className="text-[22px] font-[700] text-black font-[Montserrat] mt-[20px] lg:mt-[26px]">
                                 {item?.label}
