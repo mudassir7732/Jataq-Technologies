@@ -17,7 +17,7 @@
 .background-dynamic {
   background-image: url(/public/assets/icons/Vector1.svg), url(/public/assets/images/Rectangle59.png);
   background-size: auto, cover;
-  background-repeat: no-repeat, no-repeat;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 600px) {

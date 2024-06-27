@@ -1,8 +1,8 @@
 const styles = {
-    custom_dot: "w-[12px] h-[12px] mx-[6px] border-6 rounded-full",
     container: "relative pb-20 lg:h-fit background-dynamic",
+    custom_dot: "w-[12px] h-[12px] mx-[6px] border-6 rounded-full",
     bg_ellipse: "-mt-20 w-full h-full absolute",
-    sections_wrapper: "flex flex-col lg:flex-row items-start mt-48 gap-x-[35px] lg:justify-between xl:justify-evenly border-white h-ful px-[30px] sm:px-[60px] md:px-[82px] lg:px-[95px]",
+    sections_wrapper: "flex flex-col lg:flex-row items-start mt-48 gap-x-[35px] justify-between border-white h-ful px-[30px] sm:px-[60px] md:px-[82px] lg:px-[95px] xl:px-[115px]",
     first_section: "relative flex flex-col w-fit",
     heading: "text-[26px] sm:text-[28px] md:text-[30px] lg:text-[35px] xl:text-[38px] font-[700] text-white font-[Montserrat] mt-[57px] max-w-[425px]",
     second_section: "flex flex-col max-w-full sm:max-w-[90%] md:max-w-[514px] mt-16 lg:mt-0",

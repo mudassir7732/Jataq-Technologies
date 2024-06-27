@@ -1,5 +1,5 @@
 const styles={
-    container:"flex flex-col lg:flex-row lg:justify-between xl:justify-evenly sm:py-[70px] md:py-[95px] px-[30px] sm:px-[60px] md:px-[82px] lg:px-[95px] xl:px-[115px] w-full",
+    container:"flex flex-col lg:flex-row justify-between sm:py-[70px] md:py-[95px] px-[30px] sm:px-[60px] md:px-[82px] lg:px-[95px] xl:px-[115px] w-full",
     section_title_wrapper:"w-fit block lg:hidden mt-20",
     section_title:"flex items-center justify-center text-black border-[1px] text-[14px] font-[300] font-[Montserrat] border-black absolute z-50 w-[119px] h-[31px] mt-2 rounded-full bg-white",
     first_section:"flex flex-col items-start w-fit xl:max-w-[45%] pt-[85px]",
