@@ -1,5 +1,5 @@
 import { FC } from "react";
-import TopSection from "../../sections/top-section";
+import Hero from "../../sections/hero";
 import Services from "../../sections/services";
 import AboutUs from "../../sections/about-us";
 import WorkMethod from "../../sections/how-we-work";
@@ -11,7 +11,7 @@ import WorkLabel from "../../sections/how-we-work/label";
 const Home: FC = () => {
     return (
         <div className='flex flex-col'>
-            <TopSection />
+            <Hero />
             <Services />
             <AboutUs />
             <WorkLabel />

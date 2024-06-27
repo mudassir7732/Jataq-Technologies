@@ -3,7 +3,7 @@ import styles from "./styles";
 import Typical from 'react-typical';
 
 
-const TopSection: FC = () => {
+const Hero: FC = () => {
     return (
         <div className={styles.container}>
             <div className={styles.first_section}>
@@ -55,4 +55,4 @@ const TopSection: FC = () => {
         </div>
     )
 }
-export default TopSection;
+export default Hero;
