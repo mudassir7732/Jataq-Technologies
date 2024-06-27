@@ -8,13 +8,12 @@ interface LayoutProps {
 
 const Layout: FC<LayoutProps> = ({ children }) => {
     return (
-        <div className="flex flex-col">
+        <>
             <Header />
-            <div className="">
             {children}
-            </div>
             <Footer />
-        </div>
-    )
+        </>
+    );
 }
+
 export default Layout;

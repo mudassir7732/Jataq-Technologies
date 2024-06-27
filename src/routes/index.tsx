@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { RoutesArray } from '../constants/appRoutes';
 import { RouteProps } from "../types/appRoutes";
 import Layout from "../components/layout";
-import Home from "../pages/home";
 
 const AppRoutes: FC = () => {
   return (

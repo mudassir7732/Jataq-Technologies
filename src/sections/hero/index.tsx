@@ -51,7 +51,6 @@ const Hero: FC = () => {
                     Contact Expert
                 </button>
             </div>
-            <img src="/assets/icons/border.svg" alt="border" className="w-full mt-[135px]" />
         </div>
     )
 }

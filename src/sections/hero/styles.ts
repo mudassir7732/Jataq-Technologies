@@ -1,5 +1,5 @@
 const styles = {
-    container: "flex flex-col pt-[80px] max-h-[400px] sm:max-h-[460px] md:max-h-fit sm:pt-[95px] md:pt-[105px] lg:pt-[120px] xl:pt-[135px]",
+    container: "flex flex-col pt-[80px] sm:pt-[px] md:pt-[105px] lg:pt-[120px] xl:pt-[135px] pb-[60px] sm:pb-[80px] md:pb-[95px] lg:pb-[110px] xl:pb-[135px]",
     first_section: "flex flex-row items-start justify-end",
     text_wrapper: "min-w-fit ml-[12px] sm:ml-[5%] md:ml-[10%] lg:ml-[14%] xl:ml-[16%] mr-1 sm:mr-3 md:mr-4 lg:mr-6",
     heading: "text-[28px] sm:text-[40px] md:text-[52px] lg:text-[62px] xl:text-[70px] font-[700] font-[Montserrat] text-right",

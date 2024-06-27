@@ -10,7 +10,7 @@ import WorkLabel from "../../sections/how-we-work/label";
 
 const Home: FC = () => {
     return (
-        <div className='flex flex-col'>
+        <>
             <Hero />
             <Services />
             <AboutUs />
@@ -19,7 +19,7 @@ const Home: FC = () => {
             <Testimonials />
             <BottomSection />
             <ServicesBar />
-        </div>
+        </>
     )
 }
 export default Home; 
