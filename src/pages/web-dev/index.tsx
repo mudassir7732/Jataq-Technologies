@@ -163,7 +163,6 @@ const WebDev: FC = () => {
                 </p>
             </div>
 
-
             <div className="flex flex-col items-center justify-center w-full">
                 <div className="max-w-[582px] w-[90%] p-[34px] shadow-2xl shadow-[#e0e0e0] bg-white border-[1px] border-[#e3e3e3] rounded-[20px] mt-[60px]">
                     <div className=" grid grid-cols-1 md:grid-cols-2 gap-x-[16px]">
