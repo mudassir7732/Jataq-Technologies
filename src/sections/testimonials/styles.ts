@@ -1,6 +1,6 @@
 const styles = {
     container: "relative pb-20 lg:h-fit background-dynamic",
-    custom_dot: "w-[12px] h-[12px] mx-[6px] border-6 rounded-full",
+    custom_dot: "w-[12px] h-[12px] mx-[6px] rounded-full",
     bg_ellipse: "-mt-20 w-full h-full absolute",
     sections_wrapper: "flex flex-col lg:flex-row items-start mt-48 gap-x-[35px] justify-between border-white h-ful px-[30px] sm:px-[60px] md:px-[82px] lg:px-[95px] xl:px-[115px]",
     first_section: "relative flex flex-col w-fit",
