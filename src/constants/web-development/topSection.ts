@@ -1,0 +1,1 @@
+export const data = {title:'Web App Development', desc:'Leverage our experienced our experienced team for efficient and high-quality web app development. We deliver scalable solutions within your budget, from concept to launch, to help your business grow.'}

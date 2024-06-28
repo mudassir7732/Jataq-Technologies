@@ -1,4 +1,4 @@
-export interface WebFeatureProps {
+export interface FeatureProps {
     icon: string;
     label: string;
 }
