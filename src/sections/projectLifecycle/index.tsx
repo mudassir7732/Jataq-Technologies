@@ -4,7 +4,7 @@ import { TopSectionProps } from "../../types/topSection";
 import { LifecycleProps } from "../../types/lifecycle";
 import { LifecyclePhasesProps } from "../../types/lifecyclePhases";
 
-const LifecyclePhases: FC<LifecycleProps> = (props) => {
+const ProjectLifecycle: FC<LifecycleProps> = (props) => {
     return (
         <div className="w-full mt-[107px] px-[30px] sm:px-[60px] md:px-[82px] lg:px-[95px] xl:px-[115px]">
             <p className="text-[25px] sm:text-[30px] md:text-[35px] lg:text-[38px] font-[700] font-[Montserrat] max-w-[835px] mx-auto text-center">
@@ -18,7 +18,7 @@ const LifecyclePhases: FC<LifecycleProps> = (props) => {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-[38px] sm:mt-[45px] md:mt-[60px]">
                 {props.lifecyclePhases?.map((phase: LifecyclePhasesProps, index: number) => (
-                    <div className="border-[#d2d2d2] sm:pl-[24px] pt-0 sm pb-[15px] sm:pb-[29px]">
+                    <div className="border-[#d2d2d2] sm:pl-[24px] pt-0 sm pb-[15px] sm:pb-[29px] ">
                         <p className="text-[25px] sm:text-[30px] md:text-[35px] lg:text-[38px] font-[700] text-[#d2d2d2]">
                             0{index+1}
                         </p>
@@ -34,4 +34,4 @@ const LifecyclePhases: FC<LifecycleProps> = (props) => {
         </div>
     )
 }
-export default LifecyclePhases;
+export default ProjectLifecycle;

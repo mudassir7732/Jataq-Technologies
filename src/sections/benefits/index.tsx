@@ -9,11 +9,9 @@ const Benefits: FC<BenefitsProps> = (props) => {
             <div className="flex flex-col lg:flex-row items-start justify-between">
                 <div className="w-full lg:w-1/2 pr-[20px] lg:pr-0">
                     <p className="text-[25px] sm:text-[30px] md:text-[35px] lg:text-[38px] font-[700]">
-                        {/* Our cost-effective web development delivers quality within budget. */}
                         {props.title}
                     </p>
                     <p className="mt-[19px] text-[16px] sm:text-[17px] lg:text-[18px] font-[400] text-black max-w-[88%]">
-                        {/* At Jataq Technologies, our expert teams bring unbeatable expertise and deep industry knowledge to every progressive web app project. */}
                         {props.desc}
                     </p>
                     <button className="flex flex-row items-center justify-center gap-x-[6px] lg:gap-x-[11px] h-[40px] sm:h-[45px] md:h-[48px] lg:h-[51px] xl:h-[53px] w-fit px-4 lg:px-3 xl:w-[257px] bg-[#1b7eff] rounded-[10px] sm:rounded-[12px] md:rounded-[15px] lg:rounded-[20px] mt-[34px] text-[13px] md:text-[16px] xl:text-[16px] sm:text-[17px] lg:text-[18px] text-white font-[500] font-[Montserrat]">

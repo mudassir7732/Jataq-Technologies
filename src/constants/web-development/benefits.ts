@@ -1,5 +1,5 @@
 import { BenefitsProps } from "../../types/benefitsProps";
-import { WEB_FEATURES } from "../webFeatures";
+import { WEB_FEATURES } from "./web-features";
 
 export const benefits: BenefitsProps = {
     title: "Our cost-effective web development delivers quality within budget.",

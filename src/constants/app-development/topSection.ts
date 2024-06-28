@@ -1,0 +1,1 @@
+export const data = {title:'App Development', desc:'We build high-quality mobile and web apps that meet your business needs.'}

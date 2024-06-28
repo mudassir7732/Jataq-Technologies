@@ -9,6 +9,6 @@ export const QUICK_LINKS: QuickLinkProps[] = [
     { label: 'Digital Marketing', url: '/digital-marketing' },
     { label: 'Case Studies', url: 'case-studies' },
     { label: 'UI/UX', url: '/ui-ux' },
-    { label: 'Contact Us', url: '/contact' },
+    { label: 'Contact Us', url: 'contact' },
     { label: 'Graphic Design', url: '/graphic-design' }
 ]
