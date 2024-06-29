@@ -4,7 +4,6 @@ import ServicesBar from "../../sections/services-bar";
 import TopSection from "../../sections/top-section";
 import Benefits from "../../sections/benefits";
 import ProjectLifecycle from "../../sections/projectLifecycle";
-import { Phases } from "../../constants/web-development/lifecycle-phases";
 import KeyFeatures from "../../sections/keyFeatures.tsx";
 import InputForm from "../../sections/input-form";
 import { data } from "../../constants/digital-marketing/topSection";
