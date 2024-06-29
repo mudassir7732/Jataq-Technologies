@@ -1,5 +1,5 @@
 import { BenefitsProps } from "../../types/benefitsProps";
-import { FEATURES } from "./digitalFeatures";
+import { FEATURES } from "./uiuxFeatures";
 
 export const benefits: BenefitsProps = {
     title: "Elevate User Experience with Innovative Design",
