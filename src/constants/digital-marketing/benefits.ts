@@ -1,6 +1,5 @@
 import { BenefitsProps } from "../../types/benefitsProps";
 import { DIGITAL_FEATURES } from "./digitalFeatures";
-// import { DIGITAL_FEATURES } from "./digitalFeatures";
 
 export const benefits: BenefitsProps = {
     title: "Boost Your Brand with Expert Digital marketing",
