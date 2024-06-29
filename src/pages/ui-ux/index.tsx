@@ -1,18 +1,18 @@
 import { FC } from "react";
 import Testimonials from "../../sections/testimonials";
 import ServicesBar from "../../sections/services-bar";
-import { WEB_FEATURES } from "../../constants/web-development/web-features";
+import { Features } from "../../constants/ui-ux/features";
 import { FeatureProps } from "../../types/webAppFeatures";
 import FiguresBar from "../../components/figures-bar.tsx";
 import TopSection from "../../sections/top-section";
-import { data } from "../../constants/web-development/topSection";
-import { benefits } from '../../constants/web-development/benefits';
+import { data } from "../../constants/ui-ux/topSection";
+import { benefits } from '../../constants/ui-ux/benefits';
 import Benefits from "../../sections/benefits";
 import ProjectLifecycle from "../../sections/projectLifecycle";
-import { Phases } from "../../constants/web-development/lifecycle-phases";
-import { Lifecycle } from "../../constants/web-development/projectLifecycle";
+import { Phases } from "../../constants/ui-ux/lifecycle-phases";
+import { Lifecycle } from "../../constants/ui-ux/projectLifecycle";
 import KeyFeatures from "../../sections/keyFeatures.tsx";
-import { FeaturesData } from "../../constants/web-development/key-features";
+import { FeaturesData } from "../../constants/ui-ux/key-features";
 import InputForm from "../../sections/input-form";
 
 const UIUX: FC = () => {
