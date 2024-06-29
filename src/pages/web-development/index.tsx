@@ -7,7 +7,6 @@ import { data } from "../../constants/web-development/topSection";
 import { benefits } from '../../constants/web-development/benefits';
 import Benefits from "../../sections/benefits";
 import ProjectLifecycle from "../../sections/projectLifecycle";
-import { Phases } from "../../constants/web-development/lifecycle-phases";
 import { Lifecycle } from "../../constants/web-development/projectLifecycle";
 import KeyFeatures from "../../sections/keyFeatures.tsx";
 import { FeaturesData } from "../../constants/web-development/key-features";
