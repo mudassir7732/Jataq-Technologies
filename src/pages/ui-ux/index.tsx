@@ -1,7 +1,6 @@
 import { FC } from "react";
 import Testimonials from "../../sections/testimonials";
 import ServicesBar from "../../sections/services-bar";
-import { Features } from "../../constants/ui-ux/features";
 import { FeatureProps } from "../../types/features";
 import FiguresBar from "../../components/figures-bar.tsx";
 import TopSection from "../../sections/top-section";
