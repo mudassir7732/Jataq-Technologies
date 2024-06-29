@@ -63,7 +63,7 @@ const Footer: FC = () => {
                     </p>
                     <div className={styles.links_wrapper}>
                         {QUICK_LINKS?.map((link: QuickLinkProps, index: number) => (
-                            <p key={index} className={styles.link} onClick={() => navigate(link?.url)}>
+                            <p key={index} className={styles.link} onClick={() => { navigate(link?.url); window.scrollTo(0, 0) }}>
                                 {link?.label}
                             </p>
                         ))}
