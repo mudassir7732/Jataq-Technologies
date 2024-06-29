@@ -1,6 +1,6 @@
 import { FC } from "react";
 import FiguresBar from "../../components/figures-bar.tsx";
-import { FeatureProps } from "../../types/webAppFeatures.js";
+import { FeatureProps } from "../../types/features.js";
 import { BenefitsProps } from "../../types/benefitsProps.js";
 
 const Benefits: FC<BenefitsProps> = (props) => {

@@ -1,4 +1,4 @@
-import { FeatureProps } from "../../types/webAppFeatures";
+import { FeatureProps } from "../../types/features";
 
 export const WEB_FEATURES: FeatureProps[] = [
     { icon: '/assets/icons/integrity_white.svg', label: "Progressive web apps enable quick innovation" },

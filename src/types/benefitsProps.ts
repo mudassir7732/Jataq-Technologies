@@ -1,4 +1,4 @@
-import { FeatureProps } from "./webAppFeatures";
+import { FeatureProps } from "./features";
 
 export interface BenefitsProps {
     title: string;

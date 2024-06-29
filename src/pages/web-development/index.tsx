@@ -2,7 +2,7 @@ import { FC } from "react";
 import Testimonials from "../../sections/testimonials";
 import ServicesBar from "../../sections/services-bar";
 import { WEB_FEATURES } from "../../constants/web-development/web-features";
-import { FeatureProps } from "../../types/webAppFeatures";
+import { FeatureProps } from "../../types/features";
 import FiguresBar from "../../components/figures-bar.tsx";
 import TopSection from "../../sections/top-section";
 import { data } from "../../constants/web-development/topSection";

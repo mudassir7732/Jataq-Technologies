@@ -1,4 +1,4 @@
-import { FeatureProps } from "../../types/webAppFeatures";
+import { FeatureProps } from "../../types/features";
 
 export const APP_FEATURES: FeatureProps[] = [
     { icon: '/assets/icons/ios.svg', label: "iOS App Development" },
