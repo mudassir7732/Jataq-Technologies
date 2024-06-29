@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { HEADER_TABS } from '../../constants/headerTabs';
 import { HeaderProps } from '../../types/headerTabs';
 import styles from './styles';
