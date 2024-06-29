@@ -1,1 +1,1 @@
-export const Features: string[] = ['Expert Team', 'Targeted Approach', 'Collaborative Process', 'Proven Track Record']
+export const Features: string[] = ['Expert Team', 'User-Centric Approach', 'Collaborative Process', 'Proven Track Record']
