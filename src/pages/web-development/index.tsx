@@ -6,7 +6,7 @@ import { FeatureProps } from "../../types/webAppFeatures";
 import FiguresBar from "../../components/figures-bar.tsx";
 import TopSection from "../../sections/top-section";
 import { data } from "../../constants/web-development/topSection";
-import { benefits } from '../../constants/web-development/benefits';
+import { benefits } from '../../constants/web-development/web-benefits';
 import Benefits from "../../sections/benefits";
 import ProjectLifecycle from "../../sections/projectLifecycle";
 import { Phases } from "../../constants/web-development/lifecycle-phases";

@@ -22,7 +22,7 @@ const Benefits: FC<BenefitsProps> = (props) => {
                 <div className="w-full lg:w-1/2 flex flex-col gap-y-[18px] mt-12 lg:mt-0">
                     {props.features?.map((feature: FeatureProps, index: number) => (
                         <div key={index} className={`flex flex-row items-center gap-x-[20px] md:gap-x-[39px] px-[15px] sm:px-[18px] md:px-[22px] lg:px-[27px] py-[12px] sm:py-[17px] md:py-[24px] lg:py-[31px] ${index === 0 ? 'bg-[#006fff]' : 'bg-white'} rounded-[20px]`}>
-                            <img src={feature?.icon} className={`${index === 0 ? 'w-[30px] md:w-[39px]' : 'w-[42px] md:w-[55px]'} ${index === 0 ? 'h-[30px] md:h-[39px]' : 'h-[42px] md:h-[55px]'}`} />
+                            <img src={feature?.icon} className={`${index === 0 ? 'w-[30px] md:w-[39px]' : 'w-[42px] '} ${index === 0 ? 'h-[30px] md:h-[39px]' : 'h-[42px] md:h-[55px]'}`} />
                             <p className={`text-[22px] font-[500] font-[Montserrat] ${index === 0 ? 'text-white' : 'text-black'}`}>
                                 {feature?.label}
                             </p>
