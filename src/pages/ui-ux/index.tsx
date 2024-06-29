@@ -9,7 +9,6 @@ import { data } from "../../constants/ui-ux/topSection";
 import { benefits } from '../../constants/ui-ux/benefits';
 import Benefits from "../../sections/benefits";
 import ProjectLifecycle from "../../sections/projectLifecycle";
-import { Phases } from "../../constants/ui-ux/lifecycle-phases";
 import { Lifecycle } from "../../constants/ui-ux/projectLifecycle";
 import KeyFeatures from "../../sections/keyFeatures.tsx";
 import { FeaturesData } from "../../constants/ui-ux/key-features";
