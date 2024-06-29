@@ -11,7 +11,7 @@ const ProjectLifecycle: FC<LifecycleProps> = (props) => {
                 {/* Managing The Full Software Development Lifecycle */}
                 {props.title}
             </p>
-            <p className="text-[16px] sm:text-[17px] lg:text-[18px] font-[400] font-[Montserrat] text-center mt-[17px]">
+            <p className="text-[16px] sm:text-[17px] lg:text-[18px] font-[400] max-w-[667px] mx-auto font-[Montserrat] text-center mt-[17px]">
                 {/* Jataq Technologies provides end-to-end web app development. */}
                 {props.desc}
             </p>
