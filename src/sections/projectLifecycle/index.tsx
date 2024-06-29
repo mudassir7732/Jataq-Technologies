@@ -1,6 +1,4 @@
 import { FC } from "react";
-import { Phases } from "../../constants/web-development/lifecycle-phases";
-import { TopSectionProps } from "../../types/topSection";
 import { LifecycleProps } from "../../types/lifecycle";
 import { LifecyclePhasesProps } from "../../types/lifecyclePhases";
 
