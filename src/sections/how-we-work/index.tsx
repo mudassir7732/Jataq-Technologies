@@ -14,20 +14,20 @@ const WorkMethod: FC = () => {
             </p>
             <div className={styles.content_wrapper}>
                 <div className={styles.count_wrapper}>
-                    <p className={styles.count}>
+                    <p className={`${styles.count} text-[#006fff] border-[#006fff]`}>
                         01
                     </p>
-                    <p className={styles.count}>
+                    <p className={`${styles.count} text-[#d2d2d2] border-[#d7d7d7]`}>
                         02
                     </p>
-                    <p className={styles.count}>
+                    <p className={`${styles.count} text-[#d2d2d2] border-[#d7d7d7]`}>
                         03
                     </p>
                 </div>
                 <div className={styles.borders_wrapper}>
-                    <div className={styles.border} />
-                    <div className={styles.border} />
-                    <div className={styles.border} />
+                    <div className={`${styles.border} border-[#006fff]`} />
+                    <div className={`${styles.border} border-[#d7d7d7]`} />
+                    <div className={`${styles.border} border-[#d7d7d7]`} />
                 </div>
                 <div className={styles.arrows_wrapper}>
                     <img src="/assets/icons/arrow-head.svg" alt="arrow_head" className={styles.arrow_icon} />
