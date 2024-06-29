@@ -19,7 +19,7 @@ const UIUX: FC = () => {
     return (
         <>
             <TopSection title={data.title} desc={data.desc} />
-            {/* <Benefits title={benefits.title} desc={benefits.desc} features={benefits.features} /> */}
+            <Benefits title={benefits.title} desc={benefits.desc} features={benefits.features} />
             <ProjectLifecycle title={Lifecycle.title} desc={Lifecycle.desc}
                 lifecyclePhases={Lifecycle.phases} />
             <KeyFeatures title1={FeaturesData.title1} title2={FeaturesData.title2} features={FeaturesData.features} />
