@@ -1,1 +1,1 @@
-export const data = {title:'Digital Marketing', desc:'Work with our world-class UI/UX Design and bring your idea to life. The Blueprint Service allows completely map our your software development project before any coding begins.'}
+export const data = {title:'UI/UX Design', desc:'Work with our world-class UI/UX Design and bring your idea to life. The Blueprint Service allows completely map our your software development project before any coding begins.'}
