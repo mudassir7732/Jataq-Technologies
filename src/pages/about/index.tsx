@@ -1,4 +1,4 @@
-import React,{ FC } from "react";
+import { FC } from "react";
 import Testimonials from "../../sections/testimonials";
 import ServicesBar from "../../sections/services-bar";
 import WorkMethod from "../../sections/how-we-work";
