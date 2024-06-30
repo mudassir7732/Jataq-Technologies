@@ -4,7 +4,7 @@ import styles from "./styles";
 const InputForm: FC = () => {
     return (
         <div className={styles.container}>
-            <div className="max-w-[582px] w-[90%] p-[34px] shadow-2xl shadow-[#e0e0e0] bg-white border-[1px] border-[#e3e3e3] rounded-[20px] mt-[60px] ">
+            <div className={styles.inner_container}>
                 <div className=" grid grid-cols-1 md:grid-cols-2 gap-x-[16px]">
                     <div className="mb-[17px]">
                         <p className="text-[16px] font-[400] font-[Montserrat] text-black mb-[10px] ml-[4px]">
@@ -33,7 +33,7 @@ const InputForm: FC = () => {
                 </div>
                 <div className="mb-[17px]">
                     <p className="text-[16px] font-[400] font-[Montserrat] text-black mb-[10px] ml-[4px]">
-                        Phone Number*
+                        Description
                     </p>
                     <textarea placeholder="How we can help you?" className="w-full border-[1px] text-[16px] font-[400] text-[#bebebe] border-[#e3e3e3] rounded-[20px] py-[18px] px-[26px] outline-none h-[95px]" />
                 </div>
