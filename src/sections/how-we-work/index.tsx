@@ -3,16 +3,12 @@ import { FC } from "react";
 import { DescProps } from "../../types/pageDesc";
 import styles from "./styles";
 import { WORK_OPTIONS } from "../../constants/workOptions";
+import SectionTitle from "../../components/section-title";
 
 const WorkMethod: FC = () => {
     return (
         <div className={styles.container}>
-            <p className={styles.heading}>
-                We work for better growing result step by step
-            </p>
-            <p className={styles.text}>
-                Crafting compelling digital experiences that captivate audiences and drive meaningful connections
-            </p>
+            <SectionTitle title="We work for better growing result step by step" desc="Crafting compelling digital experiences that captivate audiences and drive meaningful connections" />
             <div className={styles.content_wrapper}>
                 <div className={styles.count_wrapper}>
                     <p className={`${styles.count} text-[#006fff] border-[#006fff]`}>
