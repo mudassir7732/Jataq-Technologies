@@ -1,6 +1,6 @@
-import { WorkProps } from "../types/workOptions";
+import { DescProps } from "../types/pageDesc";
 
-export const WORK_OPTIONS: WorkProps[] = [
+export const WORK_OPTIONS: DescProps[] = [
     {
         title: 'Schedule an Initial Consultation',
         desc: "Contact us to discuss your project. We'll cover team structure, objectives, budget, schedule, and the skills you need."

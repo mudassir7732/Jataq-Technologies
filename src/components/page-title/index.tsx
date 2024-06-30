@@ -1,7 +1,7 @@
 import { FC } from "react";
-import { WorkProps } from "../../types/workOptions";
+import { DescProps } from "../../types/pageDesc";
 
-const PageTitle: FC<WorkProps> = ({title, desc}) => {
+const PageTitle: FC<DescProps> = ({title, desc}) => {
     return (
         <div className='w-full px-[40px] sm:px-[50px] md:px-[65px] lg:px-[80px] xl:px-[100px]'>
 

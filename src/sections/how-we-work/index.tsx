@@ -1,7 +1,8 @@
 import { FC } from "react";
-import { WORK_OPTIONS } from "../../constants/workOptions";
-import { WorkProps } from "../../types/workOptions";
+// import { WORK_OPTIONS } from "../../constants/workOptions";
+import { DescProps } from "../../types/pageDesc";
 import styles from "./styles";
+import { WORK_OPTIONS } from "../../constants/workOptions";
 
 const WorkMethod: FC = () => {
     return (
@@ -36,7 +37,7 @@ const WorkMethod: FC = () => {
                 </div>
 
                 <div className={styles.paragraphs_wrapper}>
-                    {WORK_OPTIONS?.map((item: WorkProps, index: number) => (
+                    {WORK_OPTIONS?.map((item: DescProps, index: number) => (
                         <div key={index} className="flex flex-col">
                             <p className={styles.paragraph_title}>
                                 {item?.title}

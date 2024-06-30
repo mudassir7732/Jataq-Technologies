@@ -1,4 +1,4 @@
-export interface WorkProps {
+export interface DescProps {
     title: string,
     desc: string
 }
