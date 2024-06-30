@@ -14,18 +14,18 @@ const About: FC = () => {
             <div className={styles.container}>
                 <SectionTitle title="About Us" desc="Discover our story, our mission, and our passion for creativity and innovation." />
                 <div className={styles.card}>
-                    <div className="w-full flex items-center justify-center px-[25px] xl:px-[49px]">
-                        <p className="text-[25px] md:text-[28px] lg:text-[30px] max-w-[519px] font-[700] py-[30px] text-white font-[Montserrat]">
+                    <div className={styles.text_wrapper}>
+                        <p className={styles.text}>
                             We help our client succeed by creating identities, digital experiences and connecting their business with the world
                         </p>
                     </div>
                     <div className="w-fit">
-                        <img src='/assets/images/image1.png' className="w-full sm:max-w-[570px] md:min-w-[584px] " />
+                        <img src='/assets/images/image1.png' className={styles.image} />
                     </div>
                 </div>
 
-                <div className="flex flex-col md:flex-row items-start justify-between gap-x-[87px] mb-[50px] sm:mb-[60px] md:mb-[70px] lg:mb-[84px]">
-                    <div className="flex flex-col w-full md:w-1/2 mt-[47px]">
+                <div className={styles.purposes}>
+                    <div className={styles.purpose_wrapper}>
                         <img src="/assets/icons/mission_icon.svg" className="w-[41px] sm:w-[48px] md:w-[56px] lg:w-[63px] h-[55px] sm:h-[65px] md:h-[75px] lg:h-[84px]" />
                         <p className="text-[27px] sm:text-[30px] md:text-[34px] lg:text-[38px] font-[700] font-[Montserrat] text-black mt-[4px] md:mt-[8px] lg:mt-[11px]">
                             Our Mission
@@ -35,7 +35,7 @@ const About: FC = () => {
                         </p>
                     </div>
 
-                    <div className="flex flex-col w-full md:w-1/2 mt-[50px] lg:mt-[63px]">
+                    <div className={styles.purpose_wrapper}>
                         <img src="/assets/icons/vision_icon.svg" className="w-[50px] sm:w-[55px] md:w-[62px] lg:w-[68px] h-[50px] sm:h-[55px] md:h-[62px] lg:h-[68px]" />
                         <p className="text-[27px] sm:text-[30px] md:text-[34px] lg:text-[38px] font-[700] font-[Montserrat] text-black mt-[4px] md:mt-[8px] lg:mt-[11px]">
                             Our Vision
