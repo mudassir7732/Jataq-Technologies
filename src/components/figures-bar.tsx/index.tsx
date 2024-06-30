@@ -3,40 +3,39 @@ import styles from "./styles";
 const FiguresBar = () => {
     return (
         <div style={{ backgroundImage: 'url(/assets/images/figures_bg.png)' }} className={styles.container}>
-            <div className="flex flex-col min-w-[185px]">
-                <p className="text-[26px] sm:text-[31px] md:text-[34px] lg:text-[36px] xl:text-[38px] font-[700] font-[Montserrat] text-black">
+            <div className={styles.item}>
+                <p className={styles.heading}>
                     10+
                 </p>
-                <p className="text-[15px] font-[400] text-black font-[Montserrat]">
+                <p className={styles.text}>
                     Years of Experiences
                 </p>
             </div>
-
-            <div className="flex flex-col min-w-[185px]">
-                <p className="text-[26px] sm:text-[31px] md:text-[34px] lg:text-[36px] xl:text-[38px] font-[700] font-[Montserrat] text-black">
+            <div className={styles.item}>
+                <p className={styles.heading}>
                     108+
                 </p>
-                <p className="text-[15px] font-[400] text-black font-[Montserrat]">
+                <p className={styles.text}>
                     Satisfied Customers
                 </p>
             </div>
-            <div className="flex flex-col min-w-[185px]">
-                <p className="text-[26px] sm:text-[31px] md:text-[34px] lg:text-[36px] xl:text-[38px] font-[700] font-[Montserrat] text-black">
+            <div className={styles.item}>
+                <p className={styles.heading}>
                     306
                 </p>
-                <p className="text-[15px] font-[400] text-black font-[Montserrat]">
+                <p className={styles.text}>
                     Projects Completed
                 </p>
             </div>
-            <div className="flex flex-col min-w-[185px]">
+            <div className={styles.item}>
                 <div className="flex flex-row items-center">
-                    <img src="/assets/icons/full-star.svg" className="h-[33px] lg:h-[37px] w-[33px] lg:w-[37px]" />
-                    <img src="/assets/icons/full-star.svg" className="h-[33px] lg:h-[37px] w-[33px] lg:w-[37px]" />
-                    <img src="/assets/icons/full-star.svg" className="h-[33px] lg:h-[37px] w-[33px] lg:w-[37px]" />
-                    <img src="/assets/icons/full-star.svg" className="h-[33px] lg:h-[37px] w-[33px] lg:w-[37px]" />
-                    <img src="/assets/icons/half-star.svg" className="h-[33px] lg:h-[37px] w-[33px] lg:w-[37px]" />
+                    <img src="/assets/icons/full-star.svg" className={styles.star} />
+                    <img src="/assets/icons/full-star.svg" className={styles.star} />
+                    <img src="/assets/icons/full-star.svg" className={styles.star} />
+                    <img src="/assets/icons/full-star.svg" className={styles.star} />
+                    <img src="/assets/icons/half-star.svg" className={styles.star} />
                 </div>
-                <p className="mt-[10px] text-[15px] font-[400] text-black font-[Montserrat]">
+                <p className={`mt-[10px] ${styles.text}`}>
                     4.8 Rating Overall
                 </p>
             </div>
