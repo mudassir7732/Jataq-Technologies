@@ -12,7 +12,6 @@ const About: FC = () => {
         <>
             <div className="w-full px-[40px] sm:px-[50px] md:px-[65px] lg:px-[80px] xl:px-[100px] pt-[76px] pb-[63px]">
                 <SectionTitle title="About Us" desc="Discover our story, our mission, and our passion for creativity and innovation." />
-
                 <div className="flex flex-col h-fit w-fit mx-auto xl:w-full xl:flex-row items-center justify-between gap-x-[22px] bg-[#006fff] rounded-[20px]">
                     <div className="w-full flex items-center justify-center px-[25px] xl:px-[49px]">
                         <p className="text-[25px] md:text-[28px] lg:text-[30px] max-w-[519px] font-[700] py-[30px] text-white font-[Montserrat]">
