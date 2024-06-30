@@ -5,17 +5,21 @@ import WorkMethod from "../../sections/how-we-work";
 import { JOURNEY_SERVICES } from "../../constants/journey";
 import { journeyProps } from "../../types/journeyServices";
 import FiguresBar from "../../components/figures-bar.tsx";
+import PageTitle from "../../components/page-title";
 
 const About: FC = () => {
     return (
         <>
-            <div className='w-full px-[40px] sm:px-[50px] md:px-[65px] lg:px-[80px] xl:px-[100px]'>
-                <p className="text-[55px] font-[700] mx-auto w-full text-center font-[Montserrat] text-[#000000] mt-[76px]">
+        <div>
+            {/* <div className='w-full px-[40px] sm:px-[50px] md:px-[65px] lg:px-[80px] xl:px-[100px]'> */}
+                {/* <p className="text-[55px] font-[700] mx-auto w-full text-center font-[Montserrat] text-[#000000] mt-[76px]">
                     About Us
                 </p>
                 <p className="text-[18px] font-[400] max-w-[567px] mx-auto text-center font-[Montserrat] mb-[63px]">
                     Discover our story, our mission, and our passion for creativity and innovation.
-                </p>
+                </p> */}
+
+                <PageTitle title="About Us"  desc="Discover our story, our mission, and our passion for creativity and innovation." />
 
                 <div className="flex flex-col h-fit w-fit mx-auto xl:w-full xl:flex-row items-center justify-between gap-x-[22px] bg-[#006fff] rounded-[20px]">
                     <div className="w-full flex items-center justify-center px-[25px] xl:px-[49px]">
