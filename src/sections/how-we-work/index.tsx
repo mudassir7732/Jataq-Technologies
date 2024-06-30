@@ -1,5 +1,4 @@
 import { FC } from "react";
-// import { WORK_OPTIONS } from "../../constants/workOptions";
 import { DescProps } from "../../types/pageDesc";
 import styles from "./styles";
 import { WORK_OPTIONS } from "../../constants/workOptions";
