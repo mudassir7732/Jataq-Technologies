@@ -10,16 +10,8 @@ import PageTitle from "../../components/page-title";
 const About: FC = () => {
     return (
         <>
-        <div>
-            {/* <div className='w-full px-[40px] sm:px-[50px] md:px-[65px] lg:px-[80px] xl:px-[100px]'> */}
-                {/* <p className="text-[55px] font-[700] mx-auto w-full text-center font-[Montserrat] text-[#000000] mt-[76px]">
-                    About Us
-                </p>
-                <p className="text-[18px] font-[400] max-w-[567px] mx-auto text-center font-[Montserrat] mb-[63px]">
-                    Discover our story, our mission, and our passion for creativity and innovation.
-                </p> */}
-
-                <PageTitle title="About Us"  desc="Discover our story, our mission, and our passion for creativity and innovation." />
+            <div className="w-full px-[40px] sm:px-[50px] md:px-[65px] lg:px-[80px] xl:px-[100px] pt-[76px] pb-[63px]">
+                <PageTitle title="About Us" desc="Discover our story, our mission, and our passion for creativity and innovation." />
 
                 <div className="flex flex-col h-fit w-fit mx-auto xl:w-full xl:flex-row items-center justify-between gap-x-[22px] bg-[#006fff] rounded-[20px]">
                     <div className="w-full flex items-center justify-center px-[25px] xl:px-[49px]">
@@ -63,6 +55,7 @@ const About: FC = () => {
                     Discover exceptional experiences through testimonials from our satisfied customers.
                 </p>
 
+                {/* <PageTitle title="Our Journey Through Time" desc="Discover exceptional experiences through testimonials from our satisfied customers." /> */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-[23px] mb-[50px] sm:mb-[65px] md:mb-[75px] lg:mb-[85px] xl:mb-[100px]">
                     {JOURNEY_SERVICES?.map((item: journeyProps, index: number) => (
                         <div key={index} className="border-[1px] border-[#f5f5f5] bg-white rounded-[20px] px-[19px] py-[31px]">
