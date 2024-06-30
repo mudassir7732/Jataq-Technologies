@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { DescProps } from "../../types/pageDesc";
 
-const PageTitle: FC<DescProps> = ({ title, desc }) => {
+const SectionTitle: FC<DescProps> = ({ title, desc }) => {
     return (
         // <div className='w-full px-[40px] sm:px-[50px] md:px-[65px] lg:px-[80px] xl:px-[100px] pt-[76px] pb-[63px]'>
         <div>
@@ -14,4 +14,4 @@ const PageTitle: FC<DescProps> = ({ title, desc }) => {
         </div>
     )
 }
-export default PageTitle;
+export default SectionTitle;
