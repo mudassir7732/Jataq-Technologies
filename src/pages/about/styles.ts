@@ -6,5 +6,8 @@ const styles = {
     image:"w-full sm:max-w-[570px] md:min-w-[584px]",
     purposes:"flex flex-col md:flex-row items-start justify-between gap-x-[87px] mb-[50px] mb-[50px] gap-y-[40px] mt-[47px]",
     purpose_wrapper:"flex flex-col w-full md:w-1/2",
+    first_icon:"w-[41px] sm:w-[48px] md:w-[56px] lg:w-[63px] h-[55px] sm:h-[65px] md:h-[75px] lg:h-[84px]",
+    second_icon:"text-[18px] font-[400] text-black mt-[10px] sm:mt-[15px] md:mt-[20px] lg:mt-[27px]",
+    
 }
 export default styles;
