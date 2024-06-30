@@ -8,7 +8,7 @@ import FiguresBar from "../../components/figures-bar.tsx";
 
 const About: FC = () => {
     return (
-        <div className="flex flex-col">
+        <>
             <div className='w-full px-[40px] sm:px-[50px] md:px-[65px] lg:px-[80px] xl:px-[100px]'>
                 <p className="text-[55px] font-[700] mx-auto w-full text-center font-[Montserrat] text-[#000000] mt-[76px]">
                     About Us
@@ -77,7 +77,7 @@ const About: FC = () => {
             <WorkMethod />
             <Testimonials />
             <ServicesBar />
-        </div>
+        </>
     )
 }
 export default About;
