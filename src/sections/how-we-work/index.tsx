@@ -42,7 +42,7 @@ const WorkMethod: FC = () => {
                                 {item?.title}
                             </p>
                             <p className={styles.paragraph}>
-                                {item?.paragraph}
+                                {item?.desc}
                             </p>
                         </div>
                     ))}
