@@ -26,7 +26,7 @@ const About: FC = () => {
 
                 <div className={styles.purposes}>
                     <div className={styles.purpose_wrapper}>
-                        <img src="/assets/icons/mission_icon.svg" className="w-[41px] sm:w-[48px] md:w-[56px] lg:w-[63px] h-[55px] sm:h-[65px] md:h-[75px] lg:h-[84px]" />
+                        <img src="/assets/icons/mission_icon.svg" className={styles.first_icon} />
                         <p className="text-[27px] sm:text-[30px] md:text-[34px] lg:text-[38px] font-[700] font-[Montserrat] text-black mt-[4px] md:mt-[8px] lg:mt-[11px]">
                             Our Mission
                         </p>
@@ -36,7 +36,7 @@ const About: FC = () => {
                     </div>
 
                     <div className={styles.purpose_wrapper}>
-                        <img src="/assets/icons/vision_icon.svg" className="w-[50px] sm:w-[55px] md:w-[62px] lg:w-[68px] h-[50px] sm:h-[55px] md:h-[62px] lg:h-[68px]" />
+                        <img src="/assets/icons/vision_icon.svg" className={styles.second_icon} />
                         <p className="text-[27px] sm:text-[30px] md:text-[34px] lg:text-[38px] font-[700] font-[Montserrat] text-black mt-[4px] md:mt-[8px] lg:mt-[11px]">
                             Our Vision
                         </p>
