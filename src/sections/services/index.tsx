@@ -8,7 +8,7 @@ const Services: FC = () => {
     const [selected, setSelected] = useState<string>('');
     return (
         <>
-            <img src="/assets/icons/border.svg" alt="border" className="w-full" />
+            <img src="/assets/icons/border.svg" alt="border_line" className="w-full" />
             <div style={{ backgroundImage: 'url(/assets/logo/bg-image.svg)' }} className={styles.container}>
                 <div className={styles.first_section}>
                     <img src='/assets/icons/Rectangle58.svg' alt='button_background' className="absolute z-0" />
