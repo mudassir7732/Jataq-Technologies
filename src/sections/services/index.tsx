@@ -1,4 +1,4 @@
-import { FC, useState } from "react";
+import React, { FC, useState } from "react";
 import { SERVICE_OPTIONS } from "../../constants/serviceOptions";
 import styles from "./styles";
 import styles2 from '../about-us/styles';
