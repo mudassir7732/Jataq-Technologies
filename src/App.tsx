@@ -1,4 +1,4 @@
-import React, { FC, StrictMode } from "react";
+import { FC, StrictMode } from "react";
 import AppRoutes from "./routes";
 
 const App: FC = () => {
