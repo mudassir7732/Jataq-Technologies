@@ -8,6 +8,8 @@ const styles = {
     purpose_wrapper:"flex flex-col w-full md:w-1/2",
     first_icon:"w-[41px] sm:w-[48px] md:w-[56px] lg:w-[63px] h-[55px] sm:h-[65px] md:h-[75px] lg:h-[84px]",
     second_icon:"w-[50px] sm:w-[55px] md:w-[62px] lg:w-[68px] h-[50px] sm:h-[55px] md:h-[62px] lg:h-[68px]",
+    title:"text-[27px] sm:text-[30px] md:text-[34px] lg:text-[38px] font-[700] font-[Montserrat] text-black mt-[4px] md:mt-[8px] lg:mt-[11px]",
+    desc:"text-[18px] font-[400] text-black mt-[10px] sm:mt-[15px] md:mt-[20px] lg:mt-[27px]",
     
 }
 export default styles;
