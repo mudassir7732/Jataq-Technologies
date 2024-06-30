@@ -1,10 +1,11 @@
 import { FC } from "react";
 import { LifecycleProps } from "../../types/lifecycle";
 import { LifecyclePhasesProps } from "../../types/lifecyclePhases";
+import styles from "./styles";
 
 const ProjectLifecycle: FC<LifecycleProps> = (props) => {
     return (
-        <div className="w-full mt-[107px] px-[30px] sm:px-[60px] md:px-[82px] lg:px-[95px] xl:px-[115px]">
+        <div className={styles.container}>
             <p className="text-[25px] sm:text-[30px] md:text-[35px] lg:text-[38px] font-[700] font-[Montserrat] max-w-[835px] mx-auto text-center">
                 {props.title}
             </p>
