@@ -10,6 +10,11 @@ const styles = {
     second_icon:"w-[50px] sm:w-[55px] md:w-[62px] lg:w-[68px] h-[50px] sm:h-[55px] md:h-[62px] lg:h-[68px]",
     title:"text-[27px] sm:text-[30px] md:text-[34px] lg:text-[38px] font-[700] font-[Montserrat] text-black mt-[4px] md:mt-[8px] lg:mt-[11px]",
     desc:"text-[18px] font-[400] text-black mt-[10px] sm:mt-[15px] md:mt-[20px] lg:mt-[27px]",
-    
+    core_values:"bg-no-repeat bg-cover w-full mb-[50px] px-[40px] sm:px-[50px] md:px-[65px] lg:px-[80px] xl:px-[100px] pt-[36px] sm:pt-[42px] md:pt-[48px] lg:pt-[55px] xl:pt-[66px]",
+    values_wrapper:"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-[23px] mb-[50px] sm:mb-[65px] md:mb-[75px] lg:mb-[85px] xl:mb-[100px]",
+    core_value:"border-[1px] border-[#f5f5f5] bg-white rounded-[20px] px-[19px] py-[31px]",
+    icon:"h-[45px] lg:h-[54px] w-[45px] lg:w-[54px]",
+    label:"text-[22px] font-[700] text-black font-[Montserrat] mt-[20px] lg:mt-[26px]",
+    value_desc:"text-[16px] font-[300] font-[Montserrat] text-black mt-[15px] lg:mt-[21px]"
 }
 export default styles;
