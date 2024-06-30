@@ -2,10 +2,11 @@ import { FC } from "react";
 import FiguresBar from "../../components/figures-bar.tsx";
 import { FeatureProps } from "../../types/features.js";
 import { BenefitsProps } from "../../types/benefitsProps.js";
+import styles from "./styles.js";
 
 const Benefits: FC<BenefitsProps> = (props) => {
     return (
-        <div style={{ backgroundImage: 'url(/assets/images/Rectangle69.png)' }} className="bg-center flex flex-col  bg-no-repeat bg-cover mb-[50px] px-[30px] sm:px-[60px] md:px-[82px] lg:px-[95px] xl:px-[115px] gap-y-[116px] pt-[36px] sm:pt-[42px] md:pt-[48px] lg:pt-[55px] xl:pt-[66px]">
+        <div style={{ backgroundImage: 'url(/assets/images/Rectangle69.png)' }} className={styles.container}>
             <div className="flex flex-col lg:flex-row items-start justify-between">
                 <div className="w-full lg:w-1/2 pr-[20px] lg:pr-0">
                     <p className="text-[25px] sm:text-[30px] md:text-[35px] lg:text-[38px] font-[700]">
