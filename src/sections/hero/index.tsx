@@ -15,7 +15,6 @@ const Hero: FC = () => {
                         Into Reality
                     </p>
                 </div>
-
                 <div className={styles.yellow_wrapper}>
                     <div className={styles.idea}>
                         <Typical
@@ -39,7 +38,6 @@ const Hero: FC = () => {
                 </span>
                 clients of Jataq and get in the front line for the most wonderful presentation.
             </p>
-
             <div className={styles.last_section}>
                 <div className={styles.blue_wrapper}>
                     <button className={styles.button}>
