@@ -8,7 +8,7 @@ const SectionTitle: FC<DescProps> = ({ title, desc }) => {
             <p className={styles.title}>
                 {title}
             </p>
-            <p className=>
+            <p className={styles.desc}>
                 {desc}
             </p>
         </>
