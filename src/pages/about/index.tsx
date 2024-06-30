@@ -34,7 +34,6 @@ const About: FC = () => {
                             We go deep to unlock insight and have the coura ge to act. We bring the right people together to challenge established thinking and drive transformation. We work with our clients to build the capabilities that enable organizations to achieve sustainable advantage.
                         </p>
                     </div>
-
                     <div className={styles.purpose_wrapper}>
                         <img src="/assets/icons/vision_icon.svg" className={styles.second_icon} />
                         <p className={styles.title}>
