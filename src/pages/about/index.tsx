@@ -16,7 +16,7 @@ const About: FC = () => {
                 <div className={styles.card}>
                     <div className={styles.text_wrapper}>
                         <p className={styles.text}>
-                            We help our client succeed by creating identities, digital experiences and connecting their business with the world
+                            We help our client succeed by creatzing identities, digital experiences and connecting their business with the world
                         </p>
                     </div>
                     <div className="w-fit">
